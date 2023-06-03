@@ -1,0 +1,22 @@
+name: fun_refresh
+description: Hello Fun!
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-146.2.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2 # 苹果图标
+  flutter_svg: ^2.0.4 # 矢量图加载
+  marquee: ^2.2.3 # 滚动字幕
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
