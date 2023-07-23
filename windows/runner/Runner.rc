@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.intelligent" "\0"
-            VALUE "FileDescription", "fun_refresh" "\0"
+            VALUE "CompanyName", "o.k" "\0"
+            VALUE "FileDescription", "ok" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "fun_refresh" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.intelligent. All rights reserved." "\0"
-            VALUE "OriginalFilename", "fun_refresh.exe" "\0"
-            VALUE "ProductName", "fun_refresh" "\0"
+            VALUE "InternalName", "ok" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 o.k. All rights reserved." "\0"
+            VALUE "OriginalFilename", "ok.exe" "\0"
+            VALUE "ProductName", "ok" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

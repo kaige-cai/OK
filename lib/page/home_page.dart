@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fun_refresh/page/app_page.dart';
-import 'package:fun_refresh/page/game_page.dart';
+
+import 'app_page.dart';
+import 'game_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
