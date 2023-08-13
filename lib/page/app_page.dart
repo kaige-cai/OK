@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:ok/data/constant.dart';
+
+import '../widget/super_grid.dart';
 
 class AppPage extends StatefulWidget {
   const AppPage({Key? key}) : super(key: key);
@@ -10,6 +13,9 @@ class AppPage extends StatefulWidget {
 class _AppPageState extends State<AppPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SuperGrid(
+      cellIcons: iconPaths,
+      cellNames: cellNames,
+    );
   }
 }

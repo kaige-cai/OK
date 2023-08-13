@@ -60,6 +60,8 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    namespace 'o.k.ok'
+    buildToolsVersion '33.0.1'
 }
 
 flutter {

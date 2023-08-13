@@ -1,21 +1,32 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:ok/app/chat_gpt/main.dart';
+import 'package:ok/app/video/video_page.dart';
+import 'package:ok/page/demo/list_wheel.dart';
 
 import 'page/home_page.dart';
 
-void main() => runApp(const FunApp());
+void main() => runApp(FunApp());
 
 class FunApp extends StatelessWidget {
-  const FunApp({super.key});
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
-        useMaterial3: true,
+    SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(
+        statusBarColor: Colors.transparent,
+        statusBarIconBrightness: Brightness.dark,
       ),
-      home: const HomePage(),
+    );
+    return CupertinoApp(
+      routes: <String, WidgetBuilder>{
+        '/list_wheel': (context) => ListWheelPage(),
+        '/chat_page': (context) => ChatGPTPage(),
+        '/video_page': (context) => VideoPage(),
+      },
+      debugShowCheckedModeBanner: false,
+      theme: CupertinoThemeData(scaffoldBackgroundColor: Colors.white),
+      home: HomePage(),
     );
   }
 }

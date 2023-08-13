@@ -1,1 +1,1 @@
-![打赏](./asset/reward.png)
+![打赏](asset/reward.png)

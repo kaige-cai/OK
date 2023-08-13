@@ -1,7 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="o.k.ok">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-            android:label="ok"
+            android:label="OK"
             android:name="${applicationName}"
             android:icon="@mipmap/ic_launcher">
         <activity
