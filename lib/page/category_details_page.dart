@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import '../widget/category_list.dart';
+import '../data/smash_class.dart';
 
 class CategoryDetailsPage extends StatelessWidget {
   final Category category;

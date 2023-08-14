@@ -4,8 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:ok/app/chat_gpt/main.dart';
 import 'package:ok/app/video/video_page.dart';
 import 'package:ok/page/demo/list_wheel.dart';
-
-import 'page/home_page.dart';
+import 'package:ok/page/home_page.dart';
 
 void main() => runApp(FunApp());
 
@@ -18,10 +17,12 @@ class FunApp extends StatelessWidget {
         statusBarIconBrightness: Brightness.dark,
       ),
     );
+
     return CupertinoApp(
+      initialRoute: '/',
       routes: <String, WidgetBuilder>{
         '/list_wheel': (context) => ListWheelPage(),
-        '/chat_page': (context) => ChatGPTPage(),
+        '/chat_gpt_page': (context) => ChatGPTPage(),
         '/video_page': (context) => VideoPage(),
       },
       debugShowCheckedModeBanner: false,

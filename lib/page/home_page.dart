@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:ok/data/constant.dart';
 import 'package:ok/page/store_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,12 +14,15 @@ class _HomePageState extends State<HomePage>
   bool _isSearching = false;
   String _searchKeyword = '';
 
+  List<String> allResults = []; // 所有结果
+  List<String> filteredResults = []; // 过滤后的结果
+
   late AnimationController _animationController;
   late Animation<double> _animation;
 
   final List<Widget> _pages = [
-    StorePage(category: '应用'),
-    StorePage(category: '游戏'),
+    StorePage(categories: appCategories),
+    StorePage(categories: gameCategories),
   ];
 
   @override
@@ -34,6 +38,19 @@ class _HomePageState extends State<HomePage>
     _animation = CurvedAnimation(
       parent: _animationController,
       curve: Curves.easeOutCubic,
+    );
+
+    // 初始化所有结果
+    allResults.addAll(
+      appCategories.expand(
+        (category) => category.items.map((item) => item.name),
+      ),
+    );
+
+    allResults.addAll(
+      gameCategories.expand(
+        (category) => category.items.map((item) => item.name),
+      ),
     );
   }
 
@@ -119,7 +136,7 @@ class _HomePageState extends State<HomePage>
     return Expanded(
       child: Container(
         padding: EdgeInsets.only(left: 0.0, right: 32.0),
-        height: 32,
+        height: 32.0,
         decoration: BoxDecoration(
           color: CupertinoColors.lightBackgroundGray,
           borderRadius: BorderRadius.circular(12.0),
@@ -173,11 +190,13 @@ class _HomePageState extends State<HomePage>
       child: Container(
         height: 300,
         color: CupertinoColors.white,
-        child: Center(
-          child: Text(
-            'Search results will appear here.',
-            textAlign: TextAlign.center,
-          ),
+        child: ListView.builder(
+          itemCount: filteredResults.length,
+          itemBuilder: (context, index) {
+            return ListTile(
+              title: Text(filteredResults[index]),
+            );
+          },
         ),
       ),
     );

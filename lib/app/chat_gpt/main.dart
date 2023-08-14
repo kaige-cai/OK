@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -14,9 +15,9 @@ class _ChatGPTPageState extends State<ChatGPTPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('ChatGPT App')),
-      body: Column(
+    return CupertinoPageScaffold(
+
+      child: Column(
         children: [
           Expanded(child: SingleChildScrollView(child: Text(_chatHistory))),
           Padding(

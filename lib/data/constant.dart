@@ -1,3 +1,5 @@
+import 'smash_class.dart';
+
 final List<String> cellNames = [
   '列表',
   'Alice',
@@ -24,4 +26,140 @@ final List<String> iconPaths = [
   'asset/icon/icon9.svg',
   'asset/icon/icon10.svg',
   // Add more SVG icon paths here if needed, make sure they match the actual paths
+];
+
+final List<String> imageUrls = [
+  'https://windows10spotlight.com/wp-content/uploads/2016/10/244c78a0df569a336ee00eab323cad79.jpg',
+  'https://windows10spotlight.com/wp-content/uploads/2023/08/cb83652894785d8f3d8be772c50606db.jpg',
+  'https://windows10spotlight.com/wp-content/uploads/2023/08/ab3f0cbbd29067d2962f4308ed44f289.jpg',
+  'https://windows10spotlight.com/wp-content/uploads/2023/08/b50c9d1dc309dcd56d8424d9d4bfb373.jpg',
+  'https://windows10spotlight.com/wp-content/uploads/2023/08/d0d0865c317d2f08aee9071b3e250a9b.jpg',
+];
+
+List<Category> appCategories = [
+  Category('Category 1', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('Category 2', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('Category 3', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('Category 4', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('Category 5', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('Category 6', [
+    Item('Item A', 'asset/icon/app_icon.png'),
+    Item('Item B', 'asset/icon/app_icon.png'),
+    Item('Item C', 'asset/icon/app_icon.png'),
+  ]),
+  // 添加更多类别和项目
+];
+
+List<Category> gameCategories = [
+  Category('分类1', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('分类2', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('分类3', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('分类4', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('分类5', [
+    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('Item 3', 'asset/icon/app_icon.png'),
+    Item('Item 4', 'asset/icon/app_icon.png'),
+    Item('Item 5', 'asset/icon/app_icon.png'),
+    Item('Item 6', 'asset/icon/app_icon.png'),
+    Item('Item 7', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('分类6', [
+    Item('Item A', 'asset/icon/app_icon.png'),
+    Item('Item B', 'asset/icon/app_icon.png'),
+    Item('Item C', 'asset/icon/app_icon.png'),
+  ]),
+  // 添加更多类别和项目
 ];

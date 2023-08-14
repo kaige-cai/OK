@@ -1,88 +1,14 @@
 import 'package:flutter/cupertino.dart';
-import 'package:ok/app/chat_gpt/main.dart';
-import 'package:ok/app/video/video_page.dart';
 
+import '../data/constant.dart';
+import '../data/smash_class.dart';
 import '../page/category_details_page.dart';
 
-class Category {
-  final String name;
-  final List<Item> items;
-
-  Category(this.name, this.items);
-}
-
-class Item {
-  final String name;
-  final String iconPath;
-
-  Item(this.name, this.iconPath);
-}
-
-List<Category> categories = [
-  Category('Category 1', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
-    Item('Item 4', 'asset/icon/app_icon.png'),
-    Item('Item 5', 'asset/icon/app_icon.png'),
-    Item('Item 6', 'asset/icon/app_icon.png'),
-    Item('Item 7', 'asset/icon/app_icon.png'),
-    Item('Item 8', 'asset/icon/app_icon.png'),
-    Item('Item 9', 'asset/icon/app_icon.png'),
-  ]),
-  Category('Category 2', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
-    Item('Item 4', 'asset/icon/app_icon.png'),
-    Item('Item 5', 'asset/icon/app_icon.png'),
-    Item('Item 6', 'asset/icon/app_icon.png'),
-    Item('Item 7', 'asset/icon/app_icon.png'),
-    Item('Item 8', 'asset/icon/app_icon.png'),
-    Item('Item 9', 'asset/icon/app_icon.png'),
-  ]),
-  Category('Category 3', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
-    Item('Item 4', 'asset/icon/app_icon.png'),
-    Item('Item 5', 'asset/icon/app_icon.png'),
-    Item('Item 6', 'asset/icon/app_icon.png'),
-    Item('Item 7', 'asset/icon/app_icon.png'),
-    Item('Item 8', 'asset/icon/app_icon.png'),
-    Item('Item 9', 'asset/icon/app_icon.png'),
-  ]),
-  Category('Category 4', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
-    Item('Item 4', 'asset/icon/app_icon.png'),
-    Item('Item 5', 'asset/icon/app_icon.png'),
-    Item('Item 6', 'asset/icon/app_icon.png'),
-    Item('Item 7', 'asset/icon/app_icon.png'),
-    Item('Item 8', 'asset/icon/app_icon.png'),
-    Item('Item 9', 'asset/icon/app_icon.png'),
-  ]),
-  Category('Category 5', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
-    Item('Item 4', 'asset/icon/app_icon.png'),
-    Item('Item 5', 'asset/icon/app_icon.png'),
-    Item('Item 6', 'asset/icon/app_icon.png'),
-    Item('Item 7', 'asset/icon/app_icon.png'),
-    Item('Item 8', 'asset/icon/app_icon.png'),
-    Item('Item 9', 'asset/icon/app_icon.png'),
-  ]),
-  Category('Category 6', [
-    Item('Item A', 'asset/icon/app_icon.png'),
-    Item('Item B', 'asset/icon/app_icon.png'),
-    Item('Item C', 'asset/icon/app_icon.png'),
-  ]),
-  // 添加更多类别和项目
-];
-
 class CategoryList extends StatelessWidget {
+  final List<Category> categories;
+
+  const CategoryList({super.key, required this.categories});
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
@@ -133,7 +59,7 @@ class CategoryList extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 100,
+              height: 100.0,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 physics: BouncingScrollPhysics(),
@@ -144,18 +70,20 @@ class CategoryList extends StatelessWidget {
                     onTap: () {
                       switch (item.name) {
                         case 'Item 1':
-                          Navigator.of(context).push(
+                          /* Navigator.of(context).push(
                             CupertinoPageRoute(
                               builder: (context) => ChatGPTPage(),
                             ),
-                          );
+                          );*/
+                          Navigator.pushNamed(context, '/chat_gpt_page');
                           break;
                         case 'Item 2':
-                          Navigator.of(context).push(
+                          /* Navigator.of(context).push(
                             CupertinoPageRoute(
                               builder: (context) => VideoPage(),
                             ),
-                          );
+                          );*/
+                          Navigator.pushNamed(context, '/video_page');
                           break;
                         // Add more cases for different app names and pages
                         default:
