@@ -12,10 +12,10 @@ class _HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
   int _currentIndex = 0;
   bool _isSearching = false;
-  String _searchKeyword = '';
+  TextEditingController _searchController = TextEditingController();
 
   List<String> allResults = []; // 所有结果
-  List<String> filteredResults = []; // 过滤后的结果
+  List<String> searchResults = []; // 搜索结果
 
   late AnimationController _animationController;
   late Animation<double> _animation;
@@ -71,6 +71,8 @@ class _HomePageState extends State<HomePage>
       _animationController.forward();
       setState(() {
         _isSearching = true;
+        searchResults = allResults;
+        print(searchResults);
       });
     }
   }
@@ -135,8 +137,8 @@ class _HomePageState extends State<HomePage>
   Widget _buildSearchField() {
     return Expanded(
       child: Container(
-        padding: EdgeInsets.only(left: 0.0, right: 32.0),
-        height: 32.0,
+        margin: EdgeInsets.all(2.0),
+        height: 64.0,
         decoration: BoxDecoration(
           color: CupertinoColors.lightBackgroundGray,
           borderRadius: BorderRadius.circular(12.0),
@@ -151,22 +153,44 @@ class _HomePageState extends State<HomePage>
                   _isSearching = false;
                 });
               },
-              child: Icon(CupertinoIcons.left_chevron),
+              child: Icon(CupertinoIcons.chevron_left),
             ),
             Expanded(
               child: CupertinoTextField(
+                controller: _searchController,
                 placeholder: '搜索应用和游戏',
                 padding: EdgeInsets.zero,
+                cursorHeight: 24.0,
+                // 调整光标的高度
                 style: TextStyle(color: Colors.black),
                 decoration: BoxDecoration(
                   color: CupertinoColors.lightBackgroundGray,
                 ),
                 onChanged: (value) {
                   setState(() {
-                    _searchKeyword = value;
+                    setState(() {
+                      _isSearching = true;
+                      searchResults = allResults
+                          .where((result) => result.contains(value))
+                          .toList();
+                    });
                   });
                 },
               ),
+            ),
+            CupertinoButton(
+              padding: EdgeInsets.zero,
+              onPressed: () {
+                setState(() {
+                  _isSearching = true;
+                  _animationController.forward();
+                  searchResults = allResults
+                      .where(
+                          (result) => result.contains(_searchController.text))
+                      .toList();
+                });
+              },
+              child: Icon(CupertinoIcons.search),
             ),
           ],
         ),
@@ -187,14 +211,18 @@ class _HomePageState extends State<HomePage>
           child: child,
         );
       },
-      child: Container(
-        height: 300,
-        color: CupertinoColors.white,
-        child: ListView.builder(
-          itemCount: filteredResults.length,
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: GridView.builder(
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 10,
+            mainAxisSpacing: 8.0,
+            crossAxisSpacing: 8.0,
+          ),
+          itemCount: searchResults.length,
           itemBuilder: (context, index) {
-            return ListTile(
-              title: Text(filteredResults[index]),
+            return Center(
+              child: Text(searchResults[index]),
             );
           },
         ),

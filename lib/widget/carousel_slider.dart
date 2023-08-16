@@ -1,5 +1,7 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../data/constant.dart';
 import '../data/page_name.dart';
@@ -20,7 +22,18 @@ class FunCarouseSlider extends StatelessWidget {
             );
           },
           child: Container(
-            child: Image.network(imageUrls[index], fit: BoxFit.cover),
+            // child: Image.network(imageUrls[index], fit: BoxFit.cover),
+            child: CachedNetworkImage(
+              imageUrl: imageUrls[index],
+              alignment: Alignment.center,
+              fadeInCurve: Curves.easeIn,
+              fadeOutCurve: Curves.easeOut,
+              placeholder: (context, url) => AspectRatio(
+                aspectRatio: 1.0,
+                child: CupertinoActivityIndicator(),
+              ),
+              errorWidget: (context, url, error) => Icon(Icons.error),
+            ),
           ),
         );
       },

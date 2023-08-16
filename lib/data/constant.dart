@@ -37,10 +37,20 @@ final List<String> imageUrls = [
 ];
 
 List<Category> appCategories = [
-  Category('Category 1', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
+  Category('常用', [
+    Item('全能计算器', 'asset/icon/app_icon.png'),
+    Item('全能相机', 'asset/icon/app_icon.png'),
+    Item('天气预报', 'asset/icon/app_icon.png'),
+    Item('新闻', 'asset/icon/app_icon.png'),
+    Item('自动触摸点击器', 'asset/icon/app_icon.png'),
+    Item('运动计步', 'asset/icon/app_icon.png'),
+    Item('Item 8', 'asset/icon/app_icon.png'),
+    Item('Item 9', 'asset/icon/app_icon.png'),
+  ]),
+  Category('图片', [
+    Item('美女图片', 'asset/icon/app_icon.png'),
+    Item('壁纸图片', 'asset/icon/app_icon.png'),
+    Item('PS图片编辑', 'asset/icon/app_icon.png'),
     Item('Item 4', 'asset/icon/app_icon.png'),
     Item('Item 5', 'asset/icon/app_icon.png'),
     Item('Item 6', 'asset/icon/app_icon.png'),
@@ -48,21 +58,10 @@ List<Category> appCategories = [
     Item('Item 8', 'asset/icon/app_icon.png'),
     Item('Item 9', 'asset/icon/app_icon.png'),
   ]),
-  Category('Category 2', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
-    Item('Item 4', 'asset/icon/app_icon.png'),
-    Item('Item 5', 'asset/icon/app_icon.png'),
-    Item('Item 6', 'asset/icon/app_icon.png'),
-    Item('Item 7', 'asset/icon/app_icon.png'),
-    Item('Item 8', 'asset/icon/app_icon.png'),
-    Item('Item 9', 'asset/icon/app_icon.png'),
-  ]),
-  Category('Category 3', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
+  Category('视频', [
+    Item('短视频', 'asset/icon/app_icon.png'),
+    Item('刷视频', 'asset/icon/app_icon.png'),
+    Item('Pr视频剪辑', 'asset/icon/app_icon.png'),
     Item('Item 4', 'asset/icon/app_icon.png'),
     Item('Item 5', 'asset/icon/app_icon.png'),
     Item('Item 6', 'asset/icon/app_icon.png'),
@@ -101,19 +100,19 @@ List<Category> appCategories = [
 ];
 
 List<Category> gameCategories = [
-  Category('分类1', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
-    Item('Item 3', 'asset/icon/app_icon.png'),
-    Item('Item 4', 'asset/icon/app_icon.png'),
-    Item('Item 5', 'asset/icon/app_icon.png'),
-    Item('Item 6', 'asset/icon/app_icon.png'),
-    Item('Item 7', 'asset/icon/app_icon.png'),
+  Category('抽奖', [
+    Item('转盘抽奖', 'asset/icon/app_icon.png'),
+    Item('九宫格抽奖', 'asset/icon/app_icon.png'),
+    Item('刮刮乐', 'asset/icon/app_icon.png'),
+    Item('扭蛋机', 'asset/icon/app_icon.png'),
+    Item('翻牌子', 'asset/icon/app_icon.png'),
+    Item('彩票', 'asset/icon/app_icon.png'),
+    Item('跳棋', 'asset/icon/app_icon.png'),
     Item('Item 8', 'asset/icon/app_icon.png'),
     Item('Item 9', 'asset/icon/app_icon.png'),
   ]),
   Category('分类2', [
-    Item('Item 1', 'asset/icon/app_icon.png'),
+    Item('敲木鱼', 'asset/icon/app_icon.png'),
     Item('Item 2', 'asset/icon/app_icon.png'),
     Item('Item 3', 'asset/icon/app_icon.png'),
     Item('Item 4', 'asset/icon/app_icon.png'),

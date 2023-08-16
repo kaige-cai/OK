@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
+import 'package:ok/game/wheel_surf/main.dart';
 
-import '../data/constant.dart';
-import '../data/smash_class.dart';
-import '../page/category_details_page.dart';
+import '../data/app_routes.dart';
+
 
 class CategoryList extends StatelessWidget {
   final List<Category> categories;
@@ -69,27 +69,31 @@ class CategoryList extends StatelessWidget {
                   return GestureDetector(
                     onTap: () {
                       switch (item.name) {
-                        case 'Item 1':
-                          /* Navigator.of(context).push(
+                        case '全能计算器':
+                          Navigator.of(context).push(
                             CupertinoPageRoute(
                               builder: (context) => ChatGPTPage(),
                             ),
-                          );*/
-                          Navigator.pushNamed(context, '/chat_gpt_page');
+                          );
                           break;
-                        case 'Item 2':
-                          /* Navigator.of(context).push(
+                        case '全能相机':
+                          Navigator.of(context).push(
                             CupertinoPageRoute(
                               builder: (context) => VideoPage(),
                             ),
-                          );*/
-                          Navigator.pushNamed(context, '/video_page');
+                          );
                           break;
-                        // Add more cases for different app names and pages
+                        case '转盘抽奖':
+                          Navigator.of(context).push(
+                            CupertinoPageRoute(
+                              builder: (context) => WheelSurf(),
+                            ),
+                          );
+                          break;
                         default:
-                          // Default action if item.name doesn't match any case
                           break;
                       }
+                      // Navigator.of(context).pushNamed('/video_page');
                     },
                     child: Container(
                       margin: EdgeInsets.all(8.0),
