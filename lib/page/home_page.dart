@@ -65,14 +65,15 @@ class _HomePageState extends State<HomePage>
       _animationController.reverse().whenComplete(() {
         setState(() {
           _isSearching = false;
+          searchResults.clear(); // 清空搜索结果
+          _searchController.clear(); // 清空搜索关键字
         });
       });
     } else {
       _animationController.forward();
       setState(() {
         _isSearching = true;
-        searchResults = allResults;
-        print(searchResults);
+        searchResults.clear(); // 清空搜索结果
       });
     }
   }
@@ -151,6 +152,8 @@ class _HomePageState extends State<HomePage>
                 _animationController.reverse();
                 setState(() {
                   _isSearching = false;
+                  searchResults.clear(); // 清空搜索结果
+                  _searchController.clear(); // 清空搜索关键字
                 });
               },
               child: Icon(CupertinoIcons.chevron_left),
@@ -169,10 +172,14 @@ class _HomePageState extends State<HomePage>
                 onChanged: (value) {
                   setState(() {
                     setState(() {
-                      _isSearching = true;
-                      searchResults = allResults
-                          .where((result) => result.contains(value))
-                          .toList();
+                      if (value.isEmpty) {
+                        searchResults.clear(); // 清空搜索结果
+                      } else {
+                        _isSearching = true;
+                        searchResults = allResults
+                            .where((result) => result.contains(value))
+                            .toList();
+                      }
                     });
                   });
                 },
@@ -183,6 +190,7 @@ class _HomePageState extends State<HomePage>
               onPressed: () {
                 setState(() {
                   _isSearching = true;
+                  searchResults.clear(); // 清空搜索结果
                   _animationController.forward();
                   searchResults = allResults
                       .where(
@@ -215,7 +223,7 @@ class _HomePageState extends State<HomePage>
         backgroundColor: Colors.white,
         body: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 10,
+            crossAxisCount: 8,
             mainAxisSpacing: 8.0,
             crossAxisSpacing: 8.0,
           ),
