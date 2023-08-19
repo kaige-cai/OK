@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage>
       vsync: this,
       duration: Duration(
         milliseconds: 500,
-      ), // Adjust animation duration as needed
+      ), // 调整动画持续时间
     );
 
     _animation = CurvedAnimation(
@@ -76,45 +76,6 @@ class _HomePageState extends State<HomePage>
         searchResults.clear(); // 清空搜索结果
       });
     }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return CupertinoTabScaffold(
-      tabBar: CupertinoTabBar(
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.app_badge_fill),
-            label: '应用',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.game_controller_solid),
-            label: '游戏',
-          ),
-        ],
-        currentIndex: _currentIndex,
-        onTap: (index) {
-          setState(() {
-            _currentIndex = index;
-          });
-        },
-      ),
-      tabBuilder: (BuildContext context, int index) {
-        return CupertinoTabView(builder: (BuildContext context) {
-          return CupertinoPageScaffold(
-              backgroundColor: Colors.white,
-              navigationBar: CupertinoNavigationBar(
-                leading: CupertinoButton(
-                  padding: EdgeInsets.zero,
-                  onPressed: () {},
-                  child: Image.asset('asset/icon/app_icon.png'),
-                ),
-                middle: _buildAppBarWithSearch(),
-              ),
-              child: _isSearching ? _buildSearchResults() : _pages[index]);
-        });
-      },
-    );
   }
 
   Widget _buildAppBarWithSearch() {
@@ -234,6 +195,52 @@ class _HomePageState extends State<HomePage>
             );
           },
         ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: _isSearching ? _buildSearchField() : Text('Home Page'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.search),
+            onPressed: _toggleSearchResults,
+          ),
+        ],
+      ),
+      drawer: Drawer(),
+      body: Column(
+        children: [
+          Expanded(
+            child: IndexedStack(
+              index: _currentIndex,
+              children: _pages,
+            ),
+          ),
+          BottomNavigationBar(
+            items: [
+              BottomNavigationBarItem(
+                icon: Icon(Icons.apps),
+                label: '应用',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.games),
+                label: '游戏',
+              ),
+            ],
+            currentIndex: _currentIndex,
+            onTap: (index) {
+              setState(() {
+                _currentIndex = index;
+              });
+            },
+          ),
+          if (_isSearching) Expanded(child: _buildSearchResults()),
+          // 添加展示搜索结果的部分
+        ],
       ),
     );
   }

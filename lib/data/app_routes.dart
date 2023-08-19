@@ -1,6 +1,20 @@
-export '../app/chat_gpt/main.dart';
+export './smash_class.dart';
+export '../app/calculator/calculator_page.dart';
+export '../app/chat_gpt/chat_gpt_page.dart';
+export '../app/forecast/weather_forecast_page.dart';
+export '../app/news/news_page.dart';
+export '../app/shorts/short_video_page.dart';
 export '../app/video/video_page.dart';
-export '../data/smash_class.dart';
+export '../game/lottery/ok_lottery.dart';
+export '../game/wheel_surf/wheel_surf.dart';
 export '../page/category_details_page.dart';
 
-// const String appPage1Route = '/app_page_1';
+const String details_page = '/details_page';
+const String video_page = '/video_page';
+const String shorts_video_page = '/shorts_video_page';
+const String chat_gpt_page = '/chat_gpt_page';
+const String calculator_page = '/calculator_page';
+const String weather_forecast_page = '/weather_forecast_page';
+const String news_page = '/news_page';
+const String ok_lottery = '/ok_lottery';
+const String wheel_surf = '/wheel_surf';

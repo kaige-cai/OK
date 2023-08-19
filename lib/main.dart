@@ -1,7 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ok/page/home_page.dart';
+
+import 'data/app_routes.dart';
 
 void main() => runApp(FunApp());
 
@@ -15,9 +16,14 @@ class FunApp extends StatelessWidget {
       ),
     );
 
-    return CupertinoApp(
+    return MaterialApp(
+      initialRoute: '/',
+      routes: <String, WidgetBuilder>{
+        details_page: (context) => CategoryDetailsPage(),
+        calculator_page: (context) => CalculatorPage(),
+      },
       debugShowCheckedModeBanner: false,
-      theme: CupertinoThemeData(scaffoldBackgroundColor: Colors.white),
+      theme: ThemeData(scaffoldBackgroundColor: Colors.white),
       home: HomePage(),
     );
   }

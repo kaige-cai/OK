@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:ok/game/wheel_surf/main.dart';
+import 'package:ok/game/wheel_surf/wheel_surf.dart';
 
 import '../data/app_routes.dart';
-
 
 class CategoryList extends StatelessWidget {
   final List<Category> categories;
@@ -22,11 +21,7 @@ class CategoryList extends StatelessWidget {
           children: [
             GestureDetector(
               onTap: () {
-                Navigator.of(context).push(
-                  CupertinoPageRoute(
-                    builder: (context) => CategoryDetailsPage(category),
-                  ),
-                );
+                Navigator.pushNamed(context, details_page, arguments: category);
               },
               child: Container(
                 padding: const EdgeInsets.all(16),
@@ -70,11 +65,7 @@ class CategoryList extends StatelessWidget {
                     onTap: () {
                       switch (item.name) {
                         case '全能计算器':
-                          Navigator.of(context).push(
-                            CupertinoPageRoute(
-                              builder: (context) => ChatGPTPage(),
-                            ),
-                          );
+                          Navigator.of(context).pushNamed(calculator_page);
                           break;
                         case '全能相机':
                           Navigator.of(context).push(

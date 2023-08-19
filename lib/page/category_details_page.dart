@@ -1,19 +1,18 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../data/smash_class.dart';
 
 class CategoryDetailsPage extends StatelessWidget {
-  final Category category;
-
-  CategoryDetailsPage(this.category);
-
   @override
   Widget build(BuildContext context) {
-    return CupertinoPageScaffold(
-      navigationBar: CupertinoNavigationBar(
-        middle: Text(category.name),
+    final Category category =
+        ModalRoute.of(context)!.settings.arguments as Category;
+
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(category.name),
       ),
-      child: GridView.builder(
+      body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 4,
           crossAxisSpacing: 10.0,

@@ -10,16 +10,6 @@ class VideoPage extends StatefulWidget {
 class _VideoPageState extends State<VideoPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ListView(
-        children: <Widget>[
-          Icon(Icons.access_alarm),
-          Icon(Icons.baby_changing_station),
-          Icon(Icons.cabin),
-          Icon(Icons.dangerous),
-          Icon(Icons.earbuds),
-        ],
-      ),
-    );
+    return Scaffold(body: Center(child: Text('视频')));
   }
 }

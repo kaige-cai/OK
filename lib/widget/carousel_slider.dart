@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../data/constant.dart';
-import '../data/page_name.dart';
 
 class FunCarouseSlider extends StatelessWidget {
   const FunCarouseSlider({super.key});
@@ -16,10 +15,7 @@ class FunCarouseSlider extends StatelessWidget {
       itemBuilder: (BuildContext context, int index, int realIndex) {
         return GestureDetector(
           onTap: () {
-            Navigator.push(
-              context,
-              CupertinoPageRoute(builder: (context) => targetPages[index]),
-            );
+
           },
           child: Container(
             // child: Image.network(imageUrls[index], fit: BoxFit.cover),

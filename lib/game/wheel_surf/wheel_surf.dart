@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class WheelSurf extends StatefulWidget {
   const WheelSurf({super.key});
@@ -10,6 +10,10 @@ class WheelSurf extends StatefulWidget {
 class _WheelSurfState extends State<WheelSurf> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: Text('转盘抽奖'),
+      ),
+    );
   }
 }
