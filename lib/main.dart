@@ -38,22 +38,27 @@ class FunApp extends StatelessWidget {
               defaultTargetPlatform == TargetPlatform.macOS ||
               defaultTargetPlatform == TargetPlatform.windows ||
               defaultTargetPlatform == TargetPlatform.linux
-          ? HomePageLandscape()
+          ? LayoutBuilder(
+              builder: (BuildContext context, BoxConstraints constraints) =>
+                  changeLayout(context, constraints),
+            )
           : LayoutBuilder(
-              builder: (context, constraints) {
-                double screenWidth = constraints.maxWidth;
-                if (MediaQuery.of(context).orientation ==
-                        Orientation.landscape &&
-                    MediaQuery.of(context).size.width >
-                        MediaQuery.of(context).size.height) {
-                  return HomePageLandscape(); // 横屏或大屏布局
-                } else if (screenWidth >= 500) {
-                  return HomePageLandscape(); // 横屏或大屏布局
-                } else {
-                  return HomePagePortrait(); // 竖屏布局
-                }
-              },
+              builder: (BuildContext context, BoxConstraints constraints) =>
+                  changeLayout(context, constraints),
             ),
     );
+  }
+
+  Widget changeLayout(BuildContext context, BoxConstraints constraints) {
+    double screenWidth = constraints.maxWidth;
+    if (MediaQuery.of(context).orientation == Orientation.landscape &&
+        MediaQuery.of(context).size.width >
+            MediaQuery.of(context).size.height) {
+      return HomePageLandscape(); // 横屏或大屏布局
+    } else if (screenWidth >= 500) {
+      return HomePageLandscape(); // 横屏或大屏布局
+    } else {
+      return HomePagePortrait(); // 竖屏布局
+    }
   }
 }
