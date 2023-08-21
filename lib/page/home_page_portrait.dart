@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:ok/data/constant.dart';
 import 'package:ok/page/store_page.dart';
 
-class HomePage extends StatefulWidget {
+class HomePagePortrait extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _HomePagePortraitState createState() => _HomePagePortraitState();
 }
 
-class _HomePageState extends State<HomePage>
+class _HomePagePortraitState extends State<HomePagePortrait>
     with SingleTickerProviderStateMixin {
   int _currentIndex = 0;
   bool _isSearching = false;

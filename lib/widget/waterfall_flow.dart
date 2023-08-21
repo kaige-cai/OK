@@ -21,9 +21,8 @@ class WaterfallFlowView extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           if (Random().nextBool()) {
             return VideoWidget(
-              videoUrl:
-                  'https://v6-cold2.douyinvod.com/5666db95e335640654e710ecb5d47558/64e31f5e/video/tos/cn/tos-cn-ve-15c001-alinc2/oELOPANmCcEQiBenAQgvIlfh5zBMOyjizWAYBU/?a=1128&ch=0&cr=0&dr=0&cd=0%7C0%7C0%7C0&cv=1&br=1436&bt=1436&cs=0&ds=3&ft=GNvhKpVVywpuRFo8kmo~ySqTeaApozSW6vrKbZtormo0g3&mime_type=video_mp4&qs=0&rc=OmVlNmQ1ZjQ2aWc1O2VoM0BpM2Z4PGk6ZjtqbTMzNGkzM0BiY14tX19jX2AxXjA0YTIxYSNlXmk0cjQwX2VgLS1kLS9zcw%3D%3D&btag=e00088000&dy_q=1692602695&l=2023082115245565F54B31277A5401BE91',
-            );
+                videoUrl:
+                    'https://api.amemv.com/aweme/v1/play/?video_id=v0200fg10000cjdkiajc77u5fm11ptm0');
           } else {
             return Card(
               child: CachedNetworkImage(

@@ -1,6 +1,8 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ok/page/home_page.dart';
+import 'package:ok/page/home_page_landscape.dart';
+import 'package:ok/page/home_page_portrait.dart';
 
 import 'data/app_routes.dart';
 
@@ -32,7 +34,26 @@ class FunApp extends StatelessWidget {
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
-      home: HomePage(),
+      home: kIsWeb ||
+              defaultTargetPlatform == TargetPlatform.macOS ||
+              defaultTargetPlatform == TargetPlatform.windows ||
+              defaultTargetPlatform == TargetPlatform.linux
+          ? HomePageLandscape()
+          : LayoutBuilder(
+              builder: (context, constraints) {
+                double screenWidth = constraints.maxWidth;
+                if (MediaQuery.of(context).orientation ==
+                        Orientation.landscape &&
+                    MediaQuery.of(context).size.width >
+                        MediaQuery.of(context).size.height) {
+                  return HomePageLandscape(); // 横屏或大屏布局
+                } else if (screenWidth >= 500) {
+                  return HomePageLandscape(); // 横屏或大屏布局
+                } else {
+                  return HomePagePortrait(); // 竖屏布局
+                }
+              },
+            ),
     );
   }
 }
