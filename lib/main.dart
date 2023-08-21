@@ -19,8 +19,16 @@ class FunApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: <String, WidgetBuilder>{
-        details_page: (context) => CategoryDetailsPage(),
-        calculator_page: (context) => CalculatorPage(),
+        detailsPage: (context) => CategoryDetailsPage(),
+        videoPage: (context) => VideoPage(),
+        shortsVideoPage: (context) => ShortsVideoPage(),
+        chatGPTPage: (context) => ChatGPTPage(),
+        calculatorPage: (context) => CalculatorPage(),
+        weatherForecastPage: (context) => WeatherForecastPage(),
+        newsPage: (context) => NewsPage(),
+        randomLottery: (context) => RandomLottery(),
+        wheelSurf: (context) => WheelSurf(),
+        cameraPage: (context) => CameraPage(),
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),

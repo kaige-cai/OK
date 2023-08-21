@@ -5,8 +5,8 @@ import '../data/smash_class.dart';
 class CategoryDetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final Category category =
-        ModalRoute.of(context)!.settings.arguments as Category;
+    Object? arguments = ModalRoute.of(context)!.settings.arguments;
+    final Category category = arguments as Category;
 
     return Scaffold(
       appBar: AppBar(
