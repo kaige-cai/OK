@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:ok/widget/carousel_slider.dart';
+import 'package:ok/widget/waterfall_flow.dart';
+
 import '../data/smash_class.dart';
+import '../widget/carousel_slider.dart';
 import '../widget/category_list.dart';
+import '../widget/staggered_grid.dart';
 
 class StorePage extends StatelessWidget {
   final List<Category> categories;
@@ -14,7 +17,8 @@ class StorePage extends StatelessWidget {
       children: <Widget>[
         FunCarouseSlider(),
         CategoryList(categories: categories),
-        // StaggeredGrid(),
+        FunStaggeredGridView(),
+        WaterfallFlowView()
       ],
     );
   }

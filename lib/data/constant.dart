@@ -106,7 +106,7 @@ List<Category> gameCategories = [
     Item('刮刮乐', 'asset/icon/app_icon.png'),
     Item('扭蛋机', 'asset/icon/app_icon.png'),
     Item('翻牌子', 'asset/icon/app_icon.png'),
-    Item('彩票', 'asset/icon/app_icon.png'),
+    Item('随机数抽奖', 'asset/icon/app_icon.png'),
     Item('跳棋', 'asset/icon/app_icon.png'),
     Item('Item 8', 'asset/icon/app_icon.png'),
     Item('Item 9', 'asset/icon/app_icon.png'),
