@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../data/constant.dart';
+import '../data/smash_class.dart';
+
 class SearchBox extends StatefulWidget {
   const SearchBox({Key? key});
 
@@ -10,6 +13,19 @@ class SearchBox extends StatefulWidget {
 class _SearchBoxState extends State<SearchBox> {
   String _selectedCategory = 'all';
   bool _showSuggestions = false; // Track whether to show suggestions
+  List<Item> _suggestedItems = []; // List to hold suggested items
+
+  List<Widget> buildSuggestions(List<Item> items) {
+    return items.map((item) {
+      return ListTile(
+        title: Text(item.name),
+        onTap: () {
+          // Handle suggestion tap
+          // You can update the text field value here
+        },
+      );
+    }).toList();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -55,6 +71,25 @@ class _SearchBoxState extends State<SearchBox> {
                     // Show suggestions when text is being entered
                     setState(() {
                       _showSuggestions = value.isNotEmpty;
+                      _suggestedItems = _selectedCategory == 'apps'
+                          ? appCategories
+                              .expand((category) => category.items)
+                              .where((item) =>
+                                  item.name
+                                      .toLowerCase()
+                                      .contains(value.toLowerCase()) ||
+                                  item.name.contains(value))
+                              .toList()
+                              .cast<Item>()
+                          : gameCategories
+                              .expand((category) => category.items)
+                              .where((item) =>
+                                  item.name
+                                      .toLowerCase()
+                                      .contains(value.toLowerCase()) ||
+                                  item.name.contains(value))
+                              .toList()
+                              .cast<Item>();
                     });
                   },
                   decoration: InputDecoration(
@@ -75,22 +110,7 @@ class _SearchBoxState extends State<SearchBox> {
             Container(
               color: Colors.white,
               child: Column(
-                children: [
-                  ListTile(
-                    title: Text('关键词1'),
-                    onTap: () {
-                      // Handle suggestion tap
-                      // You can update the text field value here
-                    },
-                  ),
-                  ListTile(
-                    title: Text('关键词2'),
-                    onTap: () {
-                      // Handle suggestion tap
-                    },
-                  ),
-                  // Add more ListTile items for additional suggestions
-                ],
+                children: buildSuggestions(_suggestedItems),
               ),
             ),
           ],
