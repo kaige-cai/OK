@@ -10,7 +10,7 @@ class WheelSurf extends StatefulWidget {
 class _WheelSurfState extends State<WheelSurf> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Text('转盘抽奖'),
       ),

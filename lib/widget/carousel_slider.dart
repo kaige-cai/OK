@@ -17,19 +17,16 @@ class FunCarouseSlider extends StatelessWidget {
           onTap: () {
 
           },
-          child: Container(
-            // child: Image.network(imageUrls[index], fit: BoxFit.cover),
-            child: CachedNetworkImage(
-              imageUrl: imageUrls[index],
-              alignment: Alignment.center,
-              fadeInCurve: Curves.easeIn,
-              fadeOutCurve: Curves.easeOut,
-              placeholder: (context, url) => AspectRatio(
-                aspectRatio: 1.0,
-                child: CupertinoActivityIndicator(),
-              ),
-              errorWidget: (context, url, error) => Icon(Icons.error),
+          child: CachedNetworkImage(
+            imageUrl: imageUrls[index],
+            alignment: Alignment.center,
+            fadeInCurve: Curves.easeIn,
+            fadeOutCurve: Curves.easeOut,
+            placeholder: (context, url) => const AspectRatio(
+              aspectRatio: 1.0,
+              child: CupertinoActivityIndicator(),
             ),
+            errorWidget: (context, url, error) => const Icon(Icons.error),
           ),
         );
       },
@@ -37,8 +34,8 @@ class FunCarouseSlider extends StatelessWidget {
         enableInfiniteScroll: true,
         reverse: false,
         autoPlay: true,
-        autoPlayInterval: Duration(milliseconds: 1400),
-        autoPlayAnimationDuration: Duration(milliseconds: 800),
+        autoPlayInterval: const Duration(milliseconds: 1400),
+        autoPlayAnimationDuration: const Duration(milliseconds: 800),
         autoPlayCurve: Curves.slowMiddle,
         enlargeCenterPage: true,
       ),

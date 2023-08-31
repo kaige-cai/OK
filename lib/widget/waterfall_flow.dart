@@ -7,6 +7,8 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'video_widget.dart';
 
 class WaterfallFlowView extends StatelessWidget {
+  const WaterfallFlowView({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -20,7 +22,7 @@ class WaterfallFlowView extends StatelessWidget {
         crossAxisSpacing: 0.0,
         itemBuilder: (BuildContext context, int index) {
           if (Random().nextBool()) {
-            return VideoWidget(
+            return const VideoWidget(
                 videoUrl:
                     'https://api.amemv.com/aweme/v1/play/?video_id=v0200fg10000cjdkiajc77u5fm11ptm0');
           } else {

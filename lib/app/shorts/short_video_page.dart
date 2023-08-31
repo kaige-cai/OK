@@ -10,6 +10,6 @@ class ShortsVideoPage extends StatefulWidget {
 class _ShortsVideoPageState extends State<ShortsVideoPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('短视频')));
+    return const Scaffold(body: Center(child: Text('短视频')));
   }
 }

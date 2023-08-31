@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class SearchPageWidget extends StatefulWidget {
-  const SearchPageWidget({super.key});
+class SearchBoxPortrait extends StatefulWidget {
+  const SearchBoxPortrait({super.key});
 
   @override
-  SearchPageState createState() => SearchPageState();
+  SearchBoxPortraitState createState() => SearchBoxPortraitState();
 }
 
-class SearchPageState extends State<SearchPageWidget> {
+class SearchBoxPortraitState extends State<SearchBoxPortrait> {
   static final TextEditingController controller = TextEditingController();
 
-  ///搜索页form文字
-  static String searchStr = "";
+  // 搜索页form文字
+  String searchStr = "";
 
-  SearchPageState() {
-    ///监听搜索页form
+  SearchBoxPortraitState() {
+    // 监听搜索页form
     controller.addListener(() {
       if (controller.text.isEmpty) {
         setState(() {
@@ -70,16 +70,16 @@ class SearchPageState extends State<SearchPageWidget> {
     });
   }
 
-  ///建议
+  // 建议
   static List<String> recommend = ['搜索建议1', '搜索建议2', '搜索建议3', '搜索建议4', '搜索建议5'];
 
-  ///历史 暂时使用本地默认数据
+  // 历史 暂时使用本地默认数据
   static List<String> history = ['历史记录1', '历史记录2', '历史记录3'];
 
-  ///中间内容
+  // 中间内容
   Widget centerContent = defaultDisplay();
 
-  ///默认显示(推荐 + 历史记录)
+  // 默认显示(推荐 + 历史记录)
   static Widget defaultDisplay() {
     return Container(
       padding: const EdgeInsets.only(
@@ -114,7 +114,7 @@ class SearchPageState extends State<SearchPageWidget> {
     );
   }
 
-  ///默认显示内容
+  // 默认显示内容
   static List<Widget> defaultData(List<String> items) {
     return items.map((item) {
       return InkWell(
@@ -130,16 +130,14 @@ class SearchPageState extends State<SearchPageWidget> {
     }).toList();
   }
 
-  ///实时搜索结果
+  // 实时搜索结果
   static List list = [];
 
-  ///实时搜索url
+  // 实时搜索url
   String realTimeSearchUrl = "http://192.168.0.121:8091/article/test/";
 
-  ///参数
+  // 参数
   String paramStr = "qwe";
-
-  ///实时搜索列表
 
   @override
   Widget build(BuildContext context) {

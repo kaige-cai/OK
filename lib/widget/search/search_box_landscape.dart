@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-import '../data/constant.dart';
-import '../data/smash_class.dart';
+import '../../data/constant.dart';
+import '../../data/smash_class.dart';
 
-class SearchBox extends StatefulWidget {
-  const SearchBox({super.key});
+class SearchBoxLandscape extends StatefulWidget {
+  const SearchBoxLandscape({super.key});
 
   @override
-  State<SearchBox> createState() => _SearchBoxState();
+  State<SearchBoxLandscape> createState() => _SearchBoxLandscapeState();
 }
 
-class _SearchBoxState extends State<SearchBox> {
+class _SearchBoxLandscapeState extends State<SearchBoxLandscape> {
   String _selectedCategory = 'all';
   bool _showSuggestions = false; // Track whether to show suggestions
   List<Item> _suggestedItems = []; // List to hold suggested items

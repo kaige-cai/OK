@@ -4,19 +4,19 @@ import 'package:video_player/video_player.dart';
 class VideoWidget extends StatefulWidget {
   final String videoUrl;
 
-  VideoWidget({required this.videoUrl});
+  const VideoWidget({super.key, required this.videoUrl});
 
   @override
-  _VideoWidgetState createState() => _VideoWidgetState();
+  VideoWidgetState createState() => VideoWidgetState();
 }
 
-class _VideoWidgetState extends State<VideoWidget> {
+class VideoWidgetState extends State<VideoWidget> {
   late VideoPlayerController controller;
 
   @override
   void initState() {
     super.initState();
-    controller = VideoPlayerController.network(widget.videoUrl)
+    controller = VideoPlayerController.networkUrl(Uri.parse(widget.videoUrl))
       ..initialize().then((_) {
         setState(() {});
       });
@@ -39,7 +39,7 @@ class _VideoWidgetState extends State<VideoWidget> {
         ),
       );
     } else {
-      return Center(child: CircularProgressIndicator());
+      return const Center(child: CircularProgressIndicator());
     }
   }
 

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../data/smash_class.dart';
 
 class CategoryDetailsPage extends StatelessWidget {
+  const CategoryDetailsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     Object? arguments = ModalRoute.of(context)!.settings.arguments;
@@ -13,7 +15,7 @@ class CategoryDetailsPage extends StatelessWidget {
         title: Text(category.name),
       ),
       body: GridView.builder(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 4,
           crossAxisSpacing: 10.0,
         ),
@@ -22,7 +24,7 @@ class CategoryDetailsPage extends StatelessWidget {
         itemBuilder: (context, index) {
           final item = category.items[index];
           return Container(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

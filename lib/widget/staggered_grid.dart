@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class FunStaggeredGridView extends StatelessWidget {
+  const FunStaggeredGridView({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

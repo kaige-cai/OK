@@ -10,6 +10,6 @@ class VideoPage extends StatefulWidget {
 class _VideoPageState extends State<VideoPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('视频')));
+    return const Scaffold(body: Center(child: Text('视频')));
   }
 }
