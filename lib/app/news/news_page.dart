@@ -11,8 +11,8 @@ class _NewsPageState extends State<NewsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('新闻')),
-      body: Center( 
+      appBar: AppBar(title: const Text('新闻')),
+      body: const Center(
         child: Text('新闻'),
       ),
     );

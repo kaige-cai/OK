@@ -11,8 +11,8 @@ class _WeatherForecastPageState extends State<WeatherForecastPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('天气预报')),
-      body: Center(
+      appBar: AppBar(title: const Text('天气预报')),
+      body: const Center(
         child: Text('天气预报'),
       ),
     );

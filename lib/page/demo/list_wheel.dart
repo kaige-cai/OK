@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class ListWheelPage extends StatefulWidget {
+  const ListWheelPage({super.key});
+
   @override
   State<StatefulWidget> createState() => _ListWheelPageState();
 }
@@ -48,7 +50,7 @@ class _ListWheelPageState extends State<ListWheelPage> {
             },
             controller: FixedExtentScrollController(initialItem: 2),
             squeeze: 1.5,
-            physics: BouncingScrollPhysics(),
+            physics: const BouncingScrollPhysics(),
             itemExtent: 1,
             children: List.generate(
               pics.length,
@@ -64,7 +66,7 @@ class _ListWheelPageState extends State<ListWheelPage> {
 }
 
 class ItemTile extends StatelessWidget {
-  const ItemTile({required this.picUrl});
+  const ItemTile({super.key, required this.picUrl});
 
   final String picUrl;
 
@@ -84,15 +86,15 @@ class ItemTile extends StatelessWidget {
                   children: [
                     Container(
                       margin: const EdgeInsets.all(8.0),
-                      child: Placeholder(
+                      child: const Placeholder(
                         color: Colors.white,
                         strokeWidth: 2,
                       ),
                     ),
-                    RefreshProgressIndicator(),
+                    const RefreshProgressIndicator(),
                   ],
                 ),
-                errorWidget: (context, url, error) => Icon(
+                errorWidget: (context, url, error) => const Icon(
                   Icons.error,
                   color: Colors.white,
                 ),
@@ -113,7 +115,7 @@ class ItemTile extends StatelessWidget {
 }
 
 class DetailPage extends StatefulWidget {
-  const DetailPage({required this.link});
+  const DetailPage({super.key, required this.link});
 
   final String link;
 
@@ -123,11 +125,11 @@ class DetailPage extends StatefulWidget {
 
 class _DetailPageState extends State<DetailPage> {
   var defaultScale = 1.0;
-  var defaultPos = Offset(0.0, 0.0);
-  var defaultSize = Size(0.0, 0.0);
-  var lastPosition = Offset(0.0, 0.0);
-  var startMovePosition = Offset(0.0, 0.0);
-  var edgePosition = Offset(0.0, 0.0);
+  var defaultPos = const Offset(0.0, 0.0);
+  var defaultSize = const Size(0.0, 0.0);
+  var lastPosition = const Offset(0.0, 0.0);
+  var startMovePosition = const Offset(0.0, 0.0);
+  var edgePosition = const Offset(0.0, 0.0);
   int numPointers = 0;
   var lastScale = 1.0; // 多次放大缩小的时候保存上一次的结果
   var scaling = false;
@@ -146,6 +148,9 @@ class _DetailPageState extends State<DetailPage> {
           onPointerDown: (_) => numPointers++,
           onPointerUp: (_) => numPointers--,
           child: GestureDetector(
+            onScaleStart: _scaleStart,
+            onScaleEnd: _scaleEnd,
+            onScaleUpdate: _scaleUpdate,
             child: Stack(
               children: <Widget>[
                 Positioned(
@@ -157,7 +162,7 @@ class _DetailPageState extends State<DetailPage> {
                     scale: defaultScale,
                     child: CachedNetworkImage(
                       imageUrl: widget.link,
-                      errorWidget: (_, __, ___) => Center(
+                      errorWidget: (_, __, ___) => const Center(
                         child: Icon(Icons.error),
                       ),
                     ),
@@ -165,9 +170,6 @@ class _DetailPageState extends State<DetailPage> {
                 ),
               ],
             ),
-            onScaleStart: _scaleStart,
-            onScaleEnd: _scaleEnd,
-            onScaleUpdate: _scaleUpdate,
           ),
         ),
       ),

@@ -6,13 +6,15 @@ import 'package:ok/page/home_page_portrait.dart';
 
 import 'data/app_routes.dart';
 
-void main() => runApp(FunApp());
+void main() => runApp(const FunApp());
 
 class FunApp extends StatelessWidget {
+  const FunApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(
+      const SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
       ),
@@ -21,16 +23,16 @@ class FunApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: <String, WidgetBuilder>{
-        detailsPage: (context) => CategoryDetailsPage(),
-        videoPage: (context) => VideoPage(),
-        shortsVideoPage: (context) => ShortsVideoPage(),
-        chatGPTPage: (context) => ChatGPTPage(),
-        calculatorPage: (context) => CalculatorPage(),
-        weatherForecastPage: (context) => WeatherForecastPage(),
-        newsPage: (context) => NewsPage(),
-        randomLottery: (context) => RandomLottery(),
-        wheelSurf: (context) => WheelSurf(),
-        cameraPage: (context) => CameraPage(),
+        detailsPage: (context) => const CategoryDetailsPage(),
+        videoPage: (context) => const VideoPage(),
+        shortsVideoPage: (context) => const ShortsVideoPage(),
+        chatGPTPage: (context) => const ChatGPTPage(),
+        calculatorPage: (context) => const CalculatorPage(),
+        weatherForecastPage: (context) => const WeatherForecastPage(),
+        newsPage: (context) => const NewsPage(),
+        randomLottery: (context) => const RandomLottery(),
+        wheelSurf: (context) => const WheelSurf(),
+        cameraPage: (context) => const CameraPage(),
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
@@ -54,11 +56,11 @@ class FunApp extends StatelessWidget {
     if (MediaQuery.of(context).orientation == Orientation.landscape &&
         MediaQuery.of(context).size.width >
             MediaQuery.of(context).size.height) {
-      return HomePageLandscape(); // 横屏或大屏布局
+      return const HomePageLandscape(); // 横屏或大屏布局
     } else if (screenWidth >= 500) {
-      return HomePageLandscape(); // 横屏或大屏布局
+      return const HomePageLandscape(); // 横屏或大屏布局
     } else {
-      return HomePagePortrait(); // 竖屏布局
+      return const HomePagePortrait(); // 竖屏布局
     }
   }
 }

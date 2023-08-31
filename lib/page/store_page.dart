@@ -14,11 +14,12 @@ class StorePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
+      physics: const BouncingScrollPhysics(),
       children: <Widget>[
-        FunCarouseSlider(),
+        const FunCarouseSlider(),
         CategoryList(categories: categories),
-        FunStaggeredGridView(),
-        WaterfallFlowView()
+        const FunStaggeredGridView(),
+        const WaterfallFlowView()
       ],
     );
   }

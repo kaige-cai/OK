@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-import '../data/constant.dart';
-import '../data/smash_class.dart';
+import '../../data/constant.dart';
+import '../../data/smash_class.dart';
 
-class SearchBox extends StatefulWidget {
-  const SearchBox({Key? key});
+class SearchBoxLandscape extends StatefulWidget {
+  const SearchBoxLandscape({super.key});
 
   @override
-  State<SearchBox> createState() => _SearchBoxState();
+  State<SearchBoxLandscape> createState() => _SearchBoxLandscapeState();
 }
 
-class _SearchBoxState extends State<SearchBox> {
+class _SearchBoxLandscapeState extends State<SearchBoxLandscape> {
   String _selectedCategory = 'all';
   bool _showSuggestions = false; // Track whether to show suggestions
   List<Item> _suggestedItems = []; // List to hold suggested items
@@ -30,7 +30,7 @@ class _SearchBoxState extends State<SearchBox> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 128.0, left: 128.0, right: 128.0),
+      margin: const EdgeInsets.only(top: 128.0, left: 128.0, right: 128.0),
       decoration: BoxDecoration(
         color: Colors.grey[300],
         borderRadius: BorderRadius.circular(20),
@@ -41,7 +41,7 @@ class _SearchBoxState extends State<SearchBox> {
             children: [
               DropdownButton<String>(
                 value: _selectedCategory,
-                items: [
+                items: const [
                   DropdownMenuItem<String>(
                     value: 'all',
                     child: Text('所有'),
@@ -92,7 +92,7 @@ class _SearchBoxState extends State<SearchBox> {
                               .cast<Item>();
                     });
                   },
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     hintText: '搜索应用、游戏、网页、任何东西',
                     hintStyle: TextStyle(color: Colors.grey), // Grey hint color
                     border: InputBorder.none,
@@ -100,7 +100,7 @@ class _SearchBoxState extends State<SearchBox> {
                 ),
               ),
               IconButton(
-                icon: Icon(Icons.search),
+                icon: const Icon(Icons.search),
                 onPressed: () {},
               ),
             ],

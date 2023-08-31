@@ -5,12 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class ChatGPTPage extends StatefulWidget {
+  const ChatGPTPage({super.key});
+
   @override
-  _ChatGPTPageState createState() => _ChatGPTPageState();
+  ChatGPTPageState createState() => ChatGPTPageState();
 }
 
-class _ChatGPTPageState extends State<ChatGPTPage> {
-  TextEditingController _controller = TextEditingController();
+class ChatGPTPageState extends State<ChatGPTPage> {
+  final TextEditingController _controller = TextEditingController();
   String _chatHistory = '';
 
   @override
@@ -28,11 +30,11 @@ class _ChatGPTPageState extends State<ChatGPTPage> {
                   child: TextField(
                     controller: _controller,
                     decoration:
-                        InputDecoration(hintText: 'Type your message...'),
+                        const InputDecoration(hintText: 'Type your message...'),
                   ),
                 ),
                 IconButton(
-                  icon: Icon(Icons.send),
+                  icon: const Icon(Icons.send),
                   onPressed: _sendMessage,
                 ),
               ],

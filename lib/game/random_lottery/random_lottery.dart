@@ -10,6 +10,6 @@ class RandomLottery extends StatefulWidget {
 class _RandomLotteryState extends State<RandomLottery> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('随机数抽奖')));
+    return const Scaffold(body: Center(child: Text('随机数抽奖')));
   }
 }

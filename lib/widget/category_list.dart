@@ -12,7 +12,7 @@ class CategoryList extends StatelessWidget {
     return ListView.builder(
       shrinkWrap: true,
       itemCount: categories.length,
-      physics: BouncingScrollPhysics(),
+      physics: const BouncingScrollPhysics(),
       itemBuilder: (context, categoryIndex) {
         final category = categories[categoryIndex];
         return Column(
@@ -24,7 +24,7 @@ class CategoryList extends StatelessWidget {
               },
               child: Container(
                 padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: CupertinoColors.systemBackground,
                   border: Border(
                     bottom: BorderSide(
@@ -38,13 +38,13 @@ class CategoryList extends StatelessWidget {
                   children: [
                     Text(
                       category.name,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(width: 18.0),
-                    Icon(
+                    const SizedBox(width: 18.0),
+                    const Icon(
                       CupertinoIcons.forward,
                       size: 20,
                     ),
@@ -56,7 +56,7 @@ class CategoryList extends StatelessWidget {
               height: 100.0,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                physics: BouncingScrollPhysics(),
+                physics: const BouncingScrollPhysics(),
                 itemCount: category.items.length,
                 itemBuilder: (context, itemIndex) {
                   final item = category.items[itemIndex];
@@ -81,7 +81,7 @@ class CategoryList extends StatelessWidget {
                       // Navigator.of(context).pushNamed('/video_page');
                     },
                     child: Container(
-                      margin: EdgeInsets.all(8.0),
+                      margin: const EdgeInsets.all(8.0),
                       child: Column(
                         children: [
                           Image.asset(
