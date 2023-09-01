@@ -24,7 +24,7 @@ class CategoryDetailsPage extends StatelessWidget {
         itemBuilder: (context, index) {
           final item = category.items[index];
           return Container(
-            padding: const EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
