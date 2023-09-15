@@ -73,7 +73,13 @@ class VideoWidgetState extends State<VideoWidget> {
         ),
       );
     } else if (_retrying) {
-      // 如果正在重试加载视频，不显示加载中的进度条
+      // 如果正在重试加载视频且重试时间不超过2秒，则显示 CircularProgressIndicator
+      Future.delayed(const Duration(seconds: 1), () {
+        if (_retrying) {
+          setState(() {});
+          return const Center(child: CircularProgressIndicator());
+        }
+      });
       return Container();
     } else if (_retryCount < _maxRetries) {
       // 如果视频未加载成功且未达到最大重试次数，则显示加载中的进度条
