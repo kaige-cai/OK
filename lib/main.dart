@@ -1,12 +1,17 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:ok/page/home_page_landscape.dart';
 import 'package:ok/page/home_page_portrait.dart';
 
 import 'data/app_routes.dart';
 
-void main() => runApp(const FunApp());
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
+  runApp(const FunApp());
+}
 
 class FunApp extends StatelessWidget {
   const FunApp({super.key});
@@ -36,28 +41,19 @@ class FunApp extends StatelessWidget {
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
-      home: kIsWeb ||
-              defaultTargetPlatform == TargetPlatform.macOS ||
-              defaultTargetPlatform == TargetPlatform.windows ||
-              defaultTargetPlatform == TargetPlatform.linux
-          ? LayoutBuilder(
-              builder: (BuildContext context, BoxConstraints constraints) =>
-                  changeLayout(context, constraints),
-            )
-          : LayoutBuilder(
-              builder: (BuildContext context, BoxConstraints constraints) =>
-                  changeLayout(context, constraints),
-            ),
+      home: _buildHomePage(context),
     );
   }
 
-  Widget changeLayout(BuildContext context, BoxConstraints constraints) {
-    double screenWidth = constraints.maxWidth;
-    if (MediaQuery.of(context).orientation == Orientation.landscape &&
-        MediaQuery.of(context).size.width >
-            MediaQuery.of(context).size.height) {
-      return const HomePageLandscape(); // 横屏或大屏布局
-    } else if (screenWidth >= 500) {
+  Widget _buildHomePage(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
+    if (kIsWeb ||
+        defaultTargetPlatform == TargetPlatform.macOS ||
+        defaultTargetPlatform == TargetPlatform.windows ||
+        defaultTargetPlatform == TargetPlatform.linux ||
+        (MediaQuery.of(context).orientation == Orientation.landscape &&
+            screenWidth > MediaQuery.of(context).size.height) ||
+        screenWidth >= 500) {
       return const HomePageLandscape(); // 横屏或大屏布局
     } else {
       return const HomePagePortrait(); // 竖屏布局

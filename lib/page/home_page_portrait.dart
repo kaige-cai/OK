@@ -1,6 +1,12 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:ok/data/constant.dart';
 import 'package:ok/page/store_page.dart';
+
+import '../widget/app_lifecycle_reactor.dart';
+import '../widget/app_open_ad_manager.dart';
 
 class HomePagePortrait extends StatefulWidget {
   const HomePagePortrait({super.key});
@@ -26,6 +32,12 @@ class HomePagePortraitState extends State<HomePagePortrait>
   ];
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
+  BannerAd? _bannerAd;
+
+  final String _adUnitId =
+      Platform.isAndroid ? 'ca-app-pub-9275143816186195/7092152699' : '';
+  late AppLifecycleReactor _appLifecycleReactor;
+
   @override
   void initState() {
     super.initState();
@@ -48,10 +60,44 @@ class HomePagePortraitState extends State<HomePagePortrait>
         (category) => category.items.map((item) => item.name),
       ),
     );
+
+    _loadBannerAd();
+    AppOpenAdManager appOpenAdManager = AppOpenAdManager()..loadAd();
+    _appLifecycleReactor =
+        AppLifecycleReactor(appOpenAdManager: appOpenAdManager);
+    _appLifecycleReactor.listenToAppStateChanges();
+    appOpenAdManager.showAdIfAvailable();
+  }
+
+  void _loadBannerAd() async {
+    BannerAd(
+      adUnitId: _adUnitId,
+      request: const AdRequest(),
+      size: AdSize.largeBanner,
+      listener: BannerAdListener(
+        // Called when an ad is successfully received.
+        onAdLoaded: (ad) {
+          setState(() {
+            _bannerAd = ad as BannerAd;
+          });
+        },
+        // Called when an ad request failed.
+        onAdFailedToLoad: (ad, err) {
+          ad.dispose();
+        },
+        // Called when an ad opens an overlay that covers the screen.
+        onAdOpened: (Ad ad) {},
+        // Called when an ad removes an overlay that covers the screen.
+        onAdClosed: (Ad ad) {},
+        // Called when an impression occurs on the ad.
+        onAdImpression: (Ad ad) {},
+      ),
+    ).load();
   }
 
   @override
   void dispose() {
+    _bannerAd?.dispose();
     _animationController.dispose();
     super.dispose();
   }
@@ -112,6 +158,21 @@ class HomePagePortraitState extends State<HomePagePortrait>
             ListTile(
               title: const Text('Item 2'),
               onTap: () {},
+            ),
+            Stack(
+              children: [
+                if (_bannerAd != null)
+                  Align(
+                    alignment: Alignment.bottomCenter,
+                    child: SafeArea(
+                      child: SizedBox(
+                        width: _bannerAd!.size.width.toDouble(),
+                        height: _bannerAd!.size.height.toDouble(),
+                        child: AdWidget(ad: _bannerAd!),
+                      ),
+                    ),
+                  )
+              ],
             ),
           ],
         ),

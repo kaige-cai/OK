@@ -19,7 +19,7 @@ class StorePage extends StatelessWidget {
         const FunCarouseSlider(),
         CategoryList(categories: categories),
         const FunStaggeredGridView(),
-        const WaterfallFlowView()
+        WaterfallFlowView()
       ],
     );
   }
