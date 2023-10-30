@@ -38,6 +38,7 @@ final List<String> imageUrls = [
 
 List<Category> appCategories = [
   Category('常用', [
+    Item('数据可视化', 'asset/icon/app_icon.png'),
     Item('全能计算器', 'asset/icon/app_icon.png'),
     Item('全能相机', 'asset/icon/app_icon.png'),
     Item('天气预报', 'asset/icon/app_icon.png'),

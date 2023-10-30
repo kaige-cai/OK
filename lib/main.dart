@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:ok/app/data_visual/main.dart';
 import 'package:ok/page/home_page_landscape.dart';
 import 'package:ok/page/home_page_portrait.dart';
+import 'package:ok/page/tiktok_page.dart';
 
 import 'data/app_routes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  MobileAds.instance.initialize();
   runApp(const FunApp());
 }
 
@@ -30,6 +30,7 @@ class FunApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         detailsPage: (context) => const CategoryDetailsPage(),
         videoPage: (context) => const VideoPage(),
+        tiktokPage: (context) => const TikTokPage(),
         shortsVideoPage: (context) => const ShortsVideoPage(),
         chatGPTPage: (context) => const ChatGPTPage(),
         calculatorPage: (context) => const CalculatorPage(),
@@ -38,6 +39,7 @@ class FunApp extends StatelessWidget {
         randomLottery: (context) => const RandomLottery(),
         wheelSurf: (context) => const WheelSurf(),
         cameraPage: (context) => const CameraPage(),
+        dataVisualApp: (context) => const DataVisualApp(),
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),

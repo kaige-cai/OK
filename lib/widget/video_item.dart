@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
+import 'package:visibility_detector/visibility_detector.dart';
 
-class VideoWidget extends StatefulWidget {
+class VideoItem extends StatefulWidget {
   final String videoUrl;
 
-  const VideoWidget({Key? key, required this.videoUrl}) : super(key: key);
+  const VideoItem({Key? key, required this.videoUrl}) : super(key: key);
 
   @override
-  VideoWidgetState createState() => VideoWidgetState();
+  VideoItemState createState() => VideoItemState();
 }
 
-class VideoWidgetState extends State<VideoWidget> {
+class VideoItemState extends State<VideoItem> {
   late VideoPlayerController _controller;
   int _retryCount = 0;
   static const int _maxRetries = 3;
@@ -25,7 +26,8 @@ class VideoWidgetState extends State<VideoWidget> {
 
   Future<void> _initializeVideoPlayer() async {
     _controller = VideoPlayerController.networkUrl(Uri.parse(widget.videoUrl));
-
+    _controller.setLooping(true); // 将视频设置为循环播放
+    _controller.setVolume(0.0); // 设置默认静音
     // 监听视频加载状态
     _controller.addListener(() {
       if (_controller.value.hasError && _retryCount < _maxRetries) {
@@ -67,9 +69,19 @@ class VideoWidgetState extends State<VideoWidget> {
             _controller.play();
           }
         },
-        child: AspectRatio(
-          aspectRatio: _controller.value.aspectRatio,
-          child: VideoPlayer(_controller),
+        child: VisibilityDetector(
+          key: Key(widget.videoUrl),
+          onVisibilityChanged: (VisibilityInfo info) {
+            if (info.visibleFraction == 1.0) {
+              _controller.play(); // 当视频进入视图时开始播放
+            } else {
+              _controller.pause(); // 当视频离开视图时暂停播放
+            }
+          },
+          child: AspectRatio(
+            aspectRatio: _controller.value.aspectRatio,
+            child: VideoPlayer(_controller),
+          ),
         ),
       );
     } else if (_retrying) {

@@ -1,12 +1,6 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:ok/data/constant.dart';
 import 'package:ok/page/store_page.dart';
-
-import '../widget/app_lifecycle_reactor.dart';
-import '../widget/app_open_ad_manager.dart';
 
 class HomePagePortrait extends StatefulWidget {
   const HomePagePortrait({super.key});
@@ -32,15 +26,8 @@ class HomePagePortraitState extends State<HomePagePortrait>
   ];
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
-  BannerAd? _bannerAd;
-
-  final String _adUnitId =
-      Platform.isAndroid ? 'ca-app-pub-9275143816186195/7092152699' : '';
-  late AppLifecycleReactor _appLifecycleReactor;
-
   @override
   void initState() {
-    super.initState();
     _animationController = AnimationController(
       vsync: this,
       duration: const Duration(
@@ -61,43 +48,31 @@ class HomePagePortraitState extends State<HomePagePortrait>
       ),
     );
 
-    _loadBannerAd();
-    AppOpenAdManager appOpenAdManager = AppOpenAdManager()..loadAd();
-    _appLifecycleReactor =
-        AppLifecycleReactor(appOpenAdManager: appOpenAdManager);
-    _appLifecycleReactor.listenToAppStateChanges();
-    appOpenAdManager.showAdIfAvailable();
+    super.initState();
   }
 
-  void _loadBannerAd() async {
-    BannerAd(
-      adUnitId: _adUnitId,
-      request: const AdRequest(),
-      size: AdSize.largeBanner,
-      listener: BannerAdListener(
-        // Called when an ad is successfully received.
-        onAdLoaded: (ad) {
-          setState(() {
-            _bannerAd = ad as BannerAd;
-          });
-        },
-        // Called when an ad request failed.
-        onAdFailedToLoad: (ad, err) {
-          ad.dispose();
-        },
-        // Called when an ad opens an overlay that covers the screen.
-        onAdOpened: (Ad ad) {},
-        // Called when an ad removes an overlay that covers the screen.
-        onAdClosed: (Ad ad) {},
-        // Called when an impression occurs on the ad.
-        onAdImpression: (Ad ad) {},
-      ),
-    ).load();
-  }
+  /* Widget _buildPaymentRow(String method, String details) {
+    return Row(
+      children: <Widget>[
+        Text('$method: $details'),
+        Spacer(),
+        InkWell(
+          onTap: () {
+            // 在此处理点击转账操作
+            if (method == 'Paypal') {
+              // 处理Paypal转账
+            } else {
+              // 处理其他支付方式的转账
+            }
+          },
+          child: Text('点击转账'),
+        ),
+      ],
+    );
+  }*/
 
   @override
   void dispose() {
-    _bannerAd?.dispose();
     _animationController.dispose();
     super.dispose();
   }
@@ -132,6 +107,67 @@ class HomePagePortraitState extends State<HomePagePortrait>
           icon: Image.asset('asset/icon/app_icon.png'),
           onPressed: () {
             _scaffoldKey.currentState!.openDrawer(); // 打开抽屉
+            /* showCupertinoDialog(
+              context: context,
+              builder: (BuildContext context) {
+                return CupertinoAlertDialog(
+                  title: Text('开发不易，还请支持！'),
+                  content: Column(
+                    children: <Widget>[
+                      Text('本App郑重承诺：永久免费绿色开源无广告！'),
+                      SizedBox(height: 20),
+                      _buildPaymentRow('支付宝', '18852284878'),
+                      _buildPaymentRow('微信', '18852284878'),
+                      _buildPaymentRow('Paypal', 'https://paypal.me/mr0cai'),
+                      SizedBox(height: 20),
+                      Row(
+                        children: <Widget>[
+                          Text('给个5星好评吧'),
+                          SizedBox(width: 10),
+                          Row(
+                            children: <Widget>[
+                              Icon(
+                                Icons.star,
+                                size: 30,
+                                color: Colors.yellow,
+                              ),
+                              Icon(
+                                Icons.star,
+                                size: 30,
+                                color: Colors.yellow,
+                              ),
+                              Icon(
+                                Icons.star,
+                                size: 30,
+                                color: Colors.yellow,
+                              ),
+                              Icon(
+                                Icons.star,
+                                size: 30,
+                                color: Colors.yellow,
+                              ),
+                              Icon(
+                                Icons.star,
+                                size: 30,
+                                color: Colors.yellow,
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  actions: <Widget>[
+                    CupertinoDialogAction(
+                      child: Text('关闭'),
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
+                    ),
+                  ],
+                );
+              },
+            );*/
           },
         ),
         actions: [
@@ -158,21 +194,6 @@ class HomePagePortraitState extends State<HomePagePortrait>
             ListTile(
               title: const Text('Item 2'),
               onTap: () {},
-            ),
-            Stack(
-              children: [
-                if (_bannerAd != null)
-                  Align(
-                    alignment: Alignment.bottomCenter,
-                    child: SafeArea(
-                      child: SizedBox(
-                        width: _bannerAd!.size.width.toDouble(),
-                        height: _bannerAd!.size.height.toDouble(),
-                        child: AdWidget(ad: _bannerAd!),
-                      ),
-                    ),
-                  )
-              ],
             ),
           ],
         ),

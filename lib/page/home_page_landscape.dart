@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ok/data/constant.dart';
 import 'package:ok/widget/search/search_box_landscape.dart';
+
+import '../widget/category_list.dart';
 
 class HomePageLandscape extends StatefulWidget {
   const HomePageLandscape({super.key});
@@ -14,8 +17,10 @@ class _HomePageLandscapeState extends State<HomePageLandscape> {
     return Scaffold(
       body: ListView(
         physics: const BouncingScrollPhysics(),
-        children: const [
-          SearchBoxLandscape(),
+        children: [
+          const SearchBoxLandscape(),
+          CategoryList(categories: appCategories),
+          CategoryList(categories: gameCategories),
         ],
       ),
     );

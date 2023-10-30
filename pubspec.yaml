@@ -19,16 +19,29 @@ dependencies:
   flutter_staggered_grid_view: ^0.7.0 # 瀑布流布局
   video_player: ^2.7.0 # 视频播放器
   url_launcher: ^6.1.14 # 定位符跳转
-  google_mobile_ads: ^3.0.0 # AdMob广告
   logger: ^2.0.2 # 调试日志
+  visibility_detector: ^0.3.3 # 可见检测器
+  dio: ^5.3.2 # 网络请求
+  json_annotation: ^4.8.1 # json注解类
+  flutter_bmflocation: ^3.4.1
+  flutter_baidu_mapapi_base: ^3.4.1
+  permission_handler: ^11.0.0
+  shared_preferences: ^2.2.1
+  intl: ^0.18.1
+  flash: ^3.0.5+1
+  rive: ^0.11.17
+  easy_localization: ^3.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  build_runner: ^2.4.6 # 自动化运行生成代码
+  json_serializable: ^6.7.1 # json序列化
 
 flutter:
   uses-material-design: true
   assets:
     - asset/
     - asset/icon/
+    - asset/json/

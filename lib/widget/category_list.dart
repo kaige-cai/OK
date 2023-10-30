@@ -63,6 +63,9 @@ class CategoryList extends StatelessWidget {
                   return GestureDetector(
                     onTap: () {
                       switch (item.name) {
+                        case '数据可视化':
+                          Navigator.of(context).pushNamed(dataVisualApp);
+                          break;
                         case '全能计算器':
                           Navigator.of(context).pushNamed(calculatorPage);
                           break;
