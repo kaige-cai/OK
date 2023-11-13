@@ -1,151 +1,1320 @@
 {
   "result": [
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "0",
+      "title": "昏迷/死亡",
+      "subtitle": "IQ最小值",
+      "desc": "完全无反应的无意识状态",
+      "pic": "https://pic.imgdb.cn/item/654065c5c458853aef6761b8.png"
+    },
+    {
+      "value": "1",
+      "title": "睡觉/睡着",
+      "subtitle": "IQ最小值",
+      "desc": "睡眠时大脑依然在运行,可以被唤醒",
+      "pic": "https://pic.imgdb.cn/item/65406acac458853aef73e53b.png"
+    },
+    {
+      "value": "5",
+      "title": "醒来/植物人",
+      "subtitle": "IQ最小值",
+      "desc": "你醒着,但身体不能动弹。能动弹需要更高智商",
+      "pic": "https://pic.imgdb.cn/item/65406659c458853aef68cc9c.png"
+    },
+    {
+      "value": "8",
+      "title": "水母的智商",
+      "subtitle": "IQ最小值",
+      "desc": "水母没有大脑",
+      "pic": ""
+    },
+    {
+      "value": "10",
+      "title": "歪比巴卜,哼哼唧唧",
+      "subtitle": "IQ最小值",
+      "desc": "极其严重的智力障碍,生活无法自理,需专人照顾。完全丧失交流能力,学习能力",
+      "pic": "https://pic.imgdb.cn/item/6540a217c458853aef14b978.png"
+    },
+    {
+      "value": "12",
+      "title": "行走能力",
+      "subtitle": "IQ最小值",
+      "desc": "能站起来慢慢走几步，其他什么都不会",
+      "pic": "https://pic.imgdb.cn/item/6540a478c458853aef1c67d7.png"
+    },
+    {
+      "value": "15",
+      "title": "认识颜色",
+      "subtitle": "IQ最小值",
+      "desc": "知道红黄蓝绿等颜色，在引导下会玩涂色书，这是唯一的娱乐",
+      "pic": "https://pic.imgdb.cn/item/6540a56bc458853aef1f3769.png"
+    },
+    {
+      "value": "18",
+      "title": "抓取/举起/投掷",
+      "subtitle": "IQ最小值",
+      "desc": "具备基本的运动技能和视觉协调",
+      "pic": "https://pic.imgdb.cn/item/6540a675c458853aef231e5b.png"
+    },
+    {
+      "value": "20",
+      "title": "极重度智力障碍",
+      "subtitle": "IQ最小值",
+      "desc": "语言能力受限，生活无法自理，无法社交",
+      "pic": "https://pic.imgdb.cn/item/6540abcec458853aef33ff86.png"
+    },
+    {
+      "value": "25",
+      "title": "重度智力障碍",
+      "subtitle": "IQ最小值",
+      "desc": "能表达吃喝拉撒等基本需求，有喜怒哀乐，经常傻笑",
+      "pic": "https://pic.imgdb.cn/item/6540b0dbc458853aef4409da.png"
+    },
+    {
+      "value": "26",
+      "title": "翻车鱼的智商",
       "subtitle": "IQ最小值",
       "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "pic": ""
+    },
+    {
+      "value": "30",
+      "title": "理解死亡的含义",
+      "subtitle": "IQ最小值",
+      "desc": "对死亡表示哀伤、悲伤、恐惧或接受",
+      "pic": "https://pic.imgdb.cn/item/6540b1e6c458853aef4734c0.png"
+    },
+    {
+      "value": "32",
+      "title": "会使用刀叉",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "35",
+      "title": "金鱼的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "36",
+      "title": "会使用筷子",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "37",
+      "title": "考拉🐨的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
     },
     {
       "value": "38",
-      "title": "能数到10",
+      "title": "能从1数到10",
       "subtitle": "IQ最小值",
-      "desc": "",
+      "desc": "智障也能做到的事，基本不需要智商",
       "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "39",
+      "title": "狍子的智商",
       "subtitle": "IQ最小值",
       "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "pic": ""
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "40",
+      "title": "中度智力障碍",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "能认识几个单词和文字，能区分男女，生活无法完全自理",
+      "pic": "https://pic.imgdb.cn/item/6540b4d3c458853aef503f9b.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "42",
+      "title": "绵羊🐑的智商",
       "subtitle": "IQ最小值",
       "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "pic": ""
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "47",
+      "title": "阅读能力",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "能自己一个一个单词或一个一个汉字地去默读文章，会写几个字，能自己吃喝拉撒，需要照顾",
+      "pic": "https://pic.imgdb.cn/item/6540b575c458853aef52124b.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "50",
+      "title": "会系鞋带",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "系鞋带也需要一定的智商，3岁儿童能完成，但3岁儿童智商远不止这点",
+      "pic": "https://pic.imgdb.cn/item/6540b71fc458853aef5708fc.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "55",
+      "title": "会煎鸡蛋",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "饿了能自己煎鸡蛋吃，生活能自理",
+      "pic": "https://pic.imgdb.cn/item/6540b867c458853aef5b3c88.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
-      "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "value": "60",
+      "title": "老年痴呆",
+      "subtitle": "IQ最大值",
+      "desc": "神经退化性疾病，智力逐渐下降，认知功能不断损害，记忆障碍。逐渐无法自理",
+      "pic": "https://pic.imgdb.cn/item/65411c66c458853aefc293b5.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "61",
+      "title": "会玩拼图",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "拼图是一项有趣而富有挑战性的活动，有助于提高问题解决能力和视觉感知",
+      "pic": "https://pic.imgdb.cn/item/6540b956c458853aef5e215a.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "65",
+      "title": "会区分左右",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "区分左右对于日常生活、导航、驾驶和执行许多任务都是至关重要的",
+      "pic": "https://pic.imgdb.cn/item/6540bacdc458853aef62d057.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "66",
+      "title": "会骑单车/电瓶车",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "身体具备一定协调能力，有平衡感、方向感和反应能力",
+      "pic": "https://pic.imgdb.cn/item/6540bf00c458853aef6f8188.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "68",
+      "title": "会使用电脑",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "掌握基本的电脑使用技能对于现代生活和工作是非常重要的",
+      "pic": "https://pic.imgdb.cn/item/6540b9f5c458853aef603ed4.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "70",
+      "title": "轻度智力障碍",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "可从事简单重复性工作，可当工厂技工、机械师、美容师、厨师等，很接近正常",
+      "pic": "https://pic.imgdb.cn/item/6540bbcbc458853aef65fca1.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "71",
+      "title": "会基本的心算",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "会加减乘除、快速数数、乘法口诀，有一定专注力和数字处理能力",
+      "pic": "https://pic.imgdb.cn/item/6540bda2c458853aef6b70fe.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "73",
+      "title": "会开汽车",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "能理解交通规则，具备空间感知能力。有些国家要求开车最低智商为70",
+      "pic": "https://pic.imgdb.cn/item/6540c06bc458853aef738fe4.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "75",
+      "title": "智商略低",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "学习速度可能较慢，要付出更多努力。可从事体力劳动、手工艺、服务行业",
+      "pic": "https://pic.imgdb.cn/item/6540c15bc458853aef764782.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "78",
+      "title": "狗狗🐶的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "狗的服从性好，忠诚。经训练可完成多种指令，是人的得力助手。能理解人类情感，与人建立感情",
+      "pic": "https://pic.imgdb.cn/item/6544b82ec458853aeff94768.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "79",
+      "title": "猫🐱的智商",
       "subtitle": "IQ最小值",
       "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "pic": ""
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "80",
+      "title": "猪🐷的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "desc": "猪有较强的记忆，嗅觉、听觉敏锐，能感知细微的变化。有情感，能教育后代怎样生存",
+      "pic": "https://pic.imgdb.cn/item/6540c744c458853aef87b25d.png"
     },
     {
-      "value": "38",
-      "title": "能数到10",
+      "value": "81",
+      "title": "松鼠🐿️的智商",
       "subtitle": "IQ最小值",
       "desc": "",
-      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+      "pic": ""
+    },
+    {
+      "value": "82",
+      "title": "知道7个大洲",
+      "subtitle": "IQ最小值",
+      "desc": "对世界有一定了解，这是地球上主要的7个陆地区域",
+      "pic": "https://pic.imgdb.cn/item/6540c954c458853aef8db1d4.png"
+    },
+    {
+      "value": "83",
+      "title": "美军服役最低要求",
+      "subtitle": "IQ最小值",
+      "desc": "美国军方拒绝智商低于83的人，认为他们无法胜任岗位",
+      "pic": "https://pic.imgdb.cn/item/65411f79c458853aefd70419.png"
+    },
+    {
+      "value": "83",
+      "title": "学象棋",
+      "subtitle": "IQ最小值",
+      "desc": "象棋是一门复杂的游戏，需要耐心和实践。能够预先判断即将开始的几步",
+      "pic": "https://pic.imgdb.cn/item/6541266dc458853aeffde1dd.webp"
+    },
+    {
+      "value": "84",
+      "title": "打扑克牌",
+      "subtitle": "IQ最小值",
+      "desc": "扑克游戏考验多种能力，包括数学、心理学、观察力和决策能力",
+      "pic": "https://pic.imgdb.cn/item/6541249bc458853aeff3852c.png"
+    },
+    {
+      "value": "84",
+      "title": "打麻将",
+      "subtitle": "IQ最小值",
+      "desc": "懂得观察和记忆，会推理思考，能在复杂的情况下做出明智的决策",
+      "pic": "https://pic.imgdb.cn/item/65412a05c458853aef107290.png"
+    },
+    {
+      "value": "85",
+      "title": "解魔方",
+      "subtitle": "IQ最小值",
+      "desc": "有良好的空间认知能力，考验模式识别、记忆、反应、逻辑推理能力",
+      "pic": "https://pic.imgdb.cn/item/65412affc458853aef14be60.png"
+    },
+    {
+      "value": "85",
+      "title": "野猪🐗的智商",
+      "subtitle": "IQ最小值",
+      "desc": "能建立巢穴、逃避猎人、会竞争与合作，能适应复杂气候和生态系统",
+      "pic": "https://pic.imgdb.cn/item/6540c77ac458853aef884d16.png"
+    },
+    {
+      "value": "86",
+      "title": "懂勾股定理",
+      "subtitle": "IQ最小值",
+      "desc": "理解和应用勾股定理需要对空间关系有一定的感知和想象力，需要逻辑思维、推理来解决问题",
+      "pic": "https://pic.imgdb.cn/item/6544b6fcc458853aeff5edf5.png"
+    },
+    {
+      "value": "87",
+      "title": "解二元一次方程",
+      "subtitle": "IQ最小值",
+      "desc": "考验代数、逻辑、数学操作和问题解决能力",
+      "pic": "https://pic.imgdb.cn/item/6541a195c458853aefde6eed.png"
+    },
+    {
+      "value": "88",
+      "title": "懂作息时间表",
+      "subtitle": "IQ最小值",
+      "desc": "考验时间管理能力、自律和纪律、应对压力、制定目标和计划、自我护理和健康的生活方式",
+      "pic": "https://pic.imgdb.cn/item/6545c23ac458853aefd4d92b.png"
+    },
+    {
+      "value": "89",
+      "title": "会正确使用枪械",
+      "subtitle": "IQ最小值",
+      "desc": "手枪、步枪、冲锋枪、狙击枪、半自动武器",
+      "pic": ""
+    },
+    {
+      "value": "90",
+      "title": "喜欢打游戏",
+      "subtitle": "IQ最小值",
+      "desc": "打游戏考验反应能力。CS、CF、使命召唤、天际线、王者、吃鸡、明日之后、红警样样精通",
+      "pic": "https://pic.imgdb.cn/item/6545c3c6c458853aefd98fde.png"
+    },
+    {
+      "value": "91",
+      "title": "擅长数独",
+      "subtitle": "IQ最小值",
+      "desc": "考验逻辑推理、视觉和空间感知、记忆力、耐心、快速数字处理、灵活性",
+      "pic": "https://pic.imgdb.cn/item/654702a7c458853aefbd8cd1.png"
+    },
+    {
+      "value": "92",
+      "title": "会种地/种菜",
+      "subtitle": "IQ最小值",
+      "desc": "考验农业知识(土壤、气候、病虫害防治)、观察、决策、体力、耐心、创新、经济和财务管理能力",
+      "pic": "https://pic.imgdb.cn/item/6545eebcc458853aef6ac1b0.png"
+    },
+    {
+      "value": "93",
+      "title": "快速正确打字",
+      "subtitle": "IQ最小值",
+      "desc": "考验打字速度和准确性",
+      "pic": "https://pic.imgdb.cn/item/654831cdc458853aef572996.png"
+    },
+    {
+      "value": "94",
+      "title": "会系超市打包袋",
+      "subtitle": "IQ最小值",
+      "desc": "考验打字速度和准确性",
+      "pic": ""
+    },
+    {
+      "value": "95",
+      "title": "懂两种语言",
+      "subtitle": "IQ最小值",
+      "desc": "需要综合运用多种智商和能力，包括语言智商、学习能力、文化敏感度、沟通技巧、社交智力等",
+      "pic": "https://pic.imgdb.cn/item/6545f46cc458853aef7f3fec.png"
+    },
+    {
+      "value": "96",
+      "title": "6岁儿童平均智商",
+      "subtitle": "IQ最小值",
+      "desc": "能够对话、讲故事、与同龄人和成年人社交、生活自理等。具备丰富的想象力、学习能力",
+      "pic": "https://pic.imgdb.cn/item/6545f4f4c458853aef8120ed.png"
+    },
+    {
+      "value": "97",
+      "title": "美国人平均智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "98",
+      "title": "俄罗斯人平均智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "99",
+      "title": "边牧的智商",
+      "subtitle": "IQ最小值",
+      "desc": "边牧能自己拍抖音、牧羊、操控其他狗，理解1000+单词、各种人类语言，会耍心眼、欺骗主人",
+      "pic": "https://pic.imgdb.cn/item/6544b82ec458853aeff94711.png"
+    },
+    {
+      "value": "100",
+      "title": "普通人类平均智商",
+      "subtitle": "IQ最小值",
+      "desc": "人生旅程：上学、恋爱、上班、结婚、生子、买车、买房、抚养后代、赡养老人、被子女赡养",
+      "pic": "https://pic.imgdb.cn/item/6545f762c458853aef89689a.png"
+    },
+    {
+      "value": "101",
+      "title": "乌鸦的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "101",
+      "title": "熟悉元素周期表",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "102",
+      "title": "熟悉198个国家",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "104",
+      "title": "中国人平均智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "105",
+      "title": "演奏乐器",
+      "subtitle": "IQ最小值",
+      "desc": "考验音乐理论、音感、记忆、注意力、协调能力、创造力",
+      "pic": "https://pic.imgdb.cn/item/6545fb9cc458853aef9846d2.png"
+    },
+    {
+      "value": "105",
+      "title": "狐狸的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "章鱼的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "海豚的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "大象的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "猩猩的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "猴子的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "倭猩猩的智商",
+      "subtitle": "IQ最小值",
+      "desc": "在冲突时优先选择性:换妻而不是暴力",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "马的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "老鼠的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "浣熊🦝的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "狒狒的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "虎鲸的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "蓝鲸的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "狼的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "鹦鹉🦜的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "106",
+      "title": "会组装柜子",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "107",
+      "title": "驾驶飞机",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "108",
+      "title": "会组装手枪",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "109",
+      "title": "能逃脱密室",
+      "subtitle": "IQ最小值",
+      "desc": "考验逻辑思维、观察力、团队协作、空间感知、耐心和冷静、记忆力",
+      "pic": "https://pic.imgdb.cn/item/6546176fc458853aeff3380c.jpg"
+    },
+    {
+      "value": "109",
+      "title": "香港人平均智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "110",
+      "title": "有幽默感",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "110",
+      "title": "会设计建筑物",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "111",
+      "title": "钢琴大师",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "112",
+      "title": "日本人平均智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "112",
+      "title": "熟悉万有引力",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "113",
+      "title": "会修车",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "114",
+      "title": "会快速阅读",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "115",
+      "title": "善于经商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "115",
+      "title": "世界天才名录资格",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "116",
+      "title": "玩转复杂变形金刚",
+      "subtitle": "IQ最小值",
+      "desc": "复杂的变形金刚适用年龄是16+，接近成年人。成年人也不一定会玩，需要反复练习摸索",
+      "pic": ""
+    },
+    {
+      "value": "117",
+      "title": "出色的医生",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "118",
+      "title": "强烈的直觉",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "118",
+      "title": "高中数学满分",
+      "subtitle": "IQ最小值",
+      "desc": "掌握方程、几何、函数等基础，会逻辑推理、计算技巧，懂考试策略、分配时间，会反复练习",
+      "pic": "https://pic.imgdb.cn/item/65461bb5c458853aeffff816.png"
+    },
+    {
+      "value": "119",
+      "title": "擅长计算微积分",
+      "subtitle": "IQ最小值",
+      "desc": "熟练掌握导数、函数、定积分、不定积分、微积分定理、证明技巧",
+      "pic": "https://pic.imgdb.cn/item/65461c35c458853aef019473.png"
+    },
+    {
+      "value": "120",
+      "title": "超强记忆力",
+      "subtitle": "IQ最小值",
+      "desc": "1小时记住200生单词、30秒记住银行卡号、能回想起过去几十年间的经历的每个细节",
+      "pic": "https://pic.imgdb.cn/item/65461b96c458853aefff9b3d.png"
+    },
+    {
+      "value": "120",
+      "title": "会三连",
+      "subtitle": "IQ最小值",
+      "desc": "点赞 投币 收藏 会三连，交好运，运气爆棚。点赞使你快乐，评论使你光荣，转发使你幸福",
+      "pic": "https://pic.imgdb.cn/item/6545cfc6c458853aeffda298.webp"
+    },
+    {
+      "value": "121",
+      "title": "诸葛亮的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "121",
+      "title": "大学高数满分",
+      "subtitle": "IQ最小值",
+      "desc": "熟练掌握微积分、微分方程、线性代数、多元函数、概率与统计、微分几何等，并勤学苦练",
+      "pic": "https://pic.imgdb.cn/item/65475840c458853aeff80b93.png"
+    },
+    {
+      "value": "122",
+      "title": "出色的程序员",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "123",
+      "title": "会说3种语言",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "124",
+      "title": "会说4种语言",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "125",
+      "title": "博士后",
+      "subtitle": "IQ最小值",
+      "desc": "深入的专业知识、高级的研究技能、超强创造力、良好的沟通能、团队协作、独立思考",
+      "pic": "https://pic.imgdb.cn/item/654749f0c458853aefc359b0.png"
+    },
+    {
+      "value": "126",
+      "title": "马云的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "126",
+      "title": "马化腾的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "126",
+      "title": "李彦宏的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "126",
+      "title": "刘强东的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "126",
+      "title": "贝索斯的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "127",
+      "title": "成为百万富翁",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "128",
+      "title": "成为著名物理学家",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "129",
+      "title": "哈佛毕业生智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "130",
+      "title": "天才病",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "范蠡的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "勾践的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "周公的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "130",
+      "title": "门萨会员资格",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "130",
+      "title": "胜寒协会资格",
+      "subtitle": "IQ最小值",
+      "desc": "面向全球汉语言圈的，中国第一个高智商俱乐部",
+      "pic": ""
+    },
+    {
+      "value": "130",
+      "title": "全球前2%",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "131",
+      "title": "鬼谷子的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "135",
+      "title": "NASA宇航员要求",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "135",
+      "title": "百分之一学社资格",
+      "subtitle": "IQ最小值",
+      "desc": "申请入会时需要提供门萨的测试证明，要求比门萨要严格一些",
+      "pic": ""
+    },
+    {
+      "value": "135",
+      "title": "银色号角协会资格",
+      "subtitle": "IQ最小值",
+      "desc": "要求考生至少提供两份不同类型的智商测试成绩，如果有权威高量程智商测试成绩可直接申请免试入会",
+      "pic": ""
+    },
+    {
+      "value": "135",
+      "title": "天才在左,疯子在右",
+      "subtitle": "IQ最小值",
+      "desc": "智商高容易得抑郁症、精神病",
+      "pic": ""
+    },
+    {
+      "value": "135",
+      "title": "乔布斯的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "135",
+      "title": "全球前1%",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "140",
+      "title": "天才诗人俱乐部",
+      "subtitle": "IQ最小值",
+      "desc": "天才诗人俱乐部正如其名字一样，是由一群爱好艺术，具有诗歌热情的天才组成的",
+      "pic": ""
+    },
+    {
+      "value": "140",
+      "title": "无限国际协会",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.37%，1/270",
+      "pic": ""
+    },
+    {
+      "value": "141",
+      "title": "大脑俱乐部",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.3%，3/1000",
+      "pic": ""
+    },
+    {
+      "value": "143",
+      "title": "精智社",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.2%，1/500",
+      "pic": ""
+    },
+    {
+      "value": "145",
+      "title": "天赋艺智社",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.13%，13/10000",
+      "pic": ""
+    },
+    {
+      "value": "146",
+      "title": "神经胶质俱乐部",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.1%，1/1000",
+      "pic": ""
+    },
+    {
+      "value": "148",
+      "title": "ISI-Society",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.07%，7/10000",
+      "pic": ""
+    },
+    {
+      "value": "151",
+      "title": "宇宙天才协会",
+      "subtitle": "IQ最小值",
+      "desc": "宇宙天才协会的测试包括三部分：空间、数字、语言。全球有多少比例的人无法加入：99.96%",
+      "pic": ""
+    },
+    {
+      "value": "160",
+      "title": "普罗米修斯俱乐部",
+      "subtitle": "IQ最小值",
+      "desc": "智商测试中获得分数 >= Top 0.003% 的人都有资格入会，目前在全球仅有100多名会员",
+      "pic": ""
+    },
+    {
+      "value": "164",
+      "title": "超智协会",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.001%，1/100000",
+      "pic": ""
+    },
+    {
+      "value": "168",
+      "title": "圣阁高智商协会",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.00029%，1/344471",
+      "pic": ""
+    },
+    {
+      "value": "170",
+      "title": "终极俱乐部",
+      "subtitle": "IQ最小值",
+      "desc": "目前会员人数为45人，其中8名常驻会员里有2名是中国人",
+      "pic": ""
+    },
+    {
+      "value": "172",
+      "title": "欧米伽学社",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.0001%，1/1000000",
+      "pic": ""
+    },
+    {
+      "value": "175",
+      "title": "奥林匹克IQ俱乐部",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.00003%，3/10000000",
+      "pic": ""
+    },
+    {
+      "value": "190",
+      "title": "Giga千兆会",
+      "subtitle": "IQ最小值",
+      "desc": "平均每10年有5名候选人能够加入Giga。按照这个速度，Giga将在2130年拥有大约30名固定成员",
+      "pic": "https://pic.imgdb.cn/item/6551bb7ec458853aefd73437.png"
+    },
+    {
+      "value": "200",
+      "title": "圣杯会",
+      "subtitle": "IQ最小值",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top0.000000001%, 1/760亿",
+      "pic": "https://pic.imgdb.cn/item/6551be96c458853aefe1c64f.jpg"
+    },
+    {
+      "value": "",
+      "title": "阿基米德的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "欧几里得的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "张衡的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "137",
+      "title": "1岁会说长句子",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "139",
+      "title": "全球前0.5%",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "140",
+      "title": "国际象棋大师",
+      "subtitle": "IQ最小值",
+      "desc": "提前思考15～20步",
+      "pic": ""
+    },
+    {
+      "value": "145",
+      "title": "围棋高手",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "145",
+      "title": "张炘炀的智商",
+      "subtitle": "IQ最小值",
+      "desc": "2岁识字1000+，10岁高考，13岁硕士，16岁博士，24岁博士毕业，28岁无业啃老",
+      "pic": ""
+    },
+    {
+      "value": "146",
+      "title": "高智商多疑症",
+      "subtitle": "IQ最小值",
+      "desc": "难以信任他人",
+      "pic": ""
+    },
+    {
+      "value": "150",
+      "title": "拿诺贝尔奖",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "150",
+      "title": "人类前0.1%",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "155",
+      "title": "照相记忆",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "155",
+      "title": "马斯克的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "159",
+      "title": "人肉计算器",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "160",
+      "title": "霍金的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "160",
+      "title": "达尔文的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "180",
+      "title": "高智商偏头痛",
+      "subtitle": "IQ最小值",
+      "desc": "偏头痛",
+      "pic": ""
+    },
+    {
+      "value": "187",
+      "title": "谢尔顿的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "200",
+      "title": "亚里士多德的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "200",
+      "title": "爱因斯坦的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "210",
+      "title": "金雄镕的智商",
+      "subtitle": "IQ最小值",
+      "desc": "5个月能走路和说话，3岁学微积分，4岁时就能读能写四国文字。1974年开始在NASA进行研究工作",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "牛顿的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "228",
+      "title": "莎凡特的智商",
+      "subtitle": "IQ最小值",
+      "desc": "玛丽莲·沃斯·莎凡特曾经被记载为吉尼斯世界记录所认定拥有最高智商的人类及女性",
+      "pic": ""
+    },
+    {
+      "value": "230",
+      "title": "达芬奇的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "230",
+      "title": "陶哲轩的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "230",
+      "title": "维特根斯坦的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "250",
+      "title": "尴尬的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "300",
+      "title": "席德斯的智商",
+      "subtitle": "IQ最小值",
+      "desc": "威廉·詹姆斯·席德斯4岁精通法文，9岁在哈佛讲四维空间，16岁数学教授，46岁死于脑溢血，一贫如洗",
+      "pic": ""
+    },
+    {
+      "value": "389",
+      "title": "昆宁顿的智商",
+      "subtitle": "IQ最小值",
+      "desc": "威廉姆·阿尔弗雷德·昆宁顿5个月会说话，1岁会读写，2岁半自学代数和几何。9岁设计时光机",
+      "pic": ""
+    },
+    {
+      "value": "1000",
+      "title": "大脑开发25%",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "2500",
+      "title": "高智商失眠",
+      "subtitle": "IQ最小值",
+      "desc": "每秒钟都有数百万个想法在飞驰，你会发现不可能得到任何休息",
+      "pic": ""
+    },
+    {
+      "value": "4000",
+      "title": "大脑开发100%",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "5000",
+      "title": "可研究时间旅行",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "1万",
+      "title": "可研究量子瞬移",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "1.5万",
+      "title": "可精确预测未来",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "10万",
+      "title": "发明时间机器",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "灭霸的智商",
+      "subtitle": "IQ最小值",
+      "desc": "凭借自己的智慧和掠夺收集到了6颗无限宝石💎：心灵、灵魂、空间、时间、力量、现实",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "绿博士的智商",
+      "subtitle": "IQ最小值",
+      "desc": "绿巨人和班纳博士的合体，智慧与力量的融合。班纳用自己的智慧完成的。会操作时间机器",
+      "pic": "https://pic.imgdb.cn/item/65482b02c458853aef4bc7fe.jpg"
+    },
+    {
+      "value": "",
+      "title": "奇异博士的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "多玛姆的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "行星吞噬者的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "如来佛的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "",
+      "title": "孙悟空的智商",
+      "subtitle": "IQ最小值",
+      "desc": "",
+      "pic": ""
+    },
+    {
+      "value": "100万",
+      "title": "钢铁侠的智商",
+      "subtitle": "IQ最小值",
+      "desc": "制造了时间机器、无限手套、钢铁战甲、贾维斯、纳米核心、可控核聚变等，打败了灭霸",
+      "pic": "https://pic.imgdb.cn/item/65482dd7c458853aef504d48.jpg"
+    },
+    {
+      "value": "999万",
+      "title": "蔡凯歌的智商",
+      "subtitle": "IQ最小值",
+      "desc": "宇宙规则的创造者，上帝、佛祖、撒旦、外星人等都是他的傀儡。人算天算不如蔡凯歌的心算",
+      "pic": "https://pic.imgdb.cn/item/654a2b8bc458853aef1a4929.jpg"
     }
   ]
 }

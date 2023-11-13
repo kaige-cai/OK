@@ -9,8 +9,7 @@ class HomePagePortrait extends StatefulWidget {
   HomePagePortraitState createState() => HomePagePortraitState();
 }
 
-class HomePagePortraitState extends State<HomePagePortrait>
-    with SingleTickerProviderStateMixin {
+class HomePagePortraitState extends State<HomePagePortrait> with SingleTickerProviderStateMixin {
   int _currentIndex = 0;
   bool _isSearching = false;
   final TextEditingController _searchController = TextEditingController();
@@ -51,26 +50,6 @@ class HomePagePortraitState extends State<HomePagePortrait>
     super.initState();
   }
 
-  /* Widget _buildPaymentRow(String method, String details) {
-    return Row(
-      children: <Widget>[
-        Text('$method: $details'),
-        Spacer(),
-        InkWell(
-          onTap: () {
-            // 在此处理点击转账操作
-            if (method == 'Paypal') {
-              // 处理Paypal转账
-            } else {
-              // 处理其他支付方式的转账
-            }
-          },
-          child: Text('点击转账'),
-        ),
-      ],
-    );
-  }*/
-
   @override
   void dispose() {
     _animationController.dispose();
@@ -107,67 +86,6 @@ class HomePagePortraitState extends State<HomePagePortrait>
           icon: Image.asset('asset/icon/app_icon.png'),
           onPressed: () {
             _scaffoldKey.currentState!.openDrawer(); // 打开抽屉
-            /* showCupertinoDialog(
-              context: context,
-              builder: (BuildContext context) {
-                return CupertinoAlertDialog(
-                  title: Text('开发不易，还请支持！'),
-                  content: Column(
-                    children: <Widget>[
-                      Text('本App郑重承诺：永久免费绿色开源无广告！'),
-                      SizedBox(height: 20),
-                      _buildPaymentRow('支付宝', '18852284878'),
-                      _buildPaymentRow('微信', '18852284878'),
-                      _buildPaymentRow('Paypal', 'https://paypal.me/mr0cai'),
-                      SizedBox(height: 20),
-                      Row(
-                        children: <Widget>[
-                          Text('给个5星好评吧'),
-                          SizedBox(width: 10),
-                          Row(
-                            children: <Widget>[
-                              Icon(
-                                Icons.star,
-                                size: 30,
-                                color: Colors.yellow,
-                              ),
-                              Icon(
-                                Icons.star,
-                                size: 30,
-                                color: Colors.yellow,
-                              ),
-                              Icon(
-                                Icons.star,
-                                size: 30,
-                                color: Colors.yellow,
-                              ),
-                              Icon(
-                                Icons.star,
-                                size: 30,
-                                color: Colors.yellow,
-                              ),
-                              Icon(
-                                Icons.star,
-                                size: 30,
-                                color: Colors.yellow,
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                  actions: <Widget>[
-                    CupertinoDialogAction(
-                      child: Text('关闭'),
-                      onPressed: () {
-                        Navigator.of(context).pop();
-                      },
-                    ),
-                  ],
-                );
-              },
-            );*/
           },
         ),
         actions: [

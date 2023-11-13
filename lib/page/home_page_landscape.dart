@@ -19,8 +19,14 @@ class _HomePageLandscapeState extends State<HomePageLandscape> {
         physics: const BouncingScrollPhysics(),
         children: [
           const SearchBoxLandscape(),
-          CategoryList(categories: appCategories),
-          CategoryList(categories: gameCategories),
+          Container(
+            margin: const EdgeInsets.symmetric(horizontal: 128.0),
+            child: CategoryList(categories: appCategories),
+          ),
+          Container(
+            margin: const EdgeInsets.symmetric(horizontal: 128.0),
+            child: CategoryList(categories: gameCategories),
+          ),
         ],
       ),
     );

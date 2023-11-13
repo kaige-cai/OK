@@ -2,6 +2,7 @@ export './smash_class.dart';
 export '../app/calculator/calculator_page.dart';
 export '../app/camera/camera_page.dart';
 export '../app/chat_gpt/chat_gpt_page.dart';
+export '../app/data_visual/page/data_visual_page.dart';
 export '../app/forecast/weather_forecast_page.dart';
 export '../app/news/news_page.dart';
 export '../app/shorts/short_video_page.dart';

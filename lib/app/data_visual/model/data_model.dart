@@ -7,6 +7,7 @@ class DataModel {
   final String value;
   final String title;
   final String subtitle;
+  final String desc;
   final String pic;
 
   DataModel({
@@ -14,10 +15,10 @@ class DataModel {
     required this.title,
     required this.subtitle,
     required this.pic,
+    required this.desc,
   });
 
-  factory DataModel.fromJson(Map<String, dynamic> json) =>
-      _$DataModelFromJson(json);
+  factory DataModel.fromJson(Map<String, dynamic> json) => _$DataModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$DataModelToJson(this);
 }

@@ -31,6 +31,7 @@ dependencies:
   flash: ^3.0.5+1
   rive: ^0.11.17
   easy_localization: ^3.0.3
+  google_fonts: ^6.1.0
 
 dev_dependencies:
   flutter_test:
@@ -45,3 +46,8 @@ flutter:
     - asset/
     - asset/icon/
     - asset/json/
+
+  fonts:
+    - family: DF
+      fonts:
+        - asset: fonts/DF.ttf

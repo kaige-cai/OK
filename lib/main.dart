@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ok/app/data_visual/main.dart';
 import 'package:ok/page/home_page_landscape.dart';
 import 'package:ok/page/home_page_portrait.dart';
 import 'package:ok/page/tiktok_page.dart';
@@ -39,7 +38,7 @@ class FunApp extends StatelessWidget {
         randomLottery: (context) => const RandomLottery(),
         wheelSurf: (context) => const WheelSurf(),
         cameraPage: (context) => const CameraPage(),
-        dataVisualApp: (context) => const DataVisualApp(),
+        dataVisualApp: (context) => const DataVisualPage(),
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),

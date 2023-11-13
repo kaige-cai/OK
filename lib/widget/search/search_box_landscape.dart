@@ -30,7 +30,7 @@ class _SearchBoxLandscapeState extends State<SearchBoxLandscape> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 128.0, left: 128.0, right: 128.0),
+      margin: const EdgeInsets.only(top: 20.0, left: 128.0, right: 128.0),
       decoration: BoxDecoration(
         color: Colors.grey[300],
         borderRadius: BorderRadius.circular(20),
@@ -75,18 +75,14 @@ class _SearchBoxLandscapeState extends State<SearchBoxLandscape> {
                           ? appCategories
                               .expand((category) => category.items)
                               .where((item) =>
-                                  item.name
-                                      .toLowerCase()
-                                      .contains(value.toLowerCase()) ||
+                                  item.name.toLowerCase().contains(value.toLowerCase()) ||
                                   item.name.contains(value))
                               .toList()
                               .cast<Item>()
                           : gameCategories
                               .expand((category) => category.items)
                               .where((item) =>
-                                  item.name
-                                      .toLowerCase()
-                                      .contains(value.toLowerCase()) ||
+                                  item.name.toLowerCase().contains(value.toLowerCase()) ||
                                   item.name.contains(value))
                               .toList()
                               .cast<Item>();
