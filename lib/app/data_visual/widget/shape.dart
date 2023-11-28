@@ -24,7 +24,7 @@ class HexagonShape extends StatelessWidget {
         ),
         Positioned(
           left: 0.0,
-          top: 38.0,
+          top: value.length < 3 ? 28.0 : 36.0,
           right: 0.0,
           child: Center(
             child: Text(

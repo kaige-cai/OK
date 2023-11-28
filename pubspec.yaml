@@ -12,7 +12,7 @@ dependencies:
   cupertino_icons: ^1.0.2 # 苹果图标
   flutter_svg: ^2.0.4 # 矢量图加载
   marquee: ^2.2.3 # 滚动字幕
-  cached_network_image: ^3.2.3  # 网络图片缓存
+  cached_network_image: ^3.3.0  # 网络图片缓存
   extended_image: ^8.1.0 # 图片加载
   carousel_slider: ^4.2.1 # 图片轮播
   http: ^1.1.0 # HTTP请求
@@ -23,8 +23,8 @@ dependencies:
   visibility_detector: ^0.3.3 # 可见检测器
   dio: ^5.3.2 # 网络请求
   json_annotation: ^4.8.1 # json注解类
-  flutter_bmflocation: ^3.4.1
-  flutter_baidu_mapapi_base: ^3.4.1
+  #  flutter_bmflocation: ^3.4.1
+  #  flutter_baidu_mapapi_base: ^3.4.1
   permission_handler: ^11.0.0
   shared_preferences: ^2.2.1
   intl: ^0.18.1

@@ -15,10 +15,9 @@ class CardItem0 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 8.0,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16.0), // 设置圆角半径
-      ),
+      color: Colors.white,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
+      elevation: 0.0,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -50,14 +49,14 @@ class CardItem0 extends StatelessWidget {
               child: Text(
                 dataModel.desc,
                 style: const TextStyle(
-                  fontSize: 17.0,
+                  fontSize: 17,
                   color: Colors.white,
                 ),
               ),
             ),
           ),
           ClipRRect(
-            borderRadius: BorderRadius.circular(12.0),
+            borderRadius: BorderRadius.circular(6.6),
             child: SizedBox(
               width: 160.0,
               height: 160.0,

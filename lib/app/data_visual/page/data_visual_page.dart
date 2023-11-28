@@ -26,12 +26,12 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
 
     _animController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 15),
+      duration: const Duration(seconds: 12),
     );
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _animController.forward();
-      Future.delayed(const Duration(milliseconds: 3600), () {
+      Future.delayed(const Duration(seconds: 3), () {
         _startScrollAnimation();
       });
     });
@@ -78,13 +78,14 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.landscapeLeft,
       DeviceOrientation.landscapeRight,
     ]);
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: NotificationListener<ScrollNotification>(
         onNotification: (notification) {
           if (notification is ScrollEndNotification) {
@@ -109,14 +110,14 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
                 (index) {
                   return SlideTransition(
                     position: Tween<Offset>(
-                      begin: Offset(0.0, index < 4 ? 1.0 : 0.0),
+                      begin: Offset(0.0, index < 3 ? 1.0 : 0.0),
                       end: const Offset(0.0, 0.0),
                     ).animate(CurvedAnimation(
                       parent: _animController,
                       curve: Interval(index / jsonData.length, (index + 1) / jsonData.length),
                     )),
                     child: SizedBox(
-                      width: MediaQuery.of(context).size.width / 4,
+                      width: MediaQuery.of(context).size.width / 3.651,
                       child: index < 4
                           ? DelayedCardItem(
                               dataModel: jsonData[index],
