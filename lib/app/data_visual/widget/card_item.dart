@@ -19,8 +19,6 @@ class CardItem0 extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
       elevation: 0.0,
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           HexagonShape(
             subtitle: dataModel.subtitle,
@@ -34,32 +32,37 @@ class CardItem0 extends StatelessWidget {
               child: Text(
                 dataModel.title,
                 style: const TextStyle(
-                  fontSize: 32.0,
+                  fontSize: 38.0,
                   color: Colors.white,
+                  height: 1.0,
                 ),
               ),
             ),
           ),
           Container(
             width: double.infinity,
-            height: 64.0,
+            height: 201,
             color: Colors.green,
             padding: const EdgeInsets.only(left: 4.0),
             child: Center(
               child: Text(
                 dataModel.desc,
                 style: const TextStyle(
-                  fontSize: 16,
+                  fontSize: 40.0,
                   color: Colors.white,
+                  height: 1.0,
                 ),
               ),
             ),
           ),
           ClipRRect(
-            borderRadius: BorderRadius.circular(6.6),
+            borderRadius: const BorderRadius.only(
+              bottomLeft: Radius.circular(8.0),
+              bottomRight: Radius.circular(8.0),
+            ),
             child: SizedBox(
-              width: 160.0,
-              height: 160.0,
+              width: double.infinity,
+              height: 413.0,
               child: CachedNetworkImage(
                 imageUrl: dataModel.pic,
                 fit: BoxFit.cover,

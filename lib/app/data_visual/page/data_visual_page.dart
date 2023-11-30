@@ -95,38 +95,47 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
           }
           return false;
         },
-        child: SingleChildScrollView(
-          controller: scrollController,
-          /* physics:
-              enableScroll ? const BouncingScrollPhysics() : const NeverScrollableScrollPhysics(),
-          */
-          physics: const BouncingScrollPhysics(),
-          scrollDirection: Axis.horizontal,
-          child: Row(
-            children: List<Widget>.generate(
-              jsonData.length,
-              (index) {
-                return SlideTransition(
-                  position: Tween<Offset>(
-                    begin: const Offset(0.0, 1.0),
-                    end: const Offset(0.0, 0.0),
-                  ).animate(
-                    CurvedAnimation(
-                      parent: _animController,
-                      curve: Interval(index / jsonData.length, (index + 1) / jsonData.length),
-                    ),
-                  ),
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width / 4,
-                    child: index < 3
-                        ? DelayedCardItem(
-                            dataModel: jsonData[index],
-                            delayDuration: Duration(seconds: index),
-                          )
-                        : CardItem0(dataModel: jsonData[index]),
-                  ),
-                );
-              },
+        child: Container(
+          margin: const EdgeInsets.symmetric(vertical: 50.0),
+          child: SingleChildScrollView(
+            controller: scrollController,
+            /* physics:
+                enableScroll ? const BouncingScrollPhysics() : const NeverScrollableScrollPhysics(),
+            */
+            physics: const BouncingScrollPhysics(),
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                ...List<Widget>.generate(
+                  jsonData.length,
+                  (index) {
+                    return SlideTransition(
+                      position: Tween<Offset>(
+                        begin: const Offset(0.0, 1.0),
+                        end: const Offset(0.0, 0.0),
+                      ).animate(
+                        CurvedAnimation(
+                          parent: _animController,
+                          curve: Interval(index / jsonData.length, (index + 1) / jsonData.length),
+                        ),
+                      ),
+                      child: SizedBox(
+                        width: MediaQuery.of(context).size.width / 4,
+                        child: index < 3
+                            ? DelayedCardItem(
+                                dataModel: jsonData[index],
+                                delayDuration: Duration(seconds: index),
+                              )
+                            : CardItem0(dataModel: jsonData[index]),
+                      ),
+                    );
+                  },
+                ),
+                ...List.generate(
+                  3,
+                  (index) => Container(width: MediaQuery.of(context).size.width / 4),
+                ),
+              ],
             ),
           ),
         ),

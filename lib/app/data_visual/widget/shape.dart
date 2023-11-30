@@ -16,21 +16,21 @@ class HexagonShape extends StatelessWidget {
           child: Transform.rotate(
             angle: pi / 2,
             child: SizedBox(
-              width: 180.0,
-              height: 180.0,
+              width: 280.0,
+              height: 280.0,
               child: CustomPaint(painter: HexagonPainter()),
             ),
           ),
         ),
         Positioned(
           left: 0.0,
-          top: value.length < 3 ? 28.0 : 36.0,
+          top: value.length > 2 ? 68.0 : 38.0,
           right: 0.0,
           child: Center(
             child: Text(
               value,
               style: TextStyle(
-                fontSize: value.length < 3 ? 80.0 : 66.0,
+                fontSize: value.length > 2 ? 88 : 120.0,
                 color: Colors.white,
               ),
             ),
@@ -39,12 +39,12 @@ class HexagonShape extends StatelessWidget {
         Positioned(
           left: 0.0,
           right: 0.0,
-          bottom: 35.0,
+          bottom: 38.0,
           child: Center(
             child: Text(
               subtitle,
               style: const TextStyle(
-                fontSize: 30.0,
+                fontSize: 38.0,
                 color: Colors.white,
                 fontFamily: 'DF',
                 fontWeight: FontWeight.bold,
