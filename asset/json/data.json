@@ -361,7 +361,7 @@
       "value": "74",
       "title": "会开渔船",
       "subtitle": "IQ最小值",
-      "desc": "掌舵、放锚、撒网",
+      "desc": "掌舵、放锚、撒网、收网",
       "pic": "https://pic.imgdb.cn/item/656238ccc458853aef90cf10.png"
     },
     {
@@ -662,7 +662,7 @@
       "value": "104",
       "title": "中国人平均智商",
       "subtitle": "IQ最小值",
-      "desc": "中国科技发展迅速，逐渐赶超发达国家，让发达国家刮目相看。离不开每个中国人的智慧",
+      "desc": "中国科技发展迅速，逐渐赶超发达国家，让发达国家刮目相看。这离不开每个中国人的智慧",
       "pic": "https://pic.imgdb.cn/item/6562dbbbc458853aefebf5dd.jpg"
     },
     {
@@ -802,7 +802,7 @@
       "value": "110",
       "title": "看懂百年孤独",
       "subtitle": "IQ最小值",
-      "desc": "七代人的辉煌与衰落，以魔幻现实主义的手法揭示了时间、爱情、孤独和命运以及拉丁美洲社会的历史变迁",
+      "desc": "七代人的辉煌与衰落，以魔幻现实主义的手法揭示了时间、爱情、孤独和命运以及拉丁美洲的历史变迁",
       "pic": "https://pic.imgdb.cn/item/65658e32c458853aef22c849.png"
     },
     {
@@ -828,23 +828,16 @@
     },
     {
       "value": "112",
-      "title": "会开航母",
-      "subtitle": "IQ最小值",
-      "desc": "航母是一个庞大的组织，驾驶航母需要卓越的团队协作和领导力，以确保各个部门之间的协调和合作",
-      "pic": "https://pic.imgdb.cn/item/656598f9c458853aef46fb4a.png"
-    },
-    {
-      "value": "112",
       "title": "熟悉万有引力",
       "subtitle": "IQ最小值",
       "desc": "了解质量、引力、力、加速度、牛顿引力定律。这是物体之间的质量引起的相互吸引而产生的力",
       "pic": "https://pic.imgdb.cn/item/65660ee8c458853aef060731.png"
     },
     {
-      "value": "113",
+      "value": "112",
       "title": "会开战斗机",
       "subtitle": "IQ最小值",
-      "desc": "出色的空间感知和空中导航，快速决策和反应速度。熟悉飞行动力学、武器系统使用",
+      "desc": "具备出色的空间感知、空中导航、快速决策和反应。熟悉飞行动力学、武器系统使用",
       "pic": "https://pic.imgdb.cn/item/65660f73c458853aef086426.png"
     },
     {
@@ -865,7 +858,7 @@
       "value": "114",
       "title": "会快速阅读",
       "subtitle": "IQ最小值",
-      "desc": "保持对文本的高度注意力，抓住关键信息。掌握扫视、跳读、词组观察等技巧，迅速过滤和处理大量信息",
+      "desc": "高度集中注意力，抓住关键信息。掌握扫视、跳读、词组观察等技巧，迅速过滤和处理大量信息",
       "pic": "https://pic.imgdb.cn/item/65661437c458853aef1c1eba.png"
     },
     {
@@ -893,50 +886,57 @@
       "value": "115",
       "title": "善于经商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "了解市场趋势、分析数据、预测未来走势，善于创新。能够制定并执行长期战略，理解市场竞争和定位",
+      "pic": "https://pic.imgdb.cn/item/656696e4c458853aef065342.png"
     },
     {
       "value": "115",
       "title": "世界天才名录资格",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "由组织或评审团体根据一系列标准和评估过程来确定，成功获得资格的个人将被公告，并列入世界天才名录",
+      "pic": "https://pic.imgdb.cn/item/6566d453c458853aefb327d5.png"
     },
     {
       "value": "115",
       "title": "钢琴大师",
       "subtitle": "IQ最小值",
-      "desc": "钢琴十级",
-      "pic": ""
+      "desc": "钢琴专业十级，对音乐有深刻理解、技术精湛、表达力丰富。深入研究音乐理论，丰富的演奏经验、创造力",
+      "pic": "https://pic.imgdb.cn/item/6566d64ac458853aefba1fd3.jpg"
     },
     {
       "value": "115",
       "title": "常春藤盟校平均IQ",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "美国最顶尖的高校联盟，常春藤盟校招收的学生通常具备卓越的学术成就和高水平的智力素质",
+      "pic": "https://pic.imgdb.cn/item/6566d7e1c458853aefbf9936.png"
+    },
+    {
+      "value": "115",
+      "title": "普通人智商上限",
+      "subtitle": "IQ最小值",
+      "desc": "再高一点就是精英。智商平均分为100，95%的人智商在85到115之间，3%的人智商在115到130之间",
+      "pic": "https://pic.imgdb.cn/item/6566df91c458853aefd98cbe.png"
     },
     {
       "value": "116",
       "title": "玩转复杂变形金刚",
       "subtitle": "IQ最小值",
-      "desc": "复杂的变形金刚适用年龄是16+，接近成年人。成年人也不一定会玩，需要反复练习摸索",
-      "pic": ""
+      "desc": "玩具适用年龄16+，成年人也不一定会玩，需要反复练习摸索。考验手眼协调、空间认知、想象力、耐心",
+      "pic": "https://pic.imgdb.cn/item/6566d8dcc458853aefc2b14d.png"
     },
     {
       "value": "117",
-      "title": "出色的医生",
+      "title": "驾驶客机",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "掌握操纵杆、脚踏板、油门。处理导航、通信、监控。懂航空学、气象学、机械工程学。能应对紧急情况",
+      "pic": "https://pic.imgdb.cn/item/6566dc40c458853aefce9cad.png"
     },
     {
       "value": "118",
-      "title": "驾驶客机",
+      "title": "会开航母",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "航母是一个庞大的组织，驾驶航母需要卓越的团队协作和领导力，以确保各个部门之间的协调和合作",
+      "pic": "https://pic.imgdb.cn/item/656598f9c458853aef46fb4a.png"
     },
     {
       "value": "118",
@@ -956,8 +956,8 @@
       "value": "119",
       "title": "出色的律师",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "深刻理解法律体系、法规、判例法、法律程序。逻辑分析案情、法规，能够清晰、有说服力地表达自己的观点",
+      "pic": "https://pic.imgdb.cn/item/6566de70c458853aefd5ba3f.png"
     },
     {
       "value": "119",
@@ -965,13 +965,6 @@
       "subtitle": "IQ最小值",
       "desc": "人的姿势、面部表情、眼神、声调等都包含了丰富的信息。加上仔细倾听，基本上能看透所有",
       "pic": "https://pic.imgdb.cn/item/6561f1aec458853aef5db951.png"
-    },
-    {
-      "value": "120",
-      "title": "普通人智商上限",
-      "subtitle": "IQ最小值",
-      "desc": "再高一点就是精英",
-      "pic": ""
     },
     {
       "value": "120",
@@ -984,8 +977,8 @@
       "value": "120",
       "title": "ADHD",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "多动症患者在创造性和灵活性方面可能表现出色，思维切换速度快，直觉和感知方面可能更为敏锐",
+      "pic": "https://pic.imgdb.cn/item/6566e0b7c458853aefdd7b6b.png"
     },
     {
       "value": "120",
@@ -1012,8 +1005,8 @@
       "value": "121",
       "title": "强烈的直觉",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "智商高反应快、掌握知识多。在潜意识层面上用于直觉性的问题解决，能够迅速准确地做出判断",
+      "pic": "https://pic.imgdb.cn/item/6566e223c458853aefe21f1f.png"
     },
     {
       "value": "122",
@@ -1026,176 +1019,183 @@
       "value": "122",
       "title": "出色的程序员",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "精通多种编程语言，理解算法和数据结构。善于调试代码、排查错误。能快速学习新技术，团队协作",
+      "pic": "https://pic.imgdb.cn/item/6566e808c458853aeff5d5b0.png"
     },
     {
       "value": "122",
-      "title": "抑郁性思考",
+      "title": "抑郁型思考",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "高智商的人容易深刻思考和过度分析、对社会不满、有孤独感，对未来的担忧、过于自省",
+      "pic": "https://pic.imgdb.cn/item/6566e8e6c458853aeff8b437.png"
     },
     {
       "value": "123",
       "title": "掌握3种语言",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "快速掌握不同的语言结构、语音、词汇。能够在不同语言之间迅速切换，而不产生混淆或语言干扰",
+      "pic": "https://pic.imgdb.cn/item/6566ede8c458853aef087bae.png"
     },
     {
       "value": "123",
       "title": "林黛玉的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "擅长诗词，对古典文学有独到的见解。《葬花吟》表达内心的忧伤、凄凉。情感敏感，远离世俗",
+      "pic": "https://pic.imgdb.cn/item/6566efc2c458853aef0d470e.png"
     },
     {
       "value": "124",
       "title": "神经过敏",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "对声音、光线、气味等刺激敏感，对不完美的事物产生强烈反应。对人际关系有更深层次的认识",
+      "pic": "https://pic.imgdb.cn/item/6566f0a0c458853aef1037db.png"
     },
     {
       "value": "125",
       "title": "当总裁",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "处理复杂人际关系，理解复杂的业务、制定有效的战略、做出明智的决策。善于领导和激励团队",
+      "pic": "https://pic.imgdb.cn/item/6566f15dc458853aef129701.png"
     },
     {
       "value": "126",
-      "title": "当外科医生",
+      "title": "出色的外科医生",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "深入了解解剖学、生理学、病理学。掌握并精通复杂的医疗技术和手术仪器",
+      "pic": "https://pic.imgdb.cn/item/6566dbbbc458853aefcc74fd.png"
     },
     {
       "value": "126",
-      "title": "刘强东的智商",
-      "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
-    },
-    {
-      "value": "127",
       "title": "范蠡的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "勾践上将军，成就越王霸业，复兴越国。范蠡三迁，皆有荣名。范蠡当年随勾践一起去吴国为奴",
+      "pic": "https://pic.imgdb.cn/item/6566f356c458853aef18aa65.png"
     },
     {
       "value": "127",
-      "title": "成为百万富翁",
+      "title": "刘强东的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "京东创始人，中国最大电商之一。在刘强东领导下开始大规模全球化扩张。京东物流速度快，送货上门",
+      "pic": "https://pic.imgdb.cn/item/6566f2c9c458853aef1711ae.png"
+    },
+    {
+      "value": "127",
+      "title": "成为百万富豪",
+      "subtitle": "IQ最小值",
+      "desc": "懂投资、金融。敢创业、敢行动，有强大的人脉，良好的财商",
+      "pic": "https://pic.imgdb.cn/item/6566f7ebc458853aef258f9b.png"
     },
     {
       "value": "127",
       "title": "手工耿的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "天才发明家，擅长制作各种手工发明，脑洞很大。创新能力强，动手实践能力强",
+      "pic": "https://pic.imgdb.cn/item/6566f8adc458853aef279cb5.png"
     },
     {
       "value": "128",
       "title": "成为著名物理学家",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "擅长研究经典力学、电磁学、热力学、量子力学、相对论、核物理学、固体物理学、流体力学、光学等",
+      "pic": "https://pic.imgdb.cn/item/6566fa52c458853aef2c02e5.png"
     },
     {
       "value": "128",
       "title": "李彦宏的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "李彦宏在推动百度成为AI领域的领先企业。百度在深度学习和自然语言处理等领域取得了显著的进展",
+      "pic": "https://pic.imgdb.cn/item/6566fb13c458853aef2e2cd6.png"
     },
     {
       "value": "129",
       "title": "贝索斯的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "全球最大电商亚马逊、私人航天创始人。贝索斯推动了亚马逊云计算Web服务。推出了Kindle电子书阅读器",
+      "pic": "https://pic.imgdb.cn/item/6566fb48c458853aef2ec57c.png"
     },
     {
       "value": "129",
       "title": "哈佛毕业生智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "哈佛教育强调培养学生的批判性思维能力，鼓励学生创新创业。毕业生通常具备领导团队、组织活动的能力",
+      "pic": "https://pic.imgdb.cn/item/6566fcd2c458853aef334db2.png"
     },
     {
       "value": "129",
       "title": "不再谈论琐事",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "高智商的人可能更倾向于进行深层次的思考和讨论，关注复杂的问题和抽象的概念，而不是简单的琐碎细节",
+      "pic": "https://pic.imgdb.cn/item/6566fde5c458853aef366c82.png"
     },
     {
       "value": "129",
       "title": "勾践的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "懂得隐忍。夫差看勾践没出息，连屎都敢吃。想来不会有什么作为了，把他放了。勾践卧薪尝胆，最终报仇",
+      "pic": "https://pic.imgdb.cn/item/6566ffedc458853aef3ce0b4.png"
+    },
+    {
+      "value": "129",
+      "title": "诸葛亮的智商",
+      "subtitle": "IQ最小值",
+      "desc": "草船借箭、空城计、七擒孟获、木牛流马、诸葛连弩、孔明灯。诸葛亮以卓越的军事谋略和智慧被誉为“卧龙”",
+      "pic": "https://pic.imgdb.cn/item/6567043fc458853aef493e00.png"
     },
     {
       "value": "130",
       "title": "吴用的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "吴用担任军师，以卓越的智谋赢得了多次战役，打败了许多官府的军队。懂得通过巧妙手段招揽人才",
+      "pic": "https://pic.imgdb.cn/item/656700b7c458853aef3f5818.jpg"
     },
     {
       "value": "130",
       "title": "周公的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "《易经》《周易》创始人。中国古典文化的哲学和宇宙观。用阴阳符号构成的卦象代表世间万物的运行状态",
+      "pic": "https://pic.imgdb.cn/item/6567046ac458853aef49c354.jpg"
     },
     {
       "value": "130",
-      "title": "天才病",
+      "title": "精神变态",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "自闭症、双相情感障碍、精神分裂症、强迫症、多动症、PTSD、人格障碍等这些病往往都是高智商",
+      "pic": "https://pic.imgdb.cn/item/6567064dc458853aef4f877e.png"
     },
     {
       "value": "130",
       "title": "门萨会员资格",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "在智商测试中取得相应的成绩，使你的智商处于人口前2%的水平。通过后还要交会员费(智商税)",
+      "pic": "https://pic.imgdb.cn/item/65670787c458853aef52da62.png"
     },
     {
       "value": "130",
       "title": "胜寒协会资格",
       "subtitle": "IQ最小值",
       "desc": "面向全球汉语言圈的，中国第一个高智商俱乐部",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/6567093dc458853aef57cc46.png"
     },
     {
       "value": "130",
       "title": "全球前2%",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "智商测试并不是对一个人所有智力方面的全面评估，只是测语言能力、数学推理、逻辑推理等",
+      "pic": "https://pic.imgdb.cn/item/6567093dc458853aef57cd13.png"
     },
     {
       "value": "131",
       "title": "李永乐的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "知识面广，博古通今，在数理化、科技方面很擅长。在网络上分享科学知识的视频而赢得了广泛的关注",
+      "pic": "https://pic.imgdb.cn/item/65670a98c458853aef5bb01b.png"
     },
     {
       "value": "131",
       "title": "鬼谷子的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "鬼谷隐士，擅长兵法、仙术、术数，是通晓多门技艺的博学者。《鬼谷子》以其独特的兵法思想而著称",
+      "pic": "https://pic.imgdb.cn/item/65670cc2c458853aef6266da.png"
     },
     {
       "value": "132",
@@ -1208,421 +1208,414 @@
       "value": "132",
       "title": "马云的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "阿里巴巴创始人，旗下有淘宝、天猫、支付宝。改变了支付方式，淘汰了现金。马云也参与教育和慈善",
+      "pic": "https://pic.imgdb.cn/item/65670d31c458853aef63b8f0.png"
     },
     {
       "value": "132",
       "title": "掌握4种语言",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "有些人天生具有更强的语言学习能力，他们能更容易地掌握和记忆新的语言",
+      "pic": "https://pic.imgdb.cn/item/65670f1ac458853aef698c35.png"
     },
     {
       "value": "132",
       "title": "躁郁症",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
-    },
-    {
-      "value": "133",
-      "title": "诸葛亮的智商",
-      "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "躁狂期和抑郁期交替发作，躁狂期情绪高涨、行为冲动。抑郁期是情绪低落、沮丧和消极，甚至要自杀",
+      "pic": "https://pic.imgdb.cn/item/6567110bc458853aef6f39a1.png"
     },
     {
       "value": "134",
       "title": "优秀的总统",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "有效地领导国家，制定和实施长期和短期的政策。清晰地表达。做出明智、理性的决策。有政治洞察力",
+      "pic": "https://pic.imgdb.cn/item/6567140dc458853aef77fd57.png"
     },
     {
       "value": "135",
       "title": "NASA宇航员要求",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "最好具备硕士或博士学位。在科学研究、飞行等领域有工作经验，具备飞行员背景，团队协作能力",
+      "pic": "https://pic.imgdb.cn/item/6567149bc458853aef796012.png"
     },
     {
       "value": "135",
       "title": "马化腾的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "腾讯创始人，旗下有QQ、微信、王者荣耀、绝地求生。涉足多个领域：金融科技、AI、云计算",
+      "pic": "https://pic.imgdb.cn/item/656715f5c458853aef7d3250.png"
     },
     {
       "value": "135",
       "title": "百分之一学社资格",
       "subtitle": "IQ最小值",
       "desc": "申请入会时需要提供门萨的测试证明，要求比门萨要严格一些",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65671690c458853aef7f0126.png"
     },
     {
       "value": "135",
       "title": "银色号角协会资格",
       "subtitle": "IQ最小值",
       "desc": "要求考生至少提供两份不同类型的智商测试成绩，如果有权威高量程智商测试成绩可直接申请免试入会",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/6567177cc458853aef81d8b4.png"
     },
     {
       "value": "135",
       "title": "天才在左,疯子在右",
       "subtitle": "IQ最小值",
-      "desc": "智商高容易得抑郁症、精神病",
-      "pic": ""
+      "desc": "智商高容易得抑郁症、精神病。因为过度思考与焦虑，思维不稳定",
+      "pic": "https://pic.imgdb.cn/item/6567185cc458853aef848fb1.png"
     },
     {
       "value": "135",
       "title": "乔布斯的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "苹果公司创始人，现在市值全球第一。乔布斯发明的最早的iPhone是智能手机的鼻祖",
+      "pic": "https://pic.imgdb.cn/item/65671a04c458853aef8920e4.png"
     },
     {
       "value": "135",
       "title": "全球前1%",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "高效的学习能力、超强记忆力、善于创新、良好的逻辑推理、语言能力出色、数学和科学天赋、快速解决问题",
+      "pic": "https://pic.imgdb.cn/item/65671940c458853aef870721.png"
     },
     {
       "value": "136",
       "title": "NASA工程师",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "具备工程学、物理学、数学、计算机基础，工程师需要具备设计新颖解决方案的能力。具备创造力、应变能力",
+      "pic": "https://pic.imgdb.cn/item/65672965c458853aefbe4481.jpg"
     },
     {
       "value": "137",
-      "title": "1岁会说长句子",
+      "title": "1岁就滔滔不绝",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "1岁通常只能说一些简单的词语，天生有语言天赋就能使用复杂的语言结构，表达更多意思，且流利",
+      "pic": "https://pic.imgdb.cn/item/65672b07c458853aefc4e320.png"
     },
     {
       "value": "138",
       "title": "做科学研究",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "研究人员需要具备创造力、逻辑思维、问题解决、设计和执行实验、数据采集分析、文献研究、吃苦耐劳",
+      "pic": "https://pic.imgdb.cn/item/65672bfec458853aefc8828e.png"
     },
     {
       "value": "138",
       "title": "只想一个人呆着",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "高智商的人通常对事物有更深层次的思考和分析。喜欢独自思考、安静，关注自己的内在世界",
+      "pic": "https://pic.imgdb.cn/item/65672cbac458853aefcb1243.png"
     },
     {
       "value": "139",
       "title": "全球前0.5%",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "在艺术、科学和创造性领域表现出色。容易适应新环境，应变能力强。喜欢深度思考和探索复杂的概念",
+      "pic": "https://pic.imgdb.cn/item/65672e39c458853aefd0cda3.png"
     },
     {
       "value": "140",
       "title": "天才诗人俱乐部",
       "subtitle": "IQ最小值",
       "desc": "天才诗人俱乐部正如其名字一样，是由一群爱好艺术，具有诗歌热情的天才组成的",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65672ecac458853aefd32074.png"
     },
     {
       "value": "140",
       "title": "无限国际协会",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.37%，1/270",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65672f41c458853aefd58b46.png"
     },
     {
       "value": "140",
       "title": "国际象棋大师",
       "subtitle": "IQ最小值",
-      "desc": "提前思考15～20步",
-      "pic": ""
+      "desc": "提前思考计算15～20步，找到并利用对手的弱点、组织进攻或防守。具有战略思维，良好的心理素质",
+      "pic": "https://pic.imgdb.cn/item/65672f7ac458853aefd6782d.png"
     },
     {
       "value": "140",
       "title": "天才",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "在科学、艺术、音乐等的成绩总是超出常人很多。具备卓越的创造力、快速学习、超强记忆力、专注力和毅力",
+      "pic": "https://pic.imgdb.cn/item/6567303ec458853aefd9a050.png"
     },
     {
       "value": "141",
       "title": "大脑俱乐部",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.3%，3/1000",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/656732ddc458853aefe3d4fa.png"
     },
     {
       "value": "142",
       "title": "运营犯罪帝国",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "需要出色的组织和策划能力，以确保各项犯罪活动顺利进行，同时减少潜在风险。精通洗钱技巧、暗网交易",
+      "pic": "https://pic.imgdb.cn/item/65673409c458853aefe8d06e.png"
     },
     {
       "value": "143",
-      "title": "精智社",
+      "title": "精智社门槛",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.2%，1/500",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/656734edc458853aefec9748.jpg"
     },
     {
       "value": "145",
       "title": "天赋艺智社",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.13%，13/10000",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65673533c458853aefedb7d2.jpg"
     },
     {
       "value": "145",
       "title": "围棋高手",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "战略思考、局势判断、预测多步、围棋定式、快速决策、心理战术、耐心和毅力",
+      "pic": "https://pic.imgdb.cn/item/65673603c458853aeff10a6d.png"
     },
     {
       "value": "145",
       "title": "张炘炀的智商",
       "subtitle": "IQ最小值",
       "desc": "2岁识字1000+，10岁高考，13岁硕士，16岁博士，24岁博士毕业，28岁无业啃老",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/656736acc458853aeff49b83.png"
     },
     {
       "value": "145",
       "title": "黑掉FBI",
       "subtitle": "IQ最小值",
-      "desc": "每天都有380万条记录被黑客泄露",
-      "pic": ""
+      "desc": "FBI每天都有380万条记录被黑客泄露，通过植入病毒、DDos攻击、SQL注入、钓鱼攻击、中间人攻击",
+      "pic": "https://pic.imgdb.cn/item/6567371cc458853aeff680c0.png"
     },
     {
       "value": "146",
       "title": "神经胶质俱乐部",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.1%，1/1000",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65673817c458853aeffaeb4c.png"
     },
     {
       "value": "147",
       "title": "高智商多疑症",
       "subtitle": "IQ最小值",
-      "desc": "难以信任他人",
-      "pic": ""
+      "desc": "难以信任他人，高度警觉性。可能会过度分析他人的行为、言辞和动机，从而引发对他人真实意图的质疑",
+      "pic": "https://pic.imgdb.cn/item/656738e1c458853aefff1170.png"
     },
     {
       "value": "148",
       "title": "ISI-Society",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.07%，7/10000",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65673923c458853aef006090.webp"
     },
     {
       "value": "148",
-      "title": "做脑科手术",
+      "title": "脑科手术专家",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "掌握解剖学、生理学、药理学和神经科学。能够在微小的脑组织中进行复杂而精细的操作",
+      "pic": "https://pic.imgdb.cn/item/65673a03c458853aef04cfc5.png"
     },
     {
       "value": "150",
       "title": "人类前0.1%",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "精英人类群体，具备快速学习、创新创造、深度思考、超强记忆、灵活处理问题等能力。学术成绩优异",
+      "pic": "https://pic.imgdb.cn/item/65673b12c458853aef0a12c8.png"
     },
     {
       "value": "150",
       "title": "孙悟空的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "轻松识破妖魔鬼怪的伎俩和伪装，精通七十二变，非凡的勇气，强大的应变能力。忠诚保护师父",
+      "pic": "https://pic.imgdb.cn/item/65673cf1c458853aef13ea8b.png"
     },
     {
       "value": "151",
       "title": "宇宙天才协会",
       "subtitle": "IQ最小值",
       "desc": "宇宙天才协会的测试包括三部分：空间、数字、语言。全球有多少比例的人无法加入：99.96%",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65674081c458853aef249c34.png"
     },
     {
       "value": "155",
       "title": "照相记忆",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "能够注意到并牢记细小的细节，如颜色、形状、纹理等。能够在脑海中清晰地重现所见景象、空间结构",
+      "pic": "https://pic.imgdb.cn/item/65674237c458853aef2c7fd0.png"
     },
     {
       "value": "155",
       "title": "马斯克的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "特斯拉、SpaceX、SolarCity等公司创始人。当过世界首富。主要致力于低成本太空旅行，可回收火箭",
+      "pic": "https://pic.imgdb.cn/item/656743bac458853aef336368.png"
     },
     {
       "value": "156",
       "title": "研制疫苗",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "深入研究生物学、医学和免疫学。精通病毒和细菌的结构、基因组成、蛋白质合成。懂药物制备、安全性",
+      "pic": "https://pic.imgdb.cn/item/6567449bc458853aef37a867.png"
     },
     {
       "value": "159",
       "title": "人肉计算器",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "强大的心算能力、数字记忆力、数学直觉、快速思考反应，迅速而准确地进行复杂计算",
+      "pic": "https://pic.imgdb.cn/item/656745d1c458853aef3ccde8.png"
     },
     {
       "value": "160",
       "title": "拿诺贝尔奖",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "对某一领域的卓越贡献和成就、卓越的研究成果以及对人类社会做出积极贡献的能力",
+      "pic": "https://pic.imgdb.cn/item/6567ba9f871b83018a0f536f.png"
     },
     {
       "value": "160",
       "title": "爱迪生的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "爱迪生改良并推广可商业使用的电灯，并不是电灯发明者。奸商，依靠特斯拉。天才是99%靠别人的汗水",
+      "pic": "https://pic.imgdb.cn/item/6567c0f3c458853aef6e314f.jpg"
     },
     {
       "value": "160",
       "title": "霍金的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "研究黑洞、宇宙、时间、空间。著作《时间简史》，可惜患有肌萎缩侧索硬化症，但身残志坚",
+      "pic": "https://pic.imgdb.cn/item/6567c70bc458853aef76fe3d.png"
     },
     {
       "value": "160",
       "title": "达尔文的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "进化论、《物种起源》、适者生存、自然选择、人类进化，研究古生物、化石、地质学支持了他的进化论",
+      "pic": "https://pic.imgdb.cn/item/6567e59cc458853aefafa6ef.png"
     },
     {
       "value": "160",
       "title": "普罗米修斯俱乐部",
       "subtitle": "IQ最小值",
       "desc": "智商测试中获得分数 >= Top 0.003% 的人都有资格入会，目前在全球仅有100多名会员",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/6567cbecc458853aef7e5ad1.png"
     },
     {
       "value": "161",
-      "title": "偷走蒙拉丽莎",
+      "title": "偷走蒙娜丽莎",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "法国卢浮宫的珍宝。安保严密，需要绕过博物馆的高科技安保系统和复杂的监控网络",
+      "pic": "https://pic.imgdb.cn/item/6567cd13c458853aef80581d.png"
     },
     {
       "value": "164",
-      "title": "超智协会",
+      "title": "超智协会门槛",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.001%，1/100000",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/6567cd7cc458853aef80ec9f.png"
     },
     {
       "value": "165",
       "title": "断绝社交",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "觉得身边的人太普通、庸俗、没有共同语言。更倾向于深度思考、创造性思维、研究深奥复杂话题",
+      "pic": "https://pic.imgdb.cn/item/6567cf7bc458853aef841a1b.png"
     },
     {
       "value": "168",
       "title": "想自杀",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "高智商的人看透人生、看透一切也就不想活了，有得必有失",
+      "pic": "https://pic.imgdb.cn/item/6567d2f7c458853aef8a3e37.png"
     },
     {
       "value": "168",
       "title": "圣阁高智商协会",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.00029%，1/344471",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/6567d71dc458853aef91ed1e.png"
     },
     {
       "value": "170",
       "title": "终极俱乐部",
       "subtitle": "IQ最小值",
       "desc": "目前会员人数为45人，其中8名常驻会员里有2名是中国人",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/6567d7d2c458853aef931d10.png"
     },
     {
       "value": "170",
       "title": "梅西的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "球技极其娴熟、全局判断力、梅西以其卓越的加速和灵活性而闻名，瞬间改变速度和方向穿越防守队员",
+      "pic": "https://pic.imgdb.cn/item/6567d80bc458853aef9397ae.jpg"
     },
     {
       "value": "171",
       "title": "放松是不可能的",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "高智商倾向于过度思考和分析问题。导致在休息时难以关闭头脑，因为他们的思维一直在活跃",
+      "pic": "https://pic.imgdb.cn/item/6567de06c458853aef9f6e75.png"
     },
     {
       "value": "172",
       "title": "因为你改变世界",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "世界上第一个网站、第一部智能手机、第一个计算机芯片，第一个AI，下一个第一个发明会是你吗？",
+      "pic": "https://pic.imgdb.cn/item/6567dffac458853aefa3f1ea.png"
     },
     {
       "value": "172",
       "title": "欧米伽学社",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.0001%，1/1000000",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/6567e0a6c458853aefa52c12.png"
     },
     {
       "value": "173",
-      "title": "会背1000位圆周率",
+      "title": "会背1千位圆周率",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "超强记忆力、超强专注力、超强耐心、有学习技巧和策略",
+      "pic": "https://pic.imgdb.cn/item/6567e1dbc458853aefa800ec.png"
     },
     {
       "value": "175",
       "title": "奥林匹克IQ俱乐部",
       "subtitle": "IQ最小值",
       "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.00003%，3/10000000",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/6567e241c458853aefa8c6a4.png"
     },
     {
       "value": "175",
       "title": "张衡的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "发明地动仪(预测地震)、浑天仪(模拟天体运动)、瑞轮蓂荚(机械日历),推算圆周率。中国古代科学家",
+      "pic": "https://pic.imgdb.cn/item/6567e4cbc458853aefade9b1.png"
     },
     {
       "value": "178",
       "title": "擅长研究量子力学",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "深入理解波粒二象性、波函数、量子纠缠、哈密顿算符、薛定谔方程、量子隧道效应、自旋等",
+      "pic": "https://pic.imgdb.cn/item/6567e6ccc458853aefb27010.png"
     },
     {
       "value": "179",
-      "title": "没有同理心",
+      "title": "逐渐失去同理心",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "高智商更专注于抽象概念和理论，兴趣领域独特。忽略人际关系和情感互动，逐渐失去同理心",
+      "pic": "https://pic.imgdb.cn/item/6567ea25c458853aefb95837.png"
     },
     {
       "value": "180",
       "title": "高智商偏头痛",
       "subtitle": "IQ最小值",
-      "desc": "偏头痛",
-      "pic": ""
+      "desc": "超高智商可能更容易受到外部刺激、压力和情绪因素的影响，更加敏感。容易引发偏头痛",
+      "pic": "https://pic.imgdb.cn/item/6567eb89c458853aefbcb0f6.png"
     },
     {
       "value": "181",
@@ -1635,50 +1628,50 @@
       "value": "182",
       "title": "欧几里得的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "《几何原本》成为欧几里得几何学的标志，对后来的数学发展产生了深远的影响",
+      "pic": "https://pic.imgdb.cn/item/6568000cc458853aeff264fa.png"
     },
     {
       "value": "185",
       "title": "伽利略的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "天文观测、证实日心说、证实地球自转、落体实验、提出物体匀速直线运动、喷射理论、潮汐理论",
+      "pic": "https://pic.imgdb.cn/item/6568024fc458853aeff8669c.png"
     },
     {
       "value": "187",
       "title": "谢尔顿的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "天才物理学家，年幼时就有卓越的数学和科学才能。在加州理工学院获得博士学位，还研究工程学、神经学",
+      "pic": "https://pic.imgdb.cn/item/65680544c458853aeffff6b2.png"
     },
     {
       "value": "188",
       "title": "米开朗基罗的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "意大利文艺复兴时期的一位杰出的艺术家，代表作：大卫像、创世纪、摩西像、烛台天使",
+      "pic": "https://pic.imgdb.cn/item/65680970c458853aef0ae3ae.png"
     },
     {
       "value": "190",
       "title": "看懂相对论",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "深入理解引力波、光速不变、洛伦兹变换、时空间隔、质能方程、时空弯曲等理论",
+      "pic": "https://pic.imgdb.cn/item/65680a99c458853aef0e81dc.png"
     },
     {
       "value": "198",
       "title": "高斯的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "创造了高斯概率分布、代数学和数论、高斯曲率、高斯引力模型、高斯定理、高斯天文学、高斯消元法",
+      "pic": "https://pic.imgdb.cn/item/65680bfbc458853aef1276e4.png"
     },
     {
       "value": "199",
       "title": "阿基米德的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "力学之父、浮力原理、杠杆原理、阿基米德螺旋泵、几何、阿基米德火炮、反射式望远镜、螺蛳计数器",
+      "pic": "https://pic.imgdb.cn/item/65680cc4c458853aef14ce03.png"
     },
     {
       "value": "190",
@@ -1691,112 +1684,112 @@
       "value": "200",
       "title": "圣杯会",
       "subtitle": "IQ最小值",
-      "desc": "高于IQ门槛的人群占世界总人口比例：Top0.000000001%, 1/760亿",
+      "desc": "高于IQ门槛的人群占世界总人口比例：Top 0.000000001%, 1/76亿",
       "pic": "https://pic.imgdb.cn/item/6551be96c458853aefe1c64f.jpg"
     },
     {
       "value": "200",
       "title": "亚里士多德的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "古希腊哲学家、科学家和学者。贡献：形而上学、逻辑学、自然哲学、伦理学、政治哲学、天文学",
+      "pic": "https://pic.imgdb.cn/item/656810f0c458853aef210289.png"
     },
     {
       "value": "200",
       "title": "爱因斯坦的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "批判量子力学理论，贡献了相对论、质能方程、光电效应、引力波、波尔兹曼恒等式、爱因斯坦场方程",
+      "pic": "https://pic.imgdb.cn/item/656813bec458853aef2982b4.png"
     },
     {
       "value": "200",
       "title": "打败AI棋手",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "AI具有深度学习和神经网络、强大的计算力和算法、迭代深化搜索、决策树剪枝、战术意识，并不简单",
+      "pic": "https://pic.imgdb.cn/item/656814ebc458853aef2d3660.png"
     },
     {
       "value": "205",
       "title": "掌握10种语言",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "多语者能深入理解多国语言文化，具有多语言思维。有强大的沟通力、善于在不同语境中切换思维方式",
+      "pic": "https://pic.imgdb.cn/item/65681648c458853aef31e421.png"
     },
     {
       "value": "210",
       "title": "金雄镕的智商",
       "subtitle": "IQ最小值",
       "desc": "5个月能走路和说话，3岁学微积分，4岁时就能读写四国文字。1974年开始在NASA进行研究工作",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/656816ebc458853aef33d10d.png"
     },
     {
       "value": "226",
       "title": "牛顿的智商",
       "subtitle": "IQ最小值",
       "desc": "学校拖欠牛顿工资，于是他发明了微积分和高数，要求学生不及格就要缴费重修，很快教师工资都有了",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65681774c458853aef357af7.png"
     },
     {
       "value": "228",
       "title": "莎凡特的智商",
       "subtitle": "IQ最小值",
-      "desc": "玛丽莲·沃斯·莎凡特曾经被记载为吉尼斯世界记录所认定拥有最高智商的人类及女性",
-      "pic": ""
+      "desc": "曾在1956年被记载为吉尼斯世界记录所认定拥有最高智商的人类及女性，从事文学创作、剧本编辑",
+      "pic": "https://pic.imgdb.cn/item/656818f0c458853aef3a8594.png"
     },
     {
-      "value": "229",
+      "value": "230",
       "title": "特斯拉的智商",
       "subtitle": "IQ最小值",
       "desc": "交流电之父。在20世纪初研究无线电能传输、太阳能发动机、X光、遥感、宇宙射线、雷达、机器人",
-      "pic": ""
+      "pic": "https://pic.imgdb.cn/item/65681ab7c458853aef40b066.png"
     },
     {
       "value": "230",
       "title": "陶哲轩的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "数学家，7岁读高中，9岁上大学，12岁获得国际数学奥林匹克金牌，17岁硕士，20岁博士，24岁教授",
+      "pic": "https://pic.imgdb.cn/item/65681d12c458853aef489d92.png"
     },
     {
       "value": "230",
       "title": "维特根斯坦的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "哲学家，贡献：逻辑哲学论、语言游戏、哲学研究、私语言论、语境优势",
+      "pic": "https://pic.imgdb.cn/item/65681edcc458853aef4ed251.png"
     },
     {
       "value": "230",
       "title": "达芬奇的智商",
       "subtitle": "IQ最小值",
-      "desc": "人类历史上绝无仅有的全才",
+      "desc": "人类历史上绝无仅有的全才、发明家，在解剖学、武器、绘画、音乐、建筑、雕塑等多领域有杰出成就",
       "pic": "https://pic.imgdb.cn/item/6559c268c458853aef6b4db6.png"
     },
     {
       "value": "240",
       "title": "绿博士的智商",
       "subtitle": "IQ最小值",
-      "desc": "绿巨人和班纳博士的合体，智慧与力量的融合。班纳用自己的智慧完成的。会操作时间机器",
+      "desc": "绿巨人和班纳博士的合体，智慧与力量的融合。班纳用自己的智慧完成的，会操作时间机器",
       "pic": "https://pic.imgdb.cn/item/65482b02c458853aef4bc7fe.jpg"
     },
     {
       "value": "250",
       "title": "尴尬的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "智商250可不是二百五，远远超越普通人，接近世界第一。这样高的智商通常能解决极其复杂的问题",
+      "pic": "https://pic.imgdb.cn/item/6568220ec458853aef594823.png"
     },
     {
       "value": "260",
       "title": "奇异博士的智商",
       "subtitle": "IQ最小值",
-      "desc": "",
-      "pic": ""
+      "desc": "操控时间，让时间倒流、时间停滞。能在战斗中预知未来、纠正错误。能够穿越不同的维度和现实",
+      "pic": "https://pic.imgdb.cn/item/6568228ac458853aef5b03ce.png"
     },
     {
       "value": "280",
       "title": "古一的智商",
       "subtitle": "IQ最小值",
-      "desc": "擅长使用各种魔法、能量爆发、传送、星界投影、幻象操作",
+      "desc": "擅长使用各种魔法、能量爆发、传送门、星界投影、幻象操作",
       "pic": "https://pic.imgdb.cn/item/6562290ac458853aef5fc767.png"
     },
     {
@@ -1888,21 +1881,14 @@
       "title": "心灵交流",
       "subtitle": "IQ最小值",
       "desc": "高智商的个体能够直接通过思维与他人进行沟通，无需语言或其他媒介。这种交流更加高效和直接",
-      "pic": "https://pic.imgdb.cn/item/6561e044c458853aef15894c.png"
+      "pic": "https://pic.imgdb.cn/item/6561e3d5c458853aef231306.png"
     },
     {
-      "value": "6.6万",
+      "value": "7万",
       "title": "智慧共享",
       "subtitle": "IQ最小值",
       "desc": "超高智商的个体可以用意念与他人分享自己的知识和思考，促进集体智慧的提升",
       "pic": "https://pic.imgdb.cn/item/6561e8f8c458853aef37e1b3.png"
-    },
-    {
-      "value": "7万",
-      "title": "心灵感应",
-      "subtitle": "IQ最小值",
-      "desc": "能够感知周围的心灵活动，包括他人的情感、意图和思想，使个体能够更深入地理解和互动",
-      "pic": "https://pic.imgdb.cn/item/6561e3d5c458853aef231306.png"
     },
     {
       "value": "8万",

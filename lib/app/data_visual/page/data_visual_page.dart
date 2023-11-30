@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../model/data_model.dart';
-import '../widget/card_item0.dart';
+import '../widget/card_item.dart';
 
 class DataVisualPage extends StatefulWidget {
   const DataVisualPage({super.key});
@@ -26,12 +26,12 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
 
     _animController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 12),
+      duration: const Duration(seconds: 280),
     );
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _animController.forward();
-      Future.delayed(const Duration(seconds: 3), () {
+      Future.delayed(const Duration(seconds: 5), () {
         _startScrollAnimation();
       });
     });
@@ -46,7 +46,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
   }
 
   Future<void> loadJsonData() async {
-    final String data = await rootBundle.loadString('asset/json/data0.json');
+    final String data = await rootBundle.loadString('asset/json/data.json');
     final dynamic jsonResult = json.decode(data);
 
     if (jsonResult is Map && jsonResult.containsKey("result")) {
@@ -57,7 +57,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
     setState(() {});
   }
 
-  void _startScrollAnimation() {
+  Future<void> _startScrollAnimation() async {
     final int itemCount = jsonData.length;
     const int timePerItemInSeconds = 6;
     final int totalScrollDurationInSeconds = itemCount * timePerItemInSeconds;
@@ -95,39 +95,38 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
           }
           return false;
         },
-        child: Container(
-          margin: const EdgeInsets.symmetric(horizontal: 86.0),
-          child: SingleChildScrollView(
-            controller: scrollController,
-            /* physics:
-                enableScroll ? const BouncingScrollPhysics() : const NeverScrollableScrollPhysics(),
-            */
-            physics: const BouncingScrollPhysics(),
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              children: List<Widget>.generate(
-                jsonData.length,
-                (index) {
-                  return SlideTransition(
-                    position: Tween<Offset>(
-                      begin: Offset(0.0, index < 3 ? 1.0 : 0.0),
-                      end: const Offset(0.0, 0.0),
-                    ).animate(CurvedAnimation(
+        child: SingleChildScrollView(
+          controller: scrollController,
+          /* physics:
+              enableScroll ? const BouncingScrollPhysics() : const NeverScrollableScrollPhysics(),
+          */
+          physics: const BouncingScrollPhysics(),
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: List<Widget>.generate(
+              jsonData.length,
+              (index) {
+                return SlideTransition(
+                  position: Tween<Offset>(
+                    begin: const Offset(0.0, 1.0),
+                    end: const Offset(0.0, 0.0),
+                  ).animate(
+                    CurvedAnimation(
                       parent: _animController,
                       curve: Interval(index / jsonData.length, (index + 1) / jsonData.length),
-                    )),
-                    child: SizedBox(
-                      width: MediaQuery.of(context).size.width / 3.651,
-                      child: index < 4
-                          ? DelayedCardItem(
-                              dataModel: jsonData[index],
-                              delayDuration: Duration(seconds: index),
-                            )
-                          : CardItem0(dataModel: jsonData[index]),
                     ),
-                  );
-                },
-              ),
+                  ),
+                  child: SizedBox(
+                    width: MediaQuery.of(context).size.width / 4,
+                    child: index < 3
+                        ? DelayedCardItem(
+                            dataModel: jsonData[index],
+                            delayDuration: Duration(seconds: index),
+                          )
+                        : CardItem0(dataModel: jsonData[index]),
+                  ),
+                );
+              },
             ),
           ),
         ),

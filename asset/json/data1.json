@@ -1,25 +1,11 @@
 {
   "result": [
     {
-      "value": "100",
-      "title": "标题0",
-      "subtitle": "IQ最小值",
-      "desc": "测试描述0",
-      "pic": "https://pic.imgdb.cn/item/654065c5c458853aef6761b8.png"
-    },
-    {
-      "value": "300",
-      "title": "标题2",
-      "subtitle": "IQ最小值",
-      "desc": "测试描述2",
-      "pic": "https://pic.imgdb.cn/item/654065c5c458853aef6761b8.png"
-    },
-    {
-      "value": "200",
-      "title": "标题1",
-      "subtitle": "IQ最小值",
-      "desc": "测试描述1",
-      "pic": "https://pic.imgdb.cn/item/654065c5c458853aef6761b8.png"
+      "value": "",
+      "title": "",
+      "subtitle": "",
+      "desc": "",
+      "pic": ""
     }
   ]
 }

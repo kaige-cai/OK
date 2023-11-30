@@ -49,7 +49,7 @@ class CardItem0 extends StatelessWidget {
               child: Text(
                 dataModel.desc,
                 style: const TextStyle(
-                  fontSize: 17,
+                  fontSize: 16,
                   color: Colors.white,
                 ),
               ),
