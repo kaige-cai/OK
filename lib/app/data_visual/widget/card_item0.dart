@@ -74,36 +74,3 @@ class CardItem0 extends StatelessWidget {
     );
   }
 }
-
-class DelayedCardItem extends StatefulWidget {
-  final DataModel dataModel;
-  final Duration delayDuration;
-
-  const DelayedCardItem({
-    super.key,
-    required this.dataModel,
-    required this.delayDuration,
-  });
-
-  @override
-  DelayedCardItemState createState() => DelayedCardItemState();
-}
-
-class DelayedCardItemState extends State<DelayedCardItem> {
-  bool _showCard = false;
-
-  @override
-  void initState() {
-    super.initState();
-    Future.delayed(widget.delayDuration, () {
-      setState(() {
-        _showCard = true;
-      });
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return _showCard ? CardItem0(dataModel: widget.dataModel) : Container();
-  }
-}

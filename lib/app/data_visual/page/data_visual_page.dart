@@ -1,10 +1,13 @@
+// ignore_for_file: unused_import
+
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../model/data_model.dart';
-import '../widget/card_item.dart';
+import '../widget/card_item0.dart';
+import '../widget/card_item1.dart';
 
 class DataVisualPage extends StatefulWidget {
   const DataVisualPage({super.key});
@@ -14,7 +17,7 @@ class DataVisualPage extends StatefulWidget {
 }
 
 class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProviderStateMixin {
-  List<DataModel> jsonData = [];
+  List<DataModel> dataModels = [];
   late AnimationController _animController;
   final ScrollController scrollController = ScrollController();
   bool enableScroll = false;
@@ -26,12 +29,12 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
 
     _animController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 280),
+      duration: const Duration(seconds: 60),
     );
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _animController.forward();
-      Future.delayed(const Duration(seconds: 5), () {
+      Future.delayed(const Duration(seconds: 7), () {
         _startScrollAnimation();
       });
     });
@@ -46,19 +49,19 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
   }
 
   Future<void> loadJsonData() async {
-    final String data = await rootBundle.loadString('asset/json/data.json');
+    final String data = await rootBundle.loadString('asset/json/data1_en.json');
     final dynamic jsonResult = json.decode(data);
 
     if (jsonResult is Map && jsonResult.containsKey("result")) {
       final List<dynamic> results = jsonResult["result"];
-      jsonData = results.map((item) => DataModel.fromJson(item)).toList();
+      dataModels = results.map((item) => DataModel.fromJson(item)).toList();
     }
 
     setState(() {});
   }
 
   Future<void> _startScrollAnimation() async {
-    final int itemCount = jsonData.length;
+    final int itemCount = dataModels.length;
     const int timePerItemInSeconds = 6;
     final int totalScrollDurationInSeconds = itemCount * timePerItemInSeconds;
 
@@ -99,15 +102,12 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
           margin: const EdgeInsets.symmetric(vertical: 50.0),
           child: SingleChildScrollView(
             controller: scrollController,
-            /* physics:
-                enableScroll ? const BouncingScrollPhysics() : const NeverScrollableScrollPhysics(),
-            */
             physics: const BouncingScrollPhysics(),
             scrollDirection: Axis.horizontal,
             child: Row(
               children: [
                 ...List<Widget>.generate(
-                  jsonData.length,
+                  dataModels.length,
                   (index) {
                     return SlideTransition(
                       position: Tween<Offset>(
@@ -116,17 +116,14 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
                       ).animate(
                         CurvedAnimation(
                           parent: _animController,
-                          curve: Interval(index / jsonData.length, (index + 1) / jsonData.length),
+                          curve: Interval(index / dataModels.length, (index + 1) / dataModels.length),
                         ),
                       ),
                       child: SizedBox(
                         width: MediaQuery.of(context).size.width / 4,
-                        child: index < 3
-                            ? DelayedCardItem(
-                                dataModel: jsonData[index],
-                                delayDuration: Duration(seconds: index),
-                              )
-                            : CardItem0(dataModel: jsonData[index]),
+                        child: CardItem1(
+                          dataModel: dataModels[index],
+                        ),
                       ),
                     );
                   },
