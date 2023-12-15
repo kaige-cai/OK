@@ -91,3 +91,42 @@ class HexagonPainter extends CustomPainter {
     return false;
   }
 }
+
+class Hexagon extends StatelessWidget {
+  const Hexagon({super.key, required this.value});
+
+  final String value;
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Positioned(
+          child: Transform.rotate(
+            angle: pi / 2,
+            child: SizedBox(
+              width: 280.0,
+              height: 280.0,
+              child: CustomPaint(painter: HexagonPainter()),
+            ),
+          ),
+        ),
+        Positioned(
+          left: 0.0,
+          top: value.length > 3 ? 88.0 : 76.0,
+          right: 0.0,
+          child: Center(
+            child: Text(
+              value,
+              style: TextStyle(
+                fontSize: value.length > 3 ? 78.0 : 94.0,
+                color: Colors.white,
+                fontFamily: 'KT',
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}

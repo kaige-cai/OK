@@ -26,13 +26,13 @@ class CardItem0 extends StatelessWidget {
           ),
           Container(
             width: double.infinity,
-            height: 48.0,
+            height: 58.0,
             color: Colors.red,
             child: Center(
               child: Text(
                 dataModel.title,
-                style: const TextStyle(
-                  fontSize: 38.0,
+                style: TextStyle(
+                  fontSize: dataModel.title.length > 12 ? 24.0 : 38.0,
                   color: Colors.white,
                   height: 1.0,
                 ),
@@ -41,16 +41,16 @@ class CardItem0 extends StatelessWidget {
           ),
           Container(
             width: double.infinity,
-            height: 201,
+            height: 190.91,
             color: Colors.green,
             padding: const EdgeInsets.only(left: 4.0),
             child: Center(
               child: Text(
                 dataModel.desc,
                 style: const TextStyle(
-                  fontSize: 40.0,
+                  fontSize: 24.0,
                   color: Colors.white,
-                  height: 1.0,
+                  height: 0.9,
                 ),
               ),
             ),

@@ -51,3 +51,6 @@ flutter:
     - family: DF
       fonts:
         - asset: fonts/DF.ttf
+    - family: KT
+      fonts:
+        - asset: fonts/KT.ttf

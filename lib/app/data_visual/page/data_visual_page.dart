@@ -2,8 +2,13 @@
 
 import 'dart:convert';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:ok/app/data_visual/widget/card_item2.dart';
+import 'package:ok/app/data_visual/widget/card_item3.dart';
+import 'package:ok/app/data_visual/widget/card_item4.dart';
+import 'package:ok/util/global.dart';
 
 import '../model/data_model.dart';
 import '../widget/card_item0.dart';
@@ -29,12 +34,12 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
 
     _animController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 60),
+      duration: const Duration(seconds: 0),
     );
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _animController.forward();
-      Future.delayed(const Duration(seconds: 7), () {
+      Future.delayed(const Duration(seconds: 6), () {
         _startScrollAnimation();
       });
     });
@@ -49,7 +54,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
   }
 
   Future<void> loadJsonData() async {
-    final String data = await rootBundle.loadString('asset/json/data1_en.json');
+    final String data = await rootBundle.loadString('asset/json/data4_cn.json');
     final dynamic jsonResult = json.decode(data);
 
     if (jsonResult is Map && jsonResult.containsKey("result")) {
@@ -62,7 +67,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
 
   Future<void> _startScrollAnimation() async {
     final int itemCount = dataModels.length;
-    const int timePerItemInSeconds = 6;
+    const int timePerItemInSeconds = 5;
     final int totalScrollDurationInSeconds = itemCount * timePerItemInSeconds;
 
     scrollController.animateTo(
@@ -109,6 +114,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
                 ...List<Widget>.generate(
                   dataModels.length,
                   (index) {
+                    logger.i('总共有${dataModels.length}个对象');
                     return SlideTransition(
                       position: Tween<Offset>(
                         begin: const Offset(0.0, 1.0),
@@ -121,7 +127,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
                       ),
                       child: SizedBox(
                         width: MediaQuery.of(context).size.width / 4,
-                        child: CardItem1(
+                        child: CardItem4(
                           dataModel: dataModels[index],
                         ),
                       ),

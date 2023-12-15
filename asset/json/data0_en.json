@@ -1,0 +1,1964 @@
+{
+  "result": [
+    {
+      "value": "0",
+      "title": "Just Born",
+      "subtitle": "Minimum IQ",
+      "desc": "At the moment of birth, intelligence isn't a thing. IQ grows slowly over time as a baby's brain and cognitive abilities develop. It's impossible to accurately measure at this stage.",
+      "pic": "https://pic.imgdb.cn/item/65572f75c458853aeffe388b.png"
+    },
+    {
+      "value": "0",
+      "title": "Death",
+      "subtitle": "Minimum IQ",
+      "desc": "Once you're dead, there's nothing left. Don't fantasize about having a soul; it's all nonsense.",
+      "pic": "https://pic.imgdb.cn/item/655af966c458853aeffd5762.png"
+    },
+    {
+      "value": "1",
+      "title": "Coma",
+      "subtitle": "Minimum IQ",
+      "desc": "A state of complete unconsciousness with no response.",
+      "pic": "https://pic.imgdb.cn/item/654065c5c458853aef6761b8.png"
+    },
+    {
+      "value": "2",
+      "title": "Asleep",
+      "subtitle": "Minimum IQ",
+      "desc": "Even during sleep, the brain is still active and can be awakened.",
+      "pic": "https://pic.imgdb.cn/item/65406acac458853aef73e53b.png"
+    },
+    {
+      "value": "5",
+      "title": "Awake",
+      "subtitle": "Minimum IQ",
+      "desc": "If you can wake up from a deep sleep, you're alive. Waking up naturally is a kind of happiness.",
+      "pic": "https://pic.imgdb.cn/item/65406659c458853aef68cc9c.png"
+    },
+    {
+      "value": "8",
+      "title": "Jellyfish Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Jellyfish lacks a brain but has a nervous system, reacts to stimuli, and can avoid unfavorable environments. It can associate, learn, and find food in similar environments.",
+      "pic": "https://pic.imgdb.cn/item/65550394c458853aefc00f2b.png"
+    },
+    {
+      "value": "9",
+      "title": "Wabbajack, Humdrum",
+      "subtitle": "Minimum IQ",
+      "desc": "Severe intellectual disability; unable to care for oneself. Complete loss of communication and learning abilities.",
+      "pic": "https://pic.imgdb.cn/item/6540a217c458853aef14b978.png"
+    },
+    {
+      "value": "10",
+      "title": "Babbling",
+      "subtitle": "Minimum IQ",
+      "desc": "Infants making incoherent sounds, still learning to talk.",
+      "pic": "https://pic.imgdb.cn/item/6559cfd4c458853aef968c9a.png"
+    },
+    {
+      "value": "11",
+      "title": "Vegetative State",
+      "subtitle": "Minimum IQ",
+      "desc": "You have consciousness and thoughts but can't move, only able to gaze at the ceiling. Immobility is due to severe brain damage, blocking intelligence.",
+      "pic": "https://pic.imgdb.cn/item/655afc61c458853aef0637d6.png"
+    },
+    {
+      "value": "12",
+      "title": "Walking Ability",
+      "subtitle": "Minimum IQ",
+      "desc": "Can stand up and take a few steps; the brain can command movement.",
+      "pic": "https://pic.imgdb.cn/item/6540a478c458853aef1c67d7.png"
+    },
+    {
+      "value": "15",
+      "title": "Emotional Awareness",
+      "subtitle": "Minimum IQ",
+      "desc": "Understanding emotions requires some intelligence; intelligence is the foundation of emotional intelligence.",
+      "pic": "https://pic.imgdb.cn/item/6559d7dec458853aefad8336.png"
+    },
+    {
+      "value": "17",
+      "title": "Recognizing Colors",
+      "subtitle": "Minimum IQ",
+      "desc": "Knowing colors like red, yellow, blue, and green; can play with coloring books under guidance, the only form of entertainment.",
+      "pic": "https://pic.imgdb.cn/item/6540a56bc458853aef1f3769.png"
+    },
+    {
+      "value": "18",
+      "title": "Grasping/Lifting/Throwing",
+      "subtitle": "Minimum IQ",
+      "desc": "Basic motor skills and visual coordination are present.",
+      "pic": "https://pic.imgdb.cn/item/6540a675c458853aef231e5b.png"
+    },
+    {
+      "value": "20",
+      "title": "Profound Intellectual Disability",
+      "subtitle": "Minimum IQ",
+      "desc": "Limited language ability; unable to care for oneself, incapable of social interaction.",
+      "pic": "https://pic.imgdb.cn/item/6540abcec458853aef33ff86.png"
+    },
+    {
+      "value": "25",
+      "title": "Severe Intellectual Disability",
+      "subtitle": "Minimum IQ",
+      "desc": "Abba dabba, able to express basic needs like eating, drinking, and using the restroom. Experiences joy and sorrow, often laughs foolishly.",
+      "pic": "https://pic.imgdb.cn/item/6540b0dbc458853aef4409da.png"
+    },
+    {
+      "value": "26",
+      "title": "Upside-down Fish Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Doesn't evade natural predators, swims slowly. A sea lion can bite off half its body without any reaction; survival is possible because it can reproduce.",
+      "pic": "https://pic.imgdb.cn/item/6555042bc458853aefc152b1.jpg"
+    },
+    {
+      "value": "30",
+      "title": "Understanding the Meaning of Death",
+      "subtitle": "Minimum IQ",
+      "desc": "Expressing sadness, grief, fear, or acceptance towards death.",
+      "pic": "https://pic.imgdb.cn/item/6540b1e6c458853aef4734c0.png"
+    },
+    {
+      "value": "32",
+      "title": "Using Knife, Fork, Spoon",
+      "subtitle": "Minimum IQ",
+      "desc": "Using utensils requires good hand-eye coordination and the right amount of force. Requires some focus to avoid self-harm.",
+      "pic": "https://pic.imgdb.cn/item/655505aec458853aefc47546.png"
+    },
+    {
+      "value": "34",
+      "title": "Limited Language Ability",
+      "subtitle": "Minimum IQ",
+      "desc": "They can think about things in their heads, but it's all jumbled up and can't be organized into spoken language. They usually stay quiet.",
+      "pic": "https://pic.imgdb.cn/item/655e96b8c458853aefcf9b54.png"
+    },
+    {
+      "value": "35",
+      "title": "Goldfish Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "A goldfish's memory isn't just 7 seconds; it has long-term and spatial memory. It can remember when and where there's food but can easily eat itself to death.",
+      "pic": "https://pic.imgdb.cn/item/655505dfc458853aefc4d12b.png"
+    },
+    {
+      "value": "36",
+      "title": "Can Use Chopsticks",
+      "subtitle": "Minimum IQ",
+      "desc": "Having some hand-eye coordination and high finger flexibility. Foreigners may take time to adapt to using chopsticks correctly.",
+      "pic": "https://pic.imgdb.cn/item/65550711c458853aefc72f9d.png"
+    },
+    {
+      "value": "37",
+      "title": "Koala 🐨 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Its brain is smooth, small, and filled with cerebrospinal fluid. Unable to compete with other animals, it can only eat toxic eucalyptus leaves, leading to chronic poisoning and day-long lethargy.",
+      "pic": "https://pic.imgdb.cn/item/6555d24bc458853aef6426ac.png"
+    },
+    {
+      "value": "38",
+      "title": "Koi Fish Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Fish don't have a 7-second memory; koi have long-term memory and can remember things that happened months ago. They get close to humans and quickly find food.",
+      "pic": "https://pic.imgdb.cn/item/6555f120c458853aefb10dea.png"
+    },
+    {
+      "value": "38",
+      "title": "Can Count from 1 to 10",
+      "subtitle": "Minimum IQ",
+      "desc": "Even those with intellectual disabilities can do this; it doesn't require much intelligence.",
+      "pic": "https://pic.imgdb.cn/item/653f3eb2c458853aef175441.png"
+    },
+    {
+      "value": "39",
+      "title": "Owl Parrot Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Cute but can't fly, protected by humans. Doesn't run when in danger; just stays put. Thinks it can fly when perched high, but falling off can be fatal.",
+      "pic": "https://pic.imgdb.cn/item/6555f9ddc458853aefc96dc3.jpg"
+    },
+    {
+      "value": "40",
+      "title": "Moderate Intellectual Disability",
+      "subtitle": "Minimum IQ",
+      "desc": "Can recognize a few words and written language, can differentiate between genders, but can't fully care for themselves.",
+      "pic": "https://pic.imgdb.cn/item/6540b4d3c458853aef503f9b.png"
+    },
+    {
+      "value": "41",
+      "title": "Deer Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "When in danger, its butt hair stands on end like a heart. When it sees a hunter, it runs for a while and then stops to look back. If it can't escape, it buries its head in the snow.",
+      "pic": "https://pic.imgdb.cn/item/6555f1e1c458853aefb2e89e.png"
+    },
+    {
+      "value": "43",
+      "title": "Ant 🐜 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Ants are highly social animals, understanding division of labor, cooperation, and strength in unity. Individual intelligence may be weak, though.",
+      "pic": "https://pic.imgdb.cn/item/6555fa76c458853aefcb04c4.jpg"
+    },
+    {
+      "value": "45",
+      "title": "Can Speak",
+      "subtitle": "Minimum IQ",
+      "desc": "Just opening one's mouth doesn't mean others can understand. Speaking requires a certain vocabulary, grammar, and logic. The higher the IQ, the more sophisticated the speech.",
+      "pic": "https://pic.imgdb.cn/item/6559d86dc458853aefaef8ed.png"
+    },
+    {
+      "value": "46",
+      "title": "Sheep 🐑 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Following others' behavior may lead a flock of sheep astray. Sheep have good memory and rich emotions.",
+      "pic": "https://pic.imgdb.cn/item/6555f7f4c458853aefc3a04b.webp"
+    },
+    {
+      "value": "47",
+      "title": "Reading Ability",
+      "subtitle": "Minimum IQ",
+      "desc": "Can slowly read articles, write a few words, eat, and use the restroom independently but needs care.",
+      "pic": "https://pic.imgdb.cn/item/6540b575c458853aef52124b.png"
+    },
+    {
+      "value": "48",
+      "title": "Can Lie",
+      "subtitle": "Minimum IQ",
+      "desc": "Lying requires emotional intelligence, acting skills, staying calm, and not revealing the truth. It's a test of reaction time, but don't be a liar 🤥.",
+      "pic": "https://pic.imgdb.cn/item/6559de01c458853aefbdf7a7.png"
+    },
+    {
+      "value": "50",
+      "title": "Down Syndrome",
+      "subtitle": "Minimum IQ",
+      "desc": "Genetic disorder caused by the trisomy of chromosome 21. Low intelligence, delayed development, facial features, and small ears.",
+      "pic": "https://pic.imgdb.cn/item/65622fe2c458853aef77cf0f.png"
+    },
+    {
+      "value": "51",
+      "title": "Can Tie Shoelaces",
+      "subtitle": "Minimum IQ",
+      "desc": "There are many ways to tie shoelaces; being able to tie is just the basic method. Generally, a 3-year-old can do it, but a 3-year-old's IQ is much more than this.",
+      "pic": "https://pic.imgdb.cn/item/6540b71fc458853aef5708fc.png"
+    },
+    {
+      "value": "55",
+      "title": "Can Fry Eggs",
+      "subtitle": "Minimum IQ",
+      "desc": "Timing, heat, flipping, seasoning – it requires a bit of patience.",
+      "pic": "https://pic.imgdb.cn/item/6540b867c458853aef5b3c88.png"
+    },
+    {
+      "value": "56",
+      "title": "Unable to Fit into Society",
+      "subtitle": "Minimum IQ",
+      "desc": "Poor learning ability, limited social skills, relatively low adaptability, needs more support.",
+      "pic": "https://pic.imgdb.cn/item/65623282c458853aef7f9aae.png"
+    },
+    {
+      "value": "58",
+      "title": "Can Cook for Themselves",
+      "subtitle": "Minimum IQ",
+      "desc": "Being able to cook for oneself means being able to take care of oneself. Whether it tastes good is another matter, but being able to eat is certain.",
+      "pic": "https://pic.imgdb.cn/item/6562335bc458853aef81fa30.png"
+    },
+    {
+      "value": "60",
+      "title": "Senile Dementia",
+      "subtitle": "Maximum IQ",
+      "desc": "A neurodegenerative disease, intelligence gradually declines, cognitive function is continuously impaired, memory loss, and eventually, unable to care for oneself.",
+      "pic": "https://pic.imgdb.cn/item/65411c66c458853aefc293b5.png"
+    },
+    {
+      "value": "61",
+      "title": "Can Tie Supermarket Bags",
+      "subtitle": "Minimum IQ",
+      "desc": "It's simple; hold one side in each hand, cross them, then cross them again.",
+      "pic": "https://pic.imgdb.cn/item/656234d6c458853aef860ace.png"
+    },
+    {
+      "value": "61",
+      "title": "Can Play Jigsaw Puzzles",
+      "subtitle": "Minimum IQ",
+      "desc": "Jigsaw puzzles are a fun and challenging activity that helps improve problem-solving skills and visual perception.",
+      "pic": "https://pic.imgdb.cn/item/6540b956c458853aef5e215a.png"
+    },
+    {
+      "value": "63",
+      "title": "Can Live Independently",
+      "subtitle": "Minimum IQ",
+      "desc": "Dressing, wearing shoes, folding quilts, brushing teeth, washing face, washing hair, taking a bath, eating, cleaning, using public transportation, socializing, etc.",
+      "pic": "https://pic.imgdb.cn/item/656235e9c458853aef88e6bc.png"
+    },
+    {
+      "value": "65",
+      "title": "Can Distinguish Left and Right",
+      "subtitle": "Minimum IQ",
+      "desc": "Distinguishing left from right is crucial for daily life, navigation, driving, and performing many tasks.",
+      "pic": "https://pic.imgdb.cn/item/6540bacdc458853aef62d057.png"
+    },
+    {
+      "value": "65",
+      "title": "Autistic",
+      "subtitle": "Minimum IQ",
+      "desc": "Difficulty understanding others' emotions and intentions, leading to communication barriers and delayed reactions. Consequently, unwillingness to socialize and self-isolation.",
+      "pic": "https://pic.imgdb.cn/item/656237e8c458853aef8e3edf.png"
+    },
+    {
+      "value": "66",
+      "title": "Can Ride a Bicycle",
+      "subtitle": "Minimum IQ",
+      "desc": "The body has a certain level of coordination, with a sense of balance, direction, and reaction ability.",
+      "pic": "https://pic.imgdb.cn/item/6540bf00c458853aef6f8188.png"
+    },
+    {
+      "value": "67",
+      "title": "Can Ride an Electric Scooter",
+      "subtitle": "Minimum IQ",
+      "desc": "It's easy to learn, just remember to follow traffic rules and avoid fines.",
+      "pic": "https://pic.imgdb.cn/item/655d620ec458853aef13d9e1.png"
+    },
+    {
+      "value": "68",
+      "title": "Can Use a Computer",
+      "subtitle": "Minimum IQ",
+      "desc": "Mastering basic computer skills is crucial for modern life and work.",
+      "pic": "https://pic.imgdb.cn/item/6540b9f5c458853aef603ed4.png"
+    },
+    {
+      "value": "69",
+      "title": "Can Ride a Motorcycle",
+      "subtitle": "Minimum IQ",
+      "desc": "Flesh on iron, looking cool with a helmet. Just don't perform stunts on the road or hit the highway; your life is precious.",
+      "pic": "https://pic.imgdb.cn/item/655d6471c458853aef1a6b19.png"
+    },
+    {
+      "value": "70",
+      "title": "Mild Intellectual Disability",
+      "subtitle": "Minimum IQ",
+      "desc": "Can engage in simple repetitive work, such as being a factory technician, mechanic, beautician, chef, etc. Very close to normal.",
+      "pic": "https://pic.imgdb.cn/item/6540bbcbc458853aef65fca1.png"
+    },
+    {
+      "value": "71",
+      "title": "Can Do Basic Mental Math",
+      "subtitle": "Minimum IQ",
+      "desc": "Can do addition, subtraction, multiplication, division, quick counting, and recite multiplication tables. Has some concentration and numerical processing ability.",
+      "pic": "https://pic.imgdb.cn/item/6540bda2c458853aef6b70fe.png"
+    },
+    {
+      "value": "72",
+      "title": "Recognizes Oneself in the Mirror",
+      "subtitle": "Minimum IQ",
+      "desc": "Only a few animals can do this, such as pigs, dolphins, gorillas, pigeons, and ants.",
+      "pic": "https://pic.imgdb.cn/item/6559d0c0c458853aef9912e5.png"
+    },
+    {
+      "value": "73",
+      "title": "Can Drive a Car",
+      "subtitle": "Minimum IQ",
+      "desc": "Understands traffic rules and has spatial awareness. In some countries, the minimum IQ requirement for driving is 70.",
+      "pic": "https://pic.imgdb.cn/item/6540c06bc458853aef738fe4.png"
+    },
+    {
+      "value": "74",
+      "title": "Can Drive a Fishing Boat",
+      "subtitle": "Minimum IQ",
+      "desc": "Steering, anchoring, casting nets, and pulling nets.",
+      "pic": "https://pic.imgdb.cn/item/656238ccc458853aef90cf10.png"
+    },
+    {
+      "value": "75",
+      "title": "Slightly Lower IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Learning speed may be slower, requiring more effort. Can engage in physical labor, handicrafts, and service industries.",
+      "pic": "https://pic.imgdb.cn/item/6540c15bc458853aef764782.png"
+    },
+    {
+      "value": "77",
+      "title": "High Emotional Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "People with low IQs often have higher emotional intelligence, but it's not absolute. As the saying goes, when one door closes, another one opens.",
+      "pic": "https://pic.imgdb.cn/item/656239d2c458853aef93a088.png"
+    },
+    {
+      "value": "78",
+      "title": "Dog 🐶 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Dogs are obedient and loyal. Through training, they can perform various commands and be a helpful assistant. They can understand human emotions and build a connection with people.",
+      "pic": "https://pic.imgdb.cn/item/6544b82ec458853aeff94768.png"
+    },
+    {
+      "value": "79",
+      "title": "Cat 🐱 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Cats are more independent and don't recognize owners. They can learn basic commands, find food, use a litter box, and hunt outdoors (mice, fish, birds).",
+      "pic": "https://pic.imgdb.cn/item/6555faaec458853aefcb9fd0.jpg"
+    },
+    {
+      "value": "79",
+      "title": "Shoebill Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Pelicans may seem dull on the surface, standing in the water like statues to confuse prey and suddenly attacking. They can eat small crocodiles, fly, and have excellent survival skills.",
+      "pic": "https://pic.imgdb.cn/item/65623b73c458853aef977a9a.jpg"
+    },
+    {
+      "value": "80",
+      "title": "Pig 🐷 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Pigs have strong memory, keen sense of smell and hearing, and can perceive subtle changes. They have emotions and can educate offspring on survival skills.",
+      "pic": "https://pic.imgdb.cn/item/6540c744c458853aef87b25d.png"
+    },
+    {
+      "value": "80",
+      "title": "Playing Harmonica",
+      "subtitle": "Minimum IQ",
+      "desc": "Tests coordination of breathing and tongue, tongue techniques, tongue position control, basic music theory. Harmonica is relatively easy.",
+      "pic": "https://pic.imgdb.cn/item/6559e275c458853aefc9ba16.png"
+    },
+    {
+      "value": "81",
+      "title": "Squirrel 🐿️ Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Squirrels excel in food storage, usually finding it, but some may forget. They can crack nuts, move very agilely, leaping and bounding through the jungle.",
+      "pic": "https://pic.imgdb.cn/item/65623bd8c458853aef9864bd.png"
+    },
+    {
+      "value": "82",
+      "title": "Knowing 7 Continents",
+      "subtitle": "Minimum IQ",
+      "desc": "Has a certain understanding of the world, recognizing the main 7 land regions on Earth.",
+      "pic": "https://pic.imgdb.cn/item/6540c954c458853aef8db1d4.png"
+    },
+    {
+      "value": "83",
+      "title": "Minimum IQ for U.S. Military Service",
+      "subtitle": "Minimum IQ",
+      "desc": "The U.S. military rejects individuals with an IQ below 83, believing they are not fit for the positions.",
+      "pic": "https://pic.imgdb.cn/item/65411f79c458853aefd70419.png"
+    },
+    {
+      "value": "83",
+      "title": "Playing Chess",
+      "subtitle": "Minimum IQ",
+      "desc": "Chess is a complex game that requires patience and practice. Players can anticipate several moves ahead.",
+      "pic": "https://pic.imgdb.cn/item/6541266dc458853aeffde1dd.webp"
+    },
+    {
+      "value": "84",
+      "title": "Playing Poker",
+      "subtitle": "Minimum IQ",
+      "desc": "Poker tests various skills, including mathematics, psychology, observation, and decision-making.",
+      "pic": "https://pic.imgdb.cn/item/6541249bc458853aeff3852c.png"
+    },
+    {
+      "value": "84",
+      "title": "Playing Mahjong",
+      "subtitle": "Minimum IQ",
+      "desc": "Requires observation, memory, and strategic thinking. Can make wise decisions in complex situations.",
+      "pic": "https://pic.imgdb.cn/item/65412a05c458853aef107290.png"
+    },
+    {
+      "value": "85",
+      "title": "Solving Rubik's Cube",
+      "subtitle": "Minimum IQ",
+      "desc": "Has good spatial awareness, testing pattern recognition, memory, reaction, and logical reasoning abilities.",
+      "pic": "https://pic.imgdb.cn/item/65412affc458853aef14be60.png"
+    },
+    {
+      "value": "85",
+      "title": "Wild Boar 🐗 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can build nests, evade hunters, compete and cooperate, and adapt to complex climates and ecosystems.",
+      "pic": "https://pic.imgdb.cn/item/6540c77ac458853aef884d16.png"
+    },
+    {
+      "value": "86",
+      "title": "Understanding Pythagorean Theorem",
+      "subtitle": "Minimum IQ",
+      "desc": "Understanding and applying the Pythagorean theorem requires a certain perception and imagination of spatial relationships, along with logical thinking and reasoning to solve problems.",
+      "pic": "https://pic.imgdb.cn/item/6544b6fcc458853aeff5edf5.png"
+    },
+    {
+      "value": "87",
+      "title": "Solving Simultaneous Equations",
+      "subtitle": "Minimum IQ",
+      "desc": "Tests algebra, logic, mathematical operations, and problem-solving abilities.",
+      "pic": "https://pic.imgdb.cn/item/6541a195c458853aefde6eed.png"
+    },
+    {
+      "value": "88",
+      "title": "Horse Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Horses have excellent spatial awareness, can remember and recognize geographical locations. They also display sensitivity to human emotions and expressions.",
+      "pic": "https://pic.imgdb.cn/item/65623c9ac458853aef9a13fe.png"
+    },
+    {
+      "value": "88",
+      "title": "Understanding a Daily Schedule",
+      "subtitle": "Minimum IQ",
+      "desc": "Tests time management, self-discipline, handling stress, setting goals and plans, self-care, and a healthy lifestyle.",
+      "pic": "https://pic.imgdb.cn/item/6545c23ac458853aefd4d92b.png"
+    },
+    {
+      "value": "89",
+      "title": "Knowing How to Use Firearms",
+      "subtitle": "Minimum IQ",
+      "desc": "Pistols, rifles, submachine guns, sniper rifles, semi-automatic weapons. Loading, aiming, shooting. Knowing how to use them safely.",
+      "pic": "https://pic.imgdb.cn/item/65623cffc458853aef9af6e4.png"
+    },
+    {
+      "value": "89",
+      "title": "Mouse 🐭 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can navigate through mazes, avoid mousetraps, and mouse poison. Strong adaptability, excellent learning and memory abilities. Exhibits social structures.",
+      "pic": "https://pic.imgdb.cn/item/65623fefc458853aefa12b27.png"
+    },
+    {
+      "value": "90",
+      "title": "Gaming Enthusiast",
+      "subtitle": "Minimum IQ",
+      "desc": "Gaming tests reaction time. CS, CF, Call of Duty, Apex Legends, King of Glory, PUBG, Tomorrow, Red Alert—master of all.",
+      "pic": "https://pic.imgdb.cn/item/6545c3c6c458853aefd98fde.png"
+    },
+    {
+      "value": "90",
+      "title": "Lower Limit of Average Human IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Any lower and it's not quite normal.",
+      "pic": "https://pic.imgdb.cn/item/65624056c458853aefa1fb16.png"
+    },
+    {
+      "value": "91",
+      "title": "Sudoku Master",
+      "subtitle": "Minimum IQ",
+      "desc": "Tests logical reasoning, visual and spatial perception, memory, patience, quick number processing, and flexibility.",
+      "pic": "https://pic.imgdb.cn/item/654702a7c458853aefbd8cd1.png"
+    },
+    {
+      "value": "92",
+      "title": "Knows Farming/Gardening",
+      "subtitle": "Minimum IQ",
+      "desc": "Tests agricultural knowledge (soil, climate, pest control), observation, decision-making, physical strength, patience, innovation, and economic and financial management skills.",
+      "pic": "https://pic.imgdb.cn/item/6545eebcc458853aef6ac1b0.png"
+    },
+    {
+      "value": "92",
+      "title": "Chameleon Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Masters color-changing camouflage, blends into the environment, confuses prey, and launches its spring-like tongue with precise accuracy.",
+      "pic": "https://pic.imgdb.cn/item/6563fe5ec458853aeffadd99.png"
+    },
+    {
+      "value": "93",
+      "title": "Fast and Accurate Typing",
+      "subtitle": "Minimum IQ",
+      "desc": "Tests typing speed and accuracy.",
+      "pic": "https://pic.imgdb.cn/item/654831cdc458853aef572996.png"
+    },
+    {
+      "value": "94",
+      "title": "Blue Whale Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can sing for communication and mating. Possesses excellent navigation and memory, accurately navigating in complex ocean environments.",
+      "pic": "https://pic.imgdb.cn/item/65647722c458853aef493933.png"
+    },
+    {
+      "value": "95",
+      "title": "Lion Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can establish family units and territorial systems, comprising adult males, females, and cubs. Understands cooperative hunting to increase success rates.",
+      "pic": "https://pic.imgdb.cn/item/65624390c458853aefa804e7.png"
+    },
+    {
+      "value": "95",
+      "title": "Basic Education",
+      "subtitle": "Minimum IQ",
+      "desc": "From kindergarten to high school graduation, this is the minimum IQ required.",
+      "pic": "https://pic.imgdb.cn/item/6562a8a8c458853aef50580f.png"
+    },
+    {
+      "value": "96",
+      "title": "Average IQ of a 6-Year-Old",
+      "subtitle": "Minimum IQ",
+      "desc": "Can engage in dialogue, tell stories, socialize with peers and adults, and take care of daily life. Possesses rich imagination and learning ability.",
+      "pic": "https://pic.imgdb.cn/item/6545f4f4c458853aef8120ed.png"
+    },
+    {
+      "value": "96",
+      "title": "Tiger Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Adapts to the environment, hunts independently, builds nests, exhibits hunting skills, conceals prey, maintains territory, and engages in social behaviors.",
+      "pic": "https://pic.imgdb.cn/item/6562aa91c458853aef55c49f.png"
+    },
+    {
+      "value": "97",
+      "title": "Average IQ of Americans",
+      "subtitle": "Minimum IQ",
+      "desc": "How many letters? American adult girl: 24! 24 is correct because there's no I and Q.",
+      "pic": "https://pic.imgdb.cn/item/6562ab6dc458853aef580f66.png"
+    },
+    {
+      "value": "98",
+      "title": "Average IQ of Russians",
+      "subtitle": "Minimum IQ",
+      "desc": "Ura! Sukabliat! Also domineering! Nakhuy one!",
+      "pic": "https://pic.imgdb.cn/item/6562b2b5c458853aef6cb1d9.png"
+    },
+    {
+      "value": "99",
+      "title": "Border Collie Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Border Collies can film TikTok videos, herd sheep, control other dogs, understand 1000+ words, various human languages, play mind games, and deceive their owners.",
+      "pic": "https://pic.imgdb.cn/item/6544b82ec458853aeff94711.png"
+    },
+    {
+      "value": "100",
+      "title": "Average Human IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Life journey: go to school, fall in love, work, get married, have children, buy a car, buy a house, raise children, support the elderly, be supported by children.",
+      "pic": "https://pic.imgdb.cn/item/6545f762c458853aef89689a.png"
+    },
+    {
+      "value": "100",
+      "title": "As a Nurse",
+      "subtitle": "Minimum IQ",
+      "desc": "Understands human anatomy, pathology, pharmacology. Can administer IVs and injections. Possesses good communication skills, teamwork, and adaptability.",
+      "pic": "https://pic.imgdb.cn/item/6562b610c458853aef764983.png"
+    },
+    {
+      "value": "100",
+      "title": "Octopus Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can unscrew a bottle when locked inside. Masters color-changing camouflage to deceive prey. Can remember complex maze structures.",
+      "pic": "https://pic.imgdb.cn/item/6562b656c458853aef7716ce.png"
+    },
+    {
+      "value": "101",
+      "title": "Bilingual Mastery",
+      "subtitle": "Minimum IQ",
+      "desc": "Requires a comprehensive application of multiple intelligences and abilities, including language intelligence, learning ability, cultural sensitivity, communication skills, and social intelligence.",
+      "pic": "https://pic.imgdb.cn/item/6545f46cc458853aef7f3fec.png"
+    },
+    {
+      "value": "101",
+      "title": "Crow Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficient in using tools to obtain food, enjoys collecting human artifacts, has excellent memory, can mimic human speech, and excels at observational learning.",
+      "pic": "https://pic.imgdb.cn/item/6562b717c458853aef79366b.png"
+    },
+    {
+      "value": "101",
+      "title": "Familiar with the Periodic Table",
+      "subtitle": "Minimum IQ",
+      "desc": "Horizontally arranged rows are called periods. Each period represents a repeating pattern of atomic structure. Vertically arranged columns are called groups.",
+      "pic": "https://pic.imgdb.cn/item/6562d816c458853aefdf2a2d.png"
+    },
+    {
+      "value": "103",
+      "title": "Monkey Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can use twigs to catch insects, and rocks to crack open nuts. Excellent at mimicking humans, learning new skills, with good memory and rich emotions.",
+      "pic": "https://pic.imgdb.cn/item/6562dac1c458853aefe87fc2.png"
+    },
+    {
+      "value": "104",
+      "title": "Average IQ of Chinese People",
+      "subtitle": "Minimum IQ",
+      "desc": "China's rapid technological development has gradually surpassed developed countries, making them take notice. This wouldn't be possible without the intelligence of every Chinese person.",
+      "pic": "https://pic.imgdb.cn/item/6562dbbbc458853aefebf5dd.jpg"
+    },
+    {
+      "value": "105",
+      "title": "Playing Musical Instruments",
+      "subtitle": "Minimum IQ",
+      "desc": "Tests music theory, musical sense, memory, attention, coordination, and creativity.",
+      "pic": "https://pic.imgdb.cn/item/6545fb9cc458853aef9846d2.png"
+    },
+    {
+      "value": "105",
+      "title": "Fox 🦊 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Foxes can see through human hearts, understand various human behaviors. Their intelligence is equivalent to that of a young adult. Skilled in hunting, camouflage, and evading hunters.",
+      "pic": "https://pic.imgdb.cn/item/6562e09dc458853aeffd492d.png"
+    },
+    {
+      "value": "105",
+      "title": "Average IQ of Singaporeans",
+      "subtitle": "Minimum IQ",
+      "desc": "Emphasis on greenery and environmental protection, with large green spaces. Littering can result in fines. Leading education system encourages innovation and entrepreneurship, contributing to a prosperous economy.",
+      "pic": "https://pic.imgdb.cn/item/6563fb26c458853aeff3002b.png"
+    },
+    {
+      "value": "105",
+      "title": "Wolf Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Understands cooperative hunting, has territorial awareness, adapts to different environments. Young wolves learn hunting skills by participating in hunts with adults.",
+      "pic": "https://pic.imgdb.cn/item/6564016cc458853aef02036b.png"
+    },
+    {
+      "value": "106",
+      "title": "Chimpanzee Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Possesses rich emotions, language, and social communication intelligence. Can understand human language, excels in tool usage, and has strong learning abilities.",
+      "pic": "https://pic.imgdb.cn/item/6564026ac458853aef045185.png"
+    },
+    {
+      "value": "106",
+      "title": "Assembling Furniture",
+      "subtitle": "Minimum IQ",
+      "desc": "Can follow assembly instructions or diagrams, logically completing each assembly step. Tests attention to detail, patience, and the use of tools like screwdrivers.",
+      "pic": "https://pic.imgdb.cn/item/656402dbc458853aef056eb5.png"
+    },
+    {
+      "value": "106",
+      "title": "Pseudomonas aeruginosa",
+      "subtitle": "Minimum IQ",
+      "desc": "Its genome can encode 106 two-component signal system proteins (the molecular mechanism of bacteria's 'nervous system' sensing external environmental stimuli).",
+      "pic": "https://pic.imgdb.cn/item/65640469c458853aef09511d.png"
+    },
+    {
+      "value": "107",
+      "title": "Parrot 🦜 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can mimic human language, animal and environmental sounds. Can learn and use human language, understanding the meanings of words. Has a strong memory.",
+      "pic": "https://pic.imgdb.cn/item/6564037cc458853aef06f959.png"
+    },
+    {
+      "value": "107",
+      "title": "Elephant Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficient in using its trunk as a tool to obtain food. Expresses rich emotions through sounds and ears, and remembers the locations of food and water sources in the wild.",
+      "pic": "https://pic.imgdb.cn/item/6564288fc458853aef6862fa.png"
+    },
+    {
+      "value": "107",
+      "title": "Dolphin Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Uses echolocation for navigation, hunting, and communication. High degree of cortical folding and brain weight, surpassing humans. Can understand human language.",
+      "pic": "https://pic.imgdb.cn/item/65642765c458853aef64ba7a.jpg"
+    },
+    {
+      "value": "108",
+      "title": "Bonobo Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can master 3000+ words, recognize various object icons, play music, use computers, and barbecue. In conflicts, they prefer swapping mates over using violence.",
+      "pic": "https://pic.imgdb.cn/item/65644bfac458853aefd90785.jpg"
+    },
+    {
+      "value": "108",
+      "title": "Raccoon 🦝 Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can open refrigerators and packages to get food, and wash food by the riverside. Can navigate mazes, crack open shells, and pass on knowledge to other raccoons.",
+      "pic": "https://pic.imgdb.cn/item/65644c42c458853aefd9ccc7.png"
+    },
+    {
+      "value": "108",
+      "title": "Tank Operation",
+      "subtitle": "Minimum IQ",
+      "desc": "Masters joystick, pedals, and other control devices, operates main guns and machine guns. Possesses good psychological qualities and communication skills.",
+      "pic": "https://pic.imgdb.cn/item/65644d2ac458853aefdc72c7.png"
+    },
+    {
+      "value": "108",
+      "title": "Assembling Handguns",
+      "subtitle": "Minimum IQ",
+      "desc": "Understands the various components of handguns, can accurately and quickly disassemble and assemble them. Capable of manufacturing, repairing, or replacing handgun components.",
+      "pic": "https://pic.imgdb.cn/item/65644df8c458853aefdeb8d0.png"
+    },
+    {
+      "value": "109",
+      "title": "Escape Room Challenge",
+      "subtitle": "Minimum IQ",
+      "desc": "Tests logical thinking, observation, teamwork, spatial perception, patience, calmness, and memory.",
+      "pic": "https://pic.imgdb.cn/item/6546176fc458853aeff3380c.jpg"
+    },
+    {
+      "value": "109",
+      "title": "Average IQ of Hong Kong People",
+      "subtitle": "Minimum IQ",
+      "desc": "Hong Kong people are fluent in English, Mandarin, and Cantonese, giving them an advantage in international and cross-cultural communication. Hong Kong boasts top-tier universities.",
+      "pic": "https://pic.imgdb.cn/item/656472cbc458853aef3c8102.png"
+    },
+    {
+      "value": "110",
+      "title": "Orca Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Can use vocalizations for socializing, navigation, hunting, and expressing emotions. High learning ability, intelligence equivalent to a 16-year-old human. Can rescue drowning humans.",
+      "pic": "https://pic.imgdb.cn/item/6564735bc458853aef3e24ac.png"
+    },
+    {
+      "value": "110",
+      "title": "Sense of Humor",
+      "subtitle": "Minimum IQ",
+      "desc": "People with high IQs typically find it easier to understand and use complex concepts and language, aiding them in expressing humor more flexibly.",
+      "pic": "https://pic.imgdb.cn/item/65658ba6c458853aef19d8e0.png"
+    },
+    {
+      "value": "110",
+      "title": "Architectural Design",
+      "subtitle": "Minimum IQ",
+      "desc": "Requires consideration of spatial layout, dimensions, proportions, and spatial flow. Demands logical and mathematical intelligence to create aesthetically pleasing buildings.",
+      "pic": "https://pic.imgdb.cn/item/65658bf2c458853aef1ad584.png"
+    },
+    {
+      "value": "110",
+      "title": "Understanding One Hundred Years of Solitude",
+      "subtitle": "Minimum IQ",
+      "desc": "Revealing the brilliance and decline of seven generations, Gabriel Garcia Marquez uses magical realism to explore time, love, loneliness, fate, and the historical changes in Latin America.",
+      "pic": "https://pic.imgdb.cn/item/65658e32c458853aef22c849.png"
+    },
+    {
+      "value": "111",
+      "title": "Understanding Inception",
+      "subtitle": "Minimum IQ",
+      "desc": "A group of professional dream thieves, navigating through layers of dreams to implant ideas rather than steal. Reveals the relationship between dreams and reality.",
+      "pic": "https://pic.imgdb.cn/item/65658ec3c458853aef24cd67.png"
+    },
+    {
+      "value": "111",
+      "title": "Average IQ of Taiwanese People",
+      "subtitle": "Minimum IQ",
+      "desc": "Taiwanese excel in technology and innovation, possessing multilingual abilities. They are skilled in innovating various cuisines. Taiwan places high importance on education.",
+      "pic": "https://pic.imgdb.cn/item/656593b6c458853aef360187.png"
+    },
+    {
+      "value": "112",
+      "title": "Average IQ of Japanese People",
+      "subtitle": "Minimum IQ",
+      "desc": "Japanese value etiquette, craftsmanship, and the samurai spirit. Emphasizes technological innovation, thriftiness, and diligence. The high average IQ may be due to a smaller population.",
+      "pic": "https://pic.imgdb.cn/item/656596b4c458853aef3f54c0.png"
+    },
+    {
+      "value": "112",
+      "title": "Familiar with Universal Gravitation",
+      "subtitle": "Minimum IQ",
+      "desc": "Understanding mass, gravity, force, acceleration, and Newton's law of gravitation. It explains the force of attraction between masses.",
+      "pic": "https://pic.imgdb.cn/item/65660ee8c458853aef060731.png"
+    },
+    {
+      "value": "112",
+      "title": "Piloting Fighter Jets",
+      "subtitle": "Minimum IQ",
+      "desc": "Possesses excellent spatial awareness, aerial navigation, quick decision-making, and response skills. Familiar with flight dynamics and weapon system usage.",
+      "pic": "https://pic.imgdb.cn/item/65660f73c458853aef086426.png"
+    },
+    {
+      "value": "113",
+      "title": "Car Repair Skills",
+      "subtitle": "Minimum IQ",
+      "desc": "Has precise hand-eye coordination, knowledge of engine, transmission, suspension systems, and the ability to identify and solve issues.",
+      "pic": "https://pic.imgdb.cn/item/65661214c458853aef13c926.png"
+    },
+    {
+      "value": "113",
+      "title": "Songwriting, Composition, and Mixing",
+      "subtitle": "Minimum IQ",
+      "desc": "Understanding musical scales, chords, melody, poetry structure, and rhythm. Can express and resonate with various emotions, with a knack for innovation and aesthetics.",
+      "pic": "https://pic.imgdb.cn/item/656613a5c458853aef1a0964.png"
+    },
+    {
+      "value": "114",
+      "title": "Speed Reading",
+      "subtitle": "Minimum IQ",
+      "desc": "Highly concentrates, captures key information, and masters techniques like skimming, scanning, and phrase observation. Swiftly filters and processes large amounts of information.",
+      "pic": "https://pic.imgdb.cn/item/65661437c458853aef1c1eba.png"
+    },
+    {
+      "value": "114",
+      "title": "Healthy 70-Year-Old",
+      "subtitle": "Minimum IQ",
+      "desc": "Elders have rich life experiences and can see through everything at a glance. They are often wiser, and old age doesn't necessarily imply dementia. Some are cunning.",
+      "pic": "https://pic.imgdb.cn/item/656614f4c458853aef1eb5dd.png"
+    },
+    {
+      "value": "114",
+      "title": "College Graduates",
+      "subtitle": "Minimum IQ",
+      "desc": "Masters certain academic knowledge, possesses corresponding professional skills. Can think independently, analyze problems, and offer innovative insights.",
+      "pic": "https://pic.imgdb.cn/item/6566153dc458853aef1fb5dc.png"
+    },
+    {
+      "value": "114",
+      "title": "High Anxiety",
+      "subtitle": "Minimum IQ",
+      "desc": "Deep thinking, over-analysis of problems, pursuit of perfectionism, social pressure, worry about the future, heightened emotional sensitivity.",
+      "pic": "https://pic.imgdb.cn/item/6566164bc458853aef239148.png"
+    },
+    {
+      "value": "115",
+      "title": "Business Acumen",
+      "subtitle": "Minimum IQ",
+      "desc": "Understands market trends, analyzes data, predicts future trends, and excels in innovation. Can formulate and execute long-term strategies, understands market competition and positioning.",
+      "pic": "https://pic.imgdb.cn/item/656696e4c458853aef065342.png"
+    },
+    {
+      "value": "115",
+      "title": "Qualification for World Genius Directory",
+      "subtitle": "Minimum IQ",
+      "desc": "Determined by organizations or judging panels based on a series of standards and evaluation processes. Individuals successfully qualifying will be announced and listed in the World Genius Directory.",
+      "pic": "https://pic.imgdb.cn/item/6566d453c458853aefb327d5.png"
+    },
+    {
+      "value": "115",
+      "title": "Piano Master",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficient in piano with a grade of ten, deep understanding of music, superb technical skills, rich expressiveness. In-depth study of music theory, extensive performance experience, and creativity.",
+      "pic": "https://pic.imgdb.cn/item/6566d64ac458853aefba1fd3.jpg"
+    },
+    {
+      "value": "115",
+      "title": "Average IQ of Ivy League Schools",
+      "subtitle": "Minimum IQ",
+      "desc": "The most elite alliance of universities in the United States, Ivy League schools typically admit students with outstanding academic achievements and high intellectual qualities.",
+      "pic": "https://pic.imgdb.cn/item/6566d7e1c458853aefbf9936.png"
+    },
+    {
+      "value": "115",
+      "title": "Upper Limit of Average Person's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "A bit higher is considered elite. The average IQ is 100, with 95% of people having an IQ between 85 and 115, and 3% having an IQ between 115 and 130.",
+      "pic": "https://pic.imgdb.cn/item/6566df91c458853aefd98cbe.png"
+    },
+    {
+      "value": "116",
+      "title": "Mastering Complex Transformers",
+      "subtitle": "Minimum IQ",
+      "desc": "Toys suitable for ages 16 and above, even adults may find it challenging. Requires repeated practice and exploration. Tests hand-eye coordination, spatial awareness, imagination, and patience.",
+      "pic": "https://pic.imgdb.cn/item/6566d8dcc458853aefc2b14d.png"
+    },
+    {
+      "value": "117",
+      "title": "Flying Passenger Jets",
+      "subtitle": "Minimum IQ",
+      "desc": "Mastering the control stick, pedals, throttle. Handling navigation, communication, monitoring. Understanding aeronautics, meteorology, and mechanical engineering. Can cope with emergency situations.",
+      "pic": "https://pic.imgdb.cn/item/6566dc40c458853aefce9cad.png"
+    },
+    {
+      "value": "118",
+      "title": "Can Operate Aircraft Carriers",
+      "subtitle": "Minimum IQ",
+      "desc": "Aircraft carriers are massive organizations, piloting them requires outstanding teamwork and leadership to ensure coordination and cooperation among various departments.",
+      "pic": "https://pic.imgdb.cn/item/656598f9c458853aef46fb4a.png"
+    },
+    {
+      "value": "118",
+      "title": "Perfect Score in High School Mathematics",
+      "subtitle": "Minimum IQ",
+      "desc": "Mastering fundamentals like equations, geometry, functions, logical reasoning, calculation skills, understanding exam strategies, time management, and consistent practice.",
+      "pic": "https://pic.imgdb.cn/item/65461bb5c458853aeffff816.png"
+    },
+    {
+      "value": "119",
+      "title": "Proficient in Calculating Calculus",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficiently mastering derivatives, functions, definite and indefinite integrals, calculus theorems, and proof techniques.",
+      "pic": "https://pic.imgdb.cn/item/65461c35c458853aef019473.png"
+    },
+    {
+      "value": "119",
+      "title": "Outstanding Lawyer",
+      "subtitle": "Minimum IQ",
+      "desc": "Deep understanding of legal systems, regulations, case law, and legal procedures. Can logically analyze cases and laws, express their views clearly and persuasively.",
+      "pic": "https://pic.imgdb.cn/item/6566de70c458853aefd5ba3f.png"
+    },
+    {
+      "value": "119",
+      "title": "Mind Reader",
+      "subtitle": "Minimum IQ",
+      "desc": "Rich information is conveyed through body language, facial expressions, eye contact, tone, etc. With careful listening, one can essentially see through everything.",
+      "pic": "https://pic.imgdb.cn/item/6561f1aec458853aef5db951.png"
+    },
+    {
+      "value": "120",
+      "title": "Lao Gao's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Professionally spouting nonsense! Always misreads scripts. Has broad knowledge but often spreads misinformation. Seems to understand the universe on the surface but is actually just pretending.",
+      "pic": "https://pic.imgdb.cn/item/65572b56c458853aeff0d8ed.png"
+    },
+    {
+      "value": "120",
+      "title": "ADHD",
+      "subtitle": "Minimum IQ",
+      "desc": "Individuals with ADHD may excel in creativity and flexibility. They switch thoughts quickly, and their intuition and perception may be more acute.",
+      "pic": "https://pic.imgdb.cn/item/6566e0b7c458853aefdd7b6b.png"
+    },
+    {
+      "value": "120",
+      "title": "Super Memory",
+      "subtitle": "Minimum IQ",
+      "desc": "Memorize 200 words in an hour, recall a bank card number in 30 seconds, remember every detail of experiences from decades ago.",
+      "pic": "https://pic.imgdb.cn/item/65461b96c458853aefff9b3d.png"
+    },
+    {
+      "value": "120",
+      "title": "Can 'Triple Like'",
+      "subtitle": "Minimum IQ",
+      "desc": "Liking, tipping, and bookmarking - can 'triple like.' Bringing good luck, exploding with fortune. Liking brings you joy, commenting brings you glory, sharing brings you happiness.",
+      "pic": "https://pic.imgdb.cn/item/6545cfc6c458853aeffda298.webp"
+    },
+    {
+      "value": "121",
+      "title": "Perfect Score in College Advanced Math",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficient in calculus, differential equations, linear algebra, multivariable functions, probability and statistics, differential geometry, etc., through diligent study and practice.",
+      "pic": "https://pic.imgdb.cn/item/65475840c458853aeff80b93.png"
+    },
+    {
+      "value": "121",
+      "title": "Strong Intuition",
+      "subtitle": "Minimum IQ",
+      "desc": "High IQ individuals react quickly and possess extensive knowledge. Utilizes intuitive problem-solving at a subconscious level to make rapid and accurate judgments.",
+      "pic": "https://pic.imgdb.cn/item/6566e223c458853aefe21f1f.png"
+    },
+    {
+      "value": "122",
+      "title": "Familiar with 197 Countries",
+      "subtitle": "Minimum IQ",
+      "desc": "Understanding the history, geography, politics, economics, and culture of 197 sovereign countries.",
+      "pic": "https://pic.imgdb.cn/item/6562d988c458853aefe43313.png"
+    },
+    {
+      "value": "122",
+      "title": "Excellent Programmer",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficient in multiple programming languages, understanding algorithms and data structures. Skilled in debugging code, troubleshooting errors. Can quickly learn new technologies and collaborate in teams.",
+      "pic": "https://pic.imgdb.cn/item/6566e808c458853aeff5d5b0.png"
+    },
+    {
+      "value": "122",
+      "title": "Depressive Thinking",
+      "subtitle": "Minimum IQ",
+      "desc": "Highly intelligent individuals may tend to think deeply and overanalyze, harbor dissatisfaction with society, feel lonely, worry about the future, and engage in excessive self-reflection.",
+      "pic": "https://pic.imgdb.cn/item/6566e8e6c458853aeff8b437.png"
+    },
+    {
+      "value": "123",
+      "title": "Mastery of 3 Languages",
+      "subtitle": "Minimum IQ",
+      "desc": "Quickly mastering different language structures, pronunciation, vocabulary. Can switch between different languages rapidly without confusion or language interference.",
+      "pic": "https://pic.imgdb.cn/item/6566ede8c458853aef087bae.png"
+    },
+    {
+      "value": "123",
+      "title": "IQ of Lin Daiyu",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficient in poetry, with unique insights into classical literature. 'Lament of the Flowers' expresses inner sorrow and desolation. Emotionally sensitive, stays away from the secular world.",
+      "pic": "https://pic.imgdb.cn/item/6566efc2c458853aef0d470e.png"
+    },
+    {
+      "value": "124",
+      "title": "Hyper Sensitive Nerves",
+      "subtitle": "Minimum IQ",
+      "desc": "Sensitive to stimuli like sound, light, and smells, strong reactions to imperfections. Possesses a deeper understanding of interpersonal relationships.",
+      "pic": "https://pic.imgdb.cn/item/6566f0a0c458853aef1037db.png"
+    },
+    {
+      "value": "125",
+      "title": "Being a CEO",
+      "subtitle": "Minimum IQ",
+      "desc": "Dealing with complex interpersonal relationships, understanding intricate business, devising effective strategies, and making wise decisions. A knack for leading and motivating teams.",
+      "pic": "https://pic.imgdb.cn/item/6566f15dc458853aef129701.png"
+    },
+    {
+      "value": "126",
+      "title": "Outstanding Surgeon",
+      "subtitle": "Minimum IQ",
+      "desc": "In-depth knowledge of anatomy, physiology, pathology. Masters complex medical techniques and surgical instruments with precision.",
+      "pic": "https://pic.imgdb.cn/item/6566dbbbc458853aefcc74fd.png"
+    },
+    {
+      "value": "126",
+      "title": "Intelligence of Fan Li",
+      "subtitle": "Minimum IQ",
+      "desc": "General under King Goujian, achieved the dominance of Yue, and revived the state. Fan Li's three relocations, all with honor. Fan Li once served as a slave with Goujian in the state of Wu.",
+      "pic": "https://pic.imgdb.cn/item/6566f356c458853aef18aa65.png"
+    },
+    {
+      "value": "127",
+      "title": "IQ of Liu Qiangdong",
+      "subtitle": "Minimum IQ",
+      "desc": "Founder of JD.com, one of China's largest e-commerce platforms. Under Liu Qiangdong's leadership, JD.com began large-scale global expansion. JD logistics ensures fast delivery to your doorstep.",
+      "pic": "https://pic.imgdb.cn/item/6566f2c9c458853aef1711ae.png"
+    },
+    {
+      "value": "127",
+      "title": "Becoming a Millionaire",
+      "subtitle": "Minimum IQ",
+      "desc": "Understanding investments, finance. Daring in entrepreneurship, taking action, having a strong network, and good financial literacy.",
+      "pic": "https://pic.imgdb.cn/item/6566f7ebc458853aef258f9b.png"
+    },
+    {
+      "value": "127",
+      "title": "Intelligence of Shou Gong (Handmade Geng)",
+      "subtitle": "Minimum IQ",
+      "desc": "Genius inventor, excels in creating various handmade inventions with a vivid imagination. Strong innovative and hands-on practical abilities.",
+      "pic": "https://pic.imgdb.cn/item/6566f8adc458853aef279cb5.png"
+    },
+    {
+      "value": "128",
+      "title": "Becoming a Renowned Physicist",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficient in researching classical mechanics, electromagnetism, thermodynamics, quantum mechanics, relativity, nuclear physics, solid-state physics, fluid mechanics, optics, and more.",
+      "pic": "https://pic.imgdb.cn/item/6566fa52c458853aef2c02e5.png"
+    },
+    {
+      "value": "128",
+      "title": "IQ of Robin Li",
+      "subtitle": "Minimum IQ",
+      "desc": "Robin Li propelled Baidu to become a leading enterprise in the field of AI. Baidu has made significant progress in deep learning and natural language processing under Robin Li's leadership.",
+      "pic": "https://pic.imgdb.cn/item/6566fb13c458853aef2e2cd6.png"
+    },
+    {
+      "value": "129",
+      "title": "IQ of Jeff Bezos",
+      "subtitle": "Minimum IQ",
+      "desc": "Founder of the world's largest e-commerce platform, Amazon, and private space exploration. Jeff Bezos drove Amazon Web Services in cloud computing. Launched the Kindle e-book reader.",
+      "pic": "https://pic.imgdb.cn/item/6566fb48c458853aef2ec57c.png"
+    },
+    {
+      "value": "129",
+      "title": "IQ of Harvard Graduates",
+      "subtitle": "Minimum IQ",
+      "desc": "Harvard education emphasizes cultivating students' critical thinking, encourages innovation and entrepreneurship. Graduates usually possess leadership and event organization capabilities.",
+      "pic": "https://pic.imgdb.cn/item/6566fcd2c458853aef334db2.png"
+    },
+    {
+      "value": "129",
+      "title": "No Longer Talking about Trifles",
+      "subtitle": "Minimum IQ",
+      "desc": "High IQ individuals tend to engage in deep-level thinking and discussions, focusing on complex problems and abstract concepts rather than simple details.",
+      "pic": "https://pic.imgdb.cn/item/6566fde5c458853aef366c82.png"
+    },
+    {
+      "value": "129",
+      "title": "Intelligence of Goujian",
+      "subtitle": "Minimum IQ",
+      "desc": "Understands forbearance. King Fuchai thought Goujian was useless, even eating feces. Thinking he wouldn't achieve anything, he released Goujian. Goujian endured humiliation and eventually sought revenge.",
+      "pic": "https://pic.imgdb.cn/item/6566ffedc458853aef3ce0b4.png"
+    },
+    {
+      "value": "129",
+      "title": "Intelligence of Zhuge Liang",
+      "subtitle": "Minimum IQ",
+      "desc": "Known for brilliant military strategies and wisdom, Zhuge Liang is praised as the 'Sleeping Dragon.' Famous for tactics like 'Boats and Arrows,' 'Empty Fort Strategy,' 'Seven Captures of Meng Huo,' 'Wooden Oxen and Flowing Horses,' and 'Kongming Lantern.'",
+      "pic": "https://pic.imgdb.cn/item/6567043fc458853aef493e00.png"
+    },
+    {
+      "value": "130",
+      "title": "Intelligence of Wu Yong",
+      "subtitle": "Minimum IQ",
+      "desc": "Serving as a military strategist, Wu Yong won numerous battles with outstanding intelligence, defeating many government armies. Knows how to attract talents through clever means.",
+      "pic": "https://pic.imgdb.cn/item/656700b7c458853aef3f5818.jpg"
+    },
+    {
+      "value": "130",
+      "title": "Intelligence of Zhou Gong",
+      "subtitle": "Minimum IQ",
+      "desc": "Founder of 'Yi Jing' (I Ching), Zhou Gong laid the foundation for Chinese classical culture's philosophy and worldview. The hexagrams, composed of yin and yang symbols, represent the operational states of all things in the world.",
+      "pic": "https://pic.imgdb.cn/item/6567046ac458853aef49c354.jpg"
+    },
+    {
+      "value": "130",
+      "title": "Mentally Abnormal",
+      "subtitle": "Minimum IQ",
+      "desc": "Conditions like autism, bipolar disorder, schizophrenia, obsessive-compulsive disorder, ADHD, PTSD, personality disorders, etc., are often associated with high intelligence.",
+      "pic": "https://pic.imgdb.cn/item/6567064dc458853aef4f877e.png"
+    },
+    {
+      "value": "130",
+      "title": "Mensa Membership Qualification",
+      "subtitle": "Minimum IQ",
+      "desc": "Achieving corresponding scores in IQ tests, placing your intelligence in the top 2% of the population. After passing, you also need to pay membership fees (intelligence tax).",
+      "pic": "https://pic.imgdb.cn/item/65670787c458853aef52da62.png"
+    },
+    {
+      "value": "130",
+      "title": "Shenghan Association Qualification",
+      "subtitle": "Minimum IQ",
+      "desc": "The first high IQ club in China, targeting the global Chinese-speaking community.",
+      "pic": "https://pic.imgdb.cn/item/6567093dc458853aef57cc46.png"
+    },
+    {
+      "value": "130",
+      "title": "Top 2% Globally",
+      "subtitle": "Minimum IQ",
+      "desc": "IQ tests do not comprehensively evaluate all aspects of a person's intelligence. They mainly measure language skills, mathematical reasoning, logical reasoning, etc.",
+      "pic": "https://pic.imgdb.cn/item/6567093dc458853aef57cd13.png"
+    },
+    {
+      "value": "131",
+      "title": "IQ of Li Yongle",
+      "subtitle": "Minimum IQ",
+      "desc": "Extensive knowledge, well-versed in ancient and modern subjects, excels in mathematics, physics, and technology. Gained widespread attention by sharing scientific knowledge through online videos.",
+      "pic": "https://pic.imgdb.cn/item/65670a98c458853aef5bb01b.png"
+    },
+    {
+      "value": "131",
+      "title": "IQ of Guiguzi",
+      "subtitle": "Minimum IQ",
+      "desc": "Hermit Guiguzi, proficient in military strategy, Taoism, and divination, a versatile scholar mastering various skills. 'Guiguzi' is renowned for its unique military philosophy.",
+      "pic": "https://pic.imgdb.cn/item/65670cc2c458853aef6266da.png"
+    },
+    {
+      "value": "132",
+      "title": "Postdoc/Scientist",
+      "subtitle": "Minimum IQ",
+      "desc": "Talented pillar, deep professional knowledge, advanced research skills, superb creativity, excellent communication, adept at teamwork, and independent thinking.",
+      "pic": "https://pic.imgdb.cn/item/654749f0c458853aefc359b0.png"
+    },
+    {
+      "value": "132",
+      "title": "IQ of Jack Ma",
+      "subtitle": "Minimum IQ",
+      "desc": "Founder of Alibaba, with platforms like Taobao, Tmall, and Alipay. Revolutionized payment methods, eliminating cash. Jack Ma is also involved in education and charity.",
+      "pic": "https://pic.imgdb.cn/item/65670d31c458853aef63b8f0.png"
+    },
+    {
+      "value": "132",
+      "title": "Mastery of 4 Languages",
+      "subtitle": "Minimum IQ",
+      "desc": "Some individuals naturally excel in language learning, making it easier for them to master and memorize new languages.",
+      "pic": "https://pic.imgdb.cn/item/65670f1ac458853aef698c35.png"
+    },
+    {
+      "value": "132",
+      "title": "Bipolar Disorder",
+      "subtitle": "Minimum IQ",
+      "desc": "Episodes of mania and depression alternate. Manic episodes involve heightened emotions and impulsive behavior. Depressive episodes feature low mood, despair, and even suicidal thoughts.",
+      "pic": "https://pic.imgdb.cn/item/6567110bc458853aef6f39a1.png"
+    },
+    {
+      "value": "134",
+      "title": "Excellent President",
+      "subtitle": "Minimum IQ",
+      "desc": "Effectively leads the country, formulates and implements long-term and short-term policies. Clearly communicates and makes wise, rational decisions. Possesses political insight.",
+      "pic": "https://pic.imgdb.cn/item/6567140dc458853aef77fd57.png"
+    },
+    {
+      "value": "135",
+      "title": "NASA Astronaut Requirements",
+      "subtitle": "Minimum IQ",
+      "desc": "Preferably holds a master's or doctoral degree. Work experience in fields like scientific research and flying, a background as a pilot, and good teamwork skills are essential.",
+      "pic": "https://pic.imgdb.cn/item/6567149bc458853aef796012.png"
+    },
+    {
+      "value": "135",
+      "title": "IQ of Pony Ma",
+      "subtitle": "Minimum IQ",
+      "desc": "Founder of Tencent, with platforms like QQ, WeChat, Honor of Kings, and PUBG. Ventures into various fields: fintech, AI, cloud computing.",
+      "pic": "https://pic.imgdb.cn/item/656715f5c458853aef7d3250.png"
+    },
+    {
+      "value": "135",
+      "title": "Top 1% Society Qualification",
+      "subtitle": "Minimum IQ",
+      "desc": "When applying for membership, you need to provide Mensa test proof, and the requirements are stricter than Mensa's.",
+      "pic": "https://pic.imgdb.cn/item/65671690c458853aef7f0126.png"
+    },
+    {
+      "value": "135",
+      "title": "Silver Horn Association Qualification",
+      "subtitle": "Minimum IQ",
+      "desc": "Requires applicants to provide at least two different types of IQ test results. If there are authoritative high-range IQ test results, direct application for membership without a test is possible.",
+      "pic": "https://pic.imgdb.cn/item/6567177cc458853aef81d8b4.png"
+    },
+    {
+      "value": "135",
+      "title": "Genius on the Left, Madman on the Right",
+      "subtitle": "Minimum IQ",
+      "desc": "High IQ individuals are prone to depression and mental illness due to overthinking and anxiety, leading to unstable thoughts.",
+      "pic": "https://pic.imgdb.cn/item/6567185cc458853aef848fb1.png"
+    },
+    {
+      "value": "135",
+      "title": "IQ of Steve Jobs",
+      "subtitle": "Minimum IQ",
+      "desc": "Founder of Apple, currently the world's most valuable company. Steve Jobs' earliest invention, the iPhone, is the precursor to smartphones.",
+      "pic": "https://pic.imgdb.cn/item/65671a04c458853aef8920e4.png"
+    },
+    {
+      "value": "135",
+      "title": "Top 1% Globally",
+      "subtitle": "Minimum IQ",
+      "desc": "Efficient learning ability, excellent memory, innovation, strong logical reasoning, outstanding language skills, natural aptitude for mathematics and science, rapid problem-solving.",
+      "pic": "https://pic.imgdb.cn/item/65671940c458853aef870721.png"
+    },
+    {
+      "value": "136",
+      "title": "NASA Engineer",
+      "subtitle": "Minimum IQ",
+      "desc": "Requires a foundation in engineering, physics, mathematics, and computer science. Engineers need the ability to design novel solutions, creativity, and adaptability.",
+      "pic": "https://pic.imgdb.cn/item/65672965c458853aefbe4481.jpg"
+    },
+    {
+      "value": "137",
+      "title": "Talking Non-stop at 1 Year Old",
+      "subtitle": "Minimum IQ",
+      "desc": "At 1 year old, usually can only speak simple words. Those with natural language talents can use complex language structures to express more meanings fluently.",
+      "pic": "https://pic.imgdb.cn/item/65672b07c458853aefc4e320.png"
+    },
+    {
+      "value": "138",
+      "title": "Conducting Scientific Research",
+      "subtitle": "Minimum IQ",
+      "desc": "Researchers need creativity, logical thinking, problem-solving skills, ability to design and conduct experiments, data collection and analysis, literature research, and resilience.",
+      "pic": "https://pic.imgdb.cn/item/65672bfec458853aefc8828e.png"
+    },
+    {
+      "value": "138",
+      "title": "Just Want to Be Alone",
+      "subtitle": "Minimum IQ",
+      "desc": "Individuals with high intelligence often engage in deeper thinking and analysis. They prefer solitude, quietness, and focus on their inner world.",
+      "pic": "https://pic.imgdb.cn/item/65672cbac458853aefcb1243.png"
+    },
+    {
+      "value": "139",
+      "title": "Top 0.5% Globally",
+      "subtitle": "Minimum IQ",
+      "desc": "Excelling in arts, science, and creativity. Easily adapts to new environments with strong adaptability. Enjoys deep thinking and exploring complex concepts.",
+      "pic": "https://pic.imgdb.cn/item/65672e39c458853aefd0cda3.png"
+    },
+    {
+      "value": "140",
+      "title": "Genius Poets Club",
+      "subtitle": "Minimum IQ",
+      "desc": "As the name suggests, the Genius Poets Club is composed of enthusiasts of art with a passion for poetry.",
+      "pic": "https://pic.imgdb.cn/item/65672ecac458853aefd32074.png"
+    },
+    {
+      "value": "140",
+      "title": "Infinite International Association",
+      "subtitle": "Minimum IQ",
+      "desc": "The population with an IQ above the threshold constitutes 0.37% of the world's total population: Top 0.37%, 1/270.",
+      "pic": "https://pic.imgdb.cn/item/65672f41c458853aefd58b46.png"
+    },
+    {
+      "value": "140",
+      "title": "Chess Grandmaster",
+      "subtitle": "Minimum IQ",
+      "desc": "Calculates 15-20 moves in advance, identifies and exploits the opponent's weaknesses, organizes attacks or defense. Possesses strategic thinking and excellent mental resilience.",
+      "pic": "https://pic.imgdb.cn/item/65672f7ac458853aefd6782d.png"
+    },
+    {
+      "value": "140",
+      "title": "Genius",
+      "subtitle": "Minimum IQ",
+      "desc": "Consistently surpasses others in achievements in science, art, music, etc. Possesses outstanding creativity, rapid learning, superb memory, focus, and perseverance.",
+      "pic": "https://pic.imgdb.cn/item/6567303ec458853aefd9a050.png"
+    },
+    {
+      "value": "141",
+      "title": "Brainy Club",
+      "subtitle": "Minimum IQ",
+      "desc": "The population with an IQ above the threshold constitutes 0.3% of the world's total population: Top 0.3%, 3/1000.",
+      "pic": "https://pic.imgdb.cn/item/656732ddc458853aefe3d4fa.png"
+    },
+    {
+      "value": "142",
+      "title": "Criminal Empire Operator",
+      "subtitle": "Minimum IQ",
+      "desc": "Requires outstanding organizational and planning skills to ensure the smooth execution of various criminal activities while minimizing potential risks. Proficient in money laundering techniques and dark web transactions.",
+      "pic": "https://pic.imgdb.cn/item/65673409c458853aefe8d06e.png"
+    },
+    {
+      "value": "143",
+      "title": "Elite Wisdom Society Threshold",
+      "subtitle": "Minimum IQ",
+      "desc": "The population with an IQ above the threshold constitutes 0.2% of the world's total population: Top 0.2%, 1/500.",
+      "pic": "https://pic.imgdb.cn/item/656734edc458853aefec9748.jpg"
+    },
+    {
+      "value": "145",
+      "title": "Talented Art and Wisdom Society",
+      "subtitle": "Minimum IQ",
+      "desc": "The population with an IQ above the threshold constitutes 0.13% of the world's total population: Top 0.13%, 13/10000.",
+      "pic": "https://pic.imgdb.cn/item/65673533c458853aefedb7d2.jpg"
+    },
+    {
+      "value": "145",
+      "title": "Go Master",
+      "subtitle": "Minimum IQ",
+      "desc": "Strategic thinking, situational judgment, predicting multiple moves, Go patterns, quick decision-making, psychological tactics, patience, and perseverance.",
+      "pic": "https://pic.imgdb.cn/item/65673603c458853aeff10a6d.png"
+    },
+    {
+      "value": "145",
+      "title": "IQ of Zhang Xinyang",
+      "subtitle": "Minimum IQ",
+      "desc": "Learned to read at 2, took the college entrance exam at 10, master's degree at 13, Ph.D. at 16, Ph.D. graduation at 24, unemployed and living with parents at 28.",
+      "pic": "https://pic.imgdb.cn/item/656736acc458853aeff49b83.png"
+    },
+    {
+      "value": "145",
+      "title": "Hacking the FBI",
+      "subtitle": "Minimum IQ",
+      "desc": "Every day, 3.8 million FBI records are hacked through virus implantation, DDoS attacks, SQL injection, phishing attacks, and man-in-the-middle attacks.",
+      "pic": "https://pic.imgdb.cn/item/6567371cc458853aeff680c0.png"
+    },
+    {
+      "value": "146",
+      "title": "Neuroglia Club",
+      "subtitle": "Minimum IQ",
+      "desc": "The population with an IQ above the threshold constitutes 0.1% of the world's total population: Top 0.1%, 1/1000.",
+      "pic": "https://pic.imgdb.cn/item/65673817c458853aeffaeb4c.png"
+    },
+    {
+      "value": "147",
+      "title": "High Intelligence Suspicion Disorder",
+      "subtitle": "Minimum IQ",
+      "desc": "Difficult to trust others, highly alert. May overanalyze the behavior, words, and motives of others, leading to skepticism about the true intentions of others.",
+      "pic": "https://pic.imgdb.cn/item/656738e1c458853aefff1170.png"
+    },
+    {
+      "value": "148",
+      "title": "ISI-Society",
+      "subtitle": "Minimum IQ",
+      "desc": "The population with an IQ above the threshold constitutes 0.07% of the world's total population: Top 0.07%, 7/10000.",
+      "pic": "https://pic.imgdb.cn/item/65673923c458853aef006090.webp"
+    },
+    {
+      "value": "148",
+      "title": "Brain Surgery Expert",
+      "subtitle": "Minimum IQ",
+      "desc": "Master of anatomy, physiology, pharmacology, and neuroscience. Capable of complex and delicate operations in minute brain tissues.",
+      "pic": "https://pic.imgdb.cn/item/65673a03c458853aef04cfc5.png"
+    },
+    {
+      "value": "150",
+      "title": "Top 0.1% of Humanity",
+      "subtitle": "Minimum IQ",
+      "desc": "An elite human group with capabilities like rapid learning, innovation, deep thinking, superb memory, and adept problem-solving. Outstanding academic performance.",
+      "pic": "https://pic.imgdb.cn/item/65673b12c458853aef0a12c8.png"
+    },
+    {
+      "value": "150",
+      "title": "IQ of Sun Wukong",
+      "subtitle": "Minimum IQ",
+      "desc": "Easily sees through the tricks and disguises of demons and monsters, master of seventy-two transformations, extraordinary courage, powerful adaptability. Loyally protects the master.",
+      "pic": "https://pic.imgdb.cn/item/65673cf1c458853aef13ea8b.png"
+    },
+    {
+      "value": "151",
+      "title": "Cosmic Genius Association",
+      "subtitle": "Minimum IQ",
+      "desc": "The Cosmic Genius Association's test includes three parts: space, numbers, and language. What percentage of the global population cannot join: 99.96%.",
+      "pic": "https://pic.imgdb.cn/item/65674081c458853aef249c34.png"
+    },
+    {
+      "value": "155",
+      "title": "Photographic Memory",
+      "subtitle": "Minimum IQ",
+      "desc": "Able to notice and remember small details such as colors, shapes, textures, etc. Can vividly reproduce seen scenes and spatial structures in the mind.",
+      "pic": "https://pic.imgdb.cn/item/65674237c458853aef2c7fd0.png"
+    },
+    {
+      "value": "155",
+      "title": "IQ of Elon Musk",
+      "subtitle": "Minimum IQ",
+      "desc": "Founder of companies like Tesla, SpaceX, SolarCity, etc. Formerly the world's richest person. Mainly dedicated to low-cost space travel and reusable rockets.",
+      "pic": "https://pic.imgdb.cn/item/656743bac458853aef336368.png"
+    },
+    {
+      "value": "156",
+      "title": "Vaccine Development",
+      "subtitle": "Minimum IQ",
+      "desc": "In-depth research in biology, medicine, and immunology. Proficient in the structure, genome, and protein synthesis of viruses and bacteria. Knowledgeable in drug preparation and safety.",
+      "pic": "https://pic.imgdb.cn/item/6567449bc458853aef37a867.png"
+    },
+    {
+      "value": "159",
+      "title": "Human Calculator",
+      "subtitle": "Minimum IQ",
+      "desc": "Exceptional mental calculation skills, numerical memory, mathematical intuition, and quick thinking. Capable of performing complex calculations rapidly and accurately.",
+      "pic": "https://pic.imgdb.cn/item/656745d1c458853aef3ccde8.png"
+    },
+    {
+      "value": "160",
+      "title": "Nobel Prize Worthy",
+      "subtitle": "Minimum IQ",
+      "desc": "Outstanding contributions and achievements in a specific field, remarkable research results, and the ability to positively impact human society.",
+      "pic": "https://pic.imgdb.cn/item/6567ba9f871b83018a0f536f.png"
+    },
+    {
+      "value": "160",
+      "title": "Edison's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Edison improved and popularized commercially usable light bulbs but wasn't the inventor. A cunning entrepreneur relying on Tesla. Genius is 99% perspiration of others.",
+      "pic": "https://pic.imgdb.cn/item/6567c0f3c458853aef6e314f.jpg"
+    },
+    {
+      "value": "160",
+      "title": "Hawking's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Research on black holes, the universe, time, and space. Authored 'A Brief History of Time.' Sadly afflicted with ALS but remained resolute in spirit.",
+      "pic": "https://pic.imgdb.cn/item/6567c70bc458853aef76fe3d.png"
+    },
+    {
+      "value": "160",
+      "title": "Darwin's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Evolutionary theory, 'On the Origin of Species,' survival of the fittest, natural selection, human evolution. Studied paleontology, fossils, and supported his theory with geology.",
+      "pic": "https://pic.imgdb.cn/item/6567e59cc458853aefafa6ef.png"
+    },
+    {
+      "value": "160",
+      "title": "Prometheus Club",
+      "subtitle": "Minimum IQ",
+      "desc": "Those scoring >= Top 0.003% in IQ tests are eligible to join. Currently, there are just over 100 members worldwide.",
+      "pic": "https://pic.imgdb.cn/item/6567cbecc458853aef7e5ad1.png"
+    },
+    {
+      "value": "161",
+      "title": "Stealing the Mona Lisa",
+      "subtitle": "Minimum IQ",
+      "desc": "Treasure in the Louvre, France. Tight security requires circumventing high-tech museum security systems and a complex surveillance network.",
+      "pic": "https://pic.imgdb.cn/item/6567cd13c458853aef80581d.png"
+    },
+    {
+      "value": "164",
+      "title": "Super-Genius Club Threshold",
+      "subtitle": "Minimum IQ",
+      "desc": "Population with IQ above the threshold: Top 0.001%, 1/100000.",
+      "pic": "https://pic.imgdb.cn/item/6567cd7cc458853aef80ec9f.png"
+    },
+    {
+      "value": "165",
+      "title": "Social Detachment",
+      "subtitle": "Minimum IQ",
+      "desc": "Feeling people around are too ordinary, commonplace, lacking common ground. Inclined towards deep thinking, creative thought, and researching profound, complex topics.",
+      "pic": "https://pic.imgdb.cn/item/6567cf7bc458853aef841a1b.png"
+    },
+    {
+      "value": "168",
+      "title": "Contemplating Suicide",
+      "subtitle": "Minimum IQ",
+      "desc": "High intelligence sees through life, comprehends everything, leading to a desire to end it all. Gains come with losses.",
+      "pic": "https://pic.imgdb.cn/item/6567d2f7c458853aef8a3e37.png"
+    },
+    {
+      "value": "168",
+      "title": "Sanctuary High IQ Association",
+      "subtitle": "Minimum IQ",
+      "desc": "Population with IQ above the threshold: Top 0.00029%, 1/344471.",
+      "pic": "https://pic.imgdb.cn/item/6567d71dc458853aef91ed1e.png"
+    },
+    {
+      "value": "170",
+      "title": "Ultimate Club",
+      "subtitle": "Minimum IQ",
+      "desc": "Currently, there are 45 members, including 2 from China, among the 8 regular members.",
+      "pic": "https://pic.imgdb.cn/item/6567d7d2c458853aef931d10.png"
+    },
+    {
+      "value": "170",
+      "title": "Messi's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Exceptional soccer skills, global judgment, Messi is renowned for outstanding acceleration and agility, instantly changing speed and direction through defensive players.",
+      "pic": "https://pic.imgdb.cn/item/6567d80bc458853aef9397ae.jpg"
+    },
+    {
+      "value": "171",
+      "title": "Relaxation is Impossible",
+      "subtitle": "Minimum IQ",
+      "desc": "High intelligence tends to overthink and analyze problems. Difficult to quiet the mind during rest as their thoughts remain active.",
+      "pic": "https://pic.imgdb.cn/item/6567de06c458853aef9f6e75.png"
+    },
+    {
+      "value": "172",
+      "title": "Because You Change the World",
+      "subtitle": "Minimum IQ",
+      "desc": "The world's first website, first smartphone, first computer chip, first AI. Will the next groundbreaking invention be yours?",
+      "pic": "https://pic.imgdb.cn/item/6567dffac458853aefa3f1ea.png"
+    },
+    {
+      "value": "172",
+      "title": "Omega Academy",
+      "subtitle": "Minimum IQ",
+      "desc": "Population with IQ above the threshold: Top 0.0001%, 1/1000000.",
+      "pic": "https://pic.imgdb.cn/item/6567e0a6c458853aefa52c12.png"
+    },
+    {
+      "value": "173",
+      "title": "Memorizing 1,000 Digits of Pi",
+      "subtitle": "Minimum IQ",
+      "desc": "Superior memory, intense focus, exceptional patience, and learning techniques and strategies.",
+      "pic": "https://pic.imgdb.cn/item/6567e1dbc458853aefa800ec.png"
+    },
+    {
+      "value": "175",
+      "title": "Olympic IQ Club",
+      "subtitle": "Minimum IQ",
+      "desc": "Population with IQ above the threshold: Top 0.00003%, 3/10000000.",
+      "pic": "https://pic.imgdb.cn/item/6567e241c458853aefa8c6a4.png"
+    },
+    {
+      "value": "175",
+      "title": "Zhang Heng's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Invented the seismoscope (predicted earthquakes), armillary sphere (simulated celestial movements), water-powered celestial globe (mechanical calendar), and calculated pi. Ancient Chinese scientist.",
+      "pic": "https://pic.imgdb.cn/item/6567e4cbc458853aefade9b1.png"
+    },
+    {
+      "value": "178",
+      "title": "Expert in Quantum Mechanics",
+      "subtitle": "Minimum IQ",
+      "desc": "In-depth understanding of wave-particle duality, wave functions, quantum entanglement, Hamiltonian operators, Schrödinger equation, quantum tunneling, spin, etc.",
+      "pic": "https://pic.imgdb.cn/item/6567e6ccc458853aefb27010.png"
+    },
+    {
+      "value": "179",
+      "title": "Gradually Losing Empathy",
+      "subtitle": "Minimum IQ",
+      "desc": "High intelligence focuses more on abstract concepts and theories, with unique interests. Neglects interpersonal relationships and emotional interaction, gradually losing empathy.",
+      "pic": "https://pic.imgdb.cn/item/6567ea25c458853aefb95837.png"
+    },
+    {
+      "value": "180",
+      "title": "High IQ Headaches",
+      "subtitle": "Minimum IQ",
+      "desc": "Exceptionally high intelligence may be more susceptible to external stimuli, pressure, and emotional factors, being more sensitive. May easily trigger headaches.",
+      "pic": "https://pic.imgdb.cn/item/6567eb89c458853aefbcb0f6.png"
+    },
+    {
+      "value": "181",
+      "title": "Bacteriophage Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Possessing a natural intricate mechanical structure, resembling a spider injector. Exhibits specificity in parasitism, selectively infecting based on specific bacterial receptors.",
+      "pic": "https://pic.imgdb.cn/item/6562afdac458853aef648e95.png"
+    },
+    {
+      "value": "182",
+      "title": "Euclid's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "The 'Elements' became a landmark in Euclidean geometry, profoundly influencing the subsequent development of mathematics.",
+      "pic": "https://pic.imgdb.cn/item/6568000cc458853aeff264fa.png"
+    },
+    {
+      "value": "185",
+      "title": "Galileo's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Contributions include astronomical observations, confirmation of heliocentrism, proof of Earth's rotation, experiments on falling bodies, formulation of object uniform linear motion, jet theory, and tidal theory.",
+      "pic": "https://pic.imgdb.cn/item/6568024fc458853aeff8669c.png"
+    },
+    {
+      "value": "187",
+      "title": "Sheldon's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "A prodigious physicist with outstanding mathematical and scientific abilities from a young age. Earned a Ph.D. from the California Institute of Technology, researching engineering and neuroscience.",
+      "pic": "https://pic.imgdb.cn/item/65680544c458853aeffff6b2.png"
+    },
+    {
+      "value": "188",
+      "title": "Michelangelo's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "An outstanding artist from the Italian Renaissance period, renowned for masterpieces like the Statue of David, The Creation of Adam, Moses, and the Angel on the Candlestick.",
+      "pic": "https://pic.imgdb.cn/item/65680970c458853aef0ae3ae.png"
+    },
+    {
+      "value": "190",
+      "title": "Understanding Relativity",
+      "subtitle": "Minimum IQ",
+      "desc": "In-depth comprehension of theories such as gravitational waves, constant speed of light, Lorentz transformations, spacetime intervals, mass-energy equivalence, and spacetime curvature.",
+      "pic": "https://pic.imgdb.cn/item/65680a99c458853aef0e81dc.png"
+    },
+    {
+      "value": "198",
+      "title": "Gauss's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Established Gaussian probability distribution, contributed to algebraic mathematics and number theory, formulated Gaussian curvature, Gauss's gravitational model, Gauss's theorem, Gauss astronomy, and Gaussian elimination.",
+      "pic": "https://pic.imgdb.cn/item/65680bfbc458853aef1276e4.png"
+    },
+    {
+      "value": "199",
+      "title": "Archimedes' Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "The father of mechanics, known for the principles of buoyancy, lever, Archimedean screw pump, geometry, Archimedean death ray, reflective telescope, and the Archimedean spiral counter.",
+      "pic": "https://pic.imgdb.cn/item/65680cc4c458853aef14ce03.png"
+    },
+    {
+      "value": "190",
+      "title": "Giga Gigabyte Club",
+      "subtitle": "Minimum IQ",
+      "desc": "On average, there are 5 candidates eligible to join Giga every 10 years. At this rate, Giga is expected to have around 30 regular members by the year 2130.",
+      "pic": "https://pic.imgdb.cn/item/6551bb7ec458853aefd73437.png"
+    },
+    {
+      "value": "200",
+      "title": "Holy Grail Society",
+      "subtitle": "Minimum IQ",
+      "desc": "The percentage of the global population with an IQ above the threshold is Top 0.000000001%, 1 in 7.6 billion.",
+      "pic": "https://pic.imgdb.cn/item/6551be96c458853aefe1c64f.jpg"
+    },
+    {
+      "value": "200",
+      "title": "Aristotle's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Ancient Greek philosopher, scientist, and scholar. Contributions include metaphysics, logic, natural philosophy, ethics, political philosophy, and astronomy.",
+      "pic": "https://pic.imgdb.cn/item/656810f0c458853aef210289.png"
+    },
+    {
+      "value": "200",
+      "title": "Einstein's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Critically analyzed quantum mechanics, contributed to relativity, mass-energy equivalence, photoelectric effect, gravitational waves, Boltzmann's entropy formula, and Einstein field equations.",
+      "pic": "https://pic.imgdb.cn/item/656813bec458853aef2982b4.png"
+    },
+    {
+      "value": "200",
+      "title": "Defeating AI Chess Players",
+      "subtitle": "Minimum IQ",
+      "desc": "AI possesses deep learning and neural networks, powerful computational power and algorithms, iterative deepening search, decision tree pruning, and tactical awareness. It's no easy feat.",
+      "pic": "https://pic.imgdb.cn/item/656814ebc458853aef2d3660.png"
+    },
+    {
+      "value": "205",
+      "title": "Mastering 10 Languages",
+      "subtitle": "Minimum IQ",
+      "desc": "Polyglots can deeply understand the cultures of multiple countries, possessing multilingual thinking. They have powerful communication skills and can switch thinking modes in different language contexts.",
+      "pic": "https://pic.imgdb.cn/item/65681648c458853aef31e421.png"
+    },
+    {
+      "value": "210",
+      "title": "Kim Ung-yong's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Walking and talking at 5 months, learning calculus at 3 years, reading and writing four languages at 4 years. Started working at NASA in 1974.",
+      "pic": "https://pic.imgdb.cn/item/656816ebc458853aef33d10d.png"
+    },
+    {
+      "value": "226",
+      "title": "Newton's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "School owed Newton a salary, so he invented calculus and advanced mathematics. Demanded students to pay fees for failing, quickly boosting teacher salaries.",
+      "pic": "https://pic.imgdb.cn/item/65681774c458853aef357af7.png"
+    },
+    {
+      "value": "228",
+      "title": "Shakuntala Devi's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Acknowledged in 1956 by the Guinness World Records as the human with the highest recorded IQ. Engaged in literary creation and script editing.",
+      "pic": "https://pic.imgdb.cn/item/656818f0c458853aef3a8594.png"
+    },
+    {
+      "value": "230",
+      "title": "Tesla's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Father of alternating current. Researched wireless transmission of energy, solar engines, X-rays, remote sensing, cosmic rays, radar, and robotics in the early 20th century.",
+      "pic": "https://pic.imgdb.cn/item/65681ab7c458853aef40b066.png"
+    },
+    {
+      "value": "230",
+      "title": "Terence Tao's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Mathematician. Attended high school at 7, university at 9, won an international gold medal in mathematics at 12, earned a master's degree at 17, a Ph.D. at 20, and became a professor at 24.",
+      "pic": "https://pic.imgdb.cn/item/65681d12c458853aef489d92.png"
+    },
+    {
+      "value": "230",
+      "title": "Wittgenstein's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Philosopher. Contributions include logical-philosophical treatise, language games, philosophical investigations, private language argument, and context principle.",
+      "pic": "https://pic.imgdb.cn/item/65681edcc458853aef4ed251.png"
+    },
+    {
+      "value": "230",
+      "title": "Da Vinci's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Unparalleled polymath and inventor in human history. Outstanding achievements in anatomy, weaponry, painting, music, architecture, sculpture, and more.",
+      "pic": "https://pic.imgdb.cn/item/6559c268c458853aef6b4db6.png"
+    },
+    {
+      "value": "240",
+      "title": "Dr. Green's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "The fusion of the Green Giant and Dr. Banner, a blend of wisdom and power. Dr. Banner accomplished it with his intellect, capable of operating a time machine.",
+      "pic": "https://pic.imgdb.cn/item/65482b02c458853aef4bc7fe.jpg"
+    },
+    {
+      "value": "250",
+      "title": "Awkward Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Having an IQ of 250 isn't a joke; it surpasses ordinary folks, approaching the world's top. Such high intelligence can usually tackle extremely complex problems.",
+      "pic": "https://pic.imgdb.cn/item/6568220ec458853aef594823.png"
+    },
+    {
+      "value": "260",
+      "title": "Dr. Strange's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Manipulating time, reversing it, and making it stand still. Predicting the future, correcting errors in battle, and traversing different dimensions and realities.",
+      "pic": "https://pic.imgdb.cn/item/6568228ac458853aef5b03ce.png"
+    },
+    {
+      "value": "280",
+      "title": "The Ancient One's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Proficient in various magics, energy bursts, teleportation, starry projections, and illusion manipulation.",
+      "pic": "https://pic.imgdb.cn/item/6562290ac458853aef5fc767.png"
+    },
+    {
+      "value": "290",
+      "title": "Slime Mold's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "An ancient creature that can learn and think without a brain. In maze experiments, it always finds the optimal path to food.",
+      "pic": "https://pic.imgdb.cn/item/6561f91bc458853aef844e8c.png"
+    },
+    {
+      "value": "300",
+      "title": "Siddis' IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "William James Sidis was fluent in French at 4, lectured on four-dimensional space at 9, became a math professor at 16, and died penniless from a cerebral hemorrhage at 46.",
+      "pic": "https://pic.imgdb.cn/item/6561f7fec458853aef7ed75a.png"
+    },
+    {
+      "value": "335",
+      "title": "Orange Stalk Fungus's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "The Einstein of bacteria, Orange Stalk Fungus is an advanced bacterium with complex motility, actively preying on other microorganisms.",
+      "pic": "https://pic.imgdb.cn/item/6561f778c458853aef7c3d78.png"
+    },
+    {
+      "value": "389",
+      "title": "Quinnington's IQ",
+      "subtitle": "Minimum IQ",
+      "desc": "Spoke at 5 months, read and wrote at 1, self-taught algebra and geometry at 2 and a half, designed a time machine at 9, and spoke 20 languages at 11.",
+      "pic": "https://pic.imgdb.cn/item/6561f6f5c458853aef7991eb.png"
+    },
+    {
+      "value": "1000",
+      "title": "Brain Development 25%",
+      "subtitle": "Minimum IQ",
+      "desc": "Keenly perceives subtle changes, rapidly acquires vast knowledge, analyzes information more quickly and accurately, and possesses rich creativity.",
+      "pic": "https://pic.imgdb.cn/item/6561f5dec458853aef737a5d.png"
+    },
+    {
+      "value": "2500",
+      "title": "Insomnia of High Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Millions of thoughts racing every second make it difficult to get any rest. Only deep breathing and calming down can provide relief.",
+      "pic": "https://pic.imgdb.cn/item/6561f49ec458853aef6cc086.png"
+    },
+    {
+      "value": "3000",
+      "title": "Mind-Reading Mastery",
+      "subtitle": "Minimum IQ",
+      "desc": "A super-sensory mind 🧠 that can fully perceive all thoughts and emotions of the target individual, seeing through any lies.",
+      "pic": "https://pic.imgdb.cn/item/6561f1fbc458853aef5f2528.png"
+    },
+    {
+      "value": "4000",
+      "title": "Brain Development 100%",
+      "subtitle": "Minimum IQ",
+      "desc": "Full sensory super-perception (electromagnetic waves, ultrasonic waves, others' thoughts), soaring thinking speed, permanent absolute memory (never forgets anything).",
+      "pic": "https://pic.imgdb.cn/item/6561efedc458853aef55bf96.png"
+    },
+    {
+      "value": "5000",
+      "title": "Researcher of Time Travel",
+      "subtitle": "Minimum IQ",
+      "desc": "Researching technologies like space-time curvature fields, time flow gauges, space-time positioning, time tuners, error correction algorithms, space-time singularities, and time resonance.",
+      "pic": "https://pic.imgdb.cn/item/6561ece6c458853aef48ce8d.png"
+    },
+    {
+      "value": "10K",
+      "title": "Quantum Teleportation Researchable",
+      "subtitle": "Minimum IQ",
+      "desc": "When teleporting starts, activate the quantum decomposition program to break down the body into its basic particles. Reassemble them in a glass chamber at the destination using Key-Value restructuring.",
+      "pic": "https://pic.imgdb.cn/item/6561eb90c458853aef4339f6.png"
+    },
+    {
+      "value": "18K",
+      "title": "Accurate Future Prediction Possible",
+      "subtitle": "Minimum IQ",
+      "desc": "Exceptional learning ability accumulates into a vast knowledge base in the mind, allowing a comprehensive understanding of the future by considering various factors.",
+      "pic": "https://pic.imgdb.cn/item/6561eb13c458853aef412214.png"
+    },
+    {
+      "value": "50K",
+      "title": "Mind-Powered Object Retrieval",
+      "subtitle": "Minimum IQ",
+      "desc": "Individuals awaken to a state of super-sensory perception, establishing a mental resonance connection. They can use mental touchpoints and guidance to interact with surrounding objects as if using invisible hands.",
+      "pic": "https://pic.imgdb.cn/item/6561dcb8c458853aef08df83.png"
+    },
+    {
+      "value": "60K",
+      "title": "Mind-to-Mind Communication",
+      "subtitle": "Minimum IQ",
+      "desc": "Highly intelligent individuals can directly communicate with others through thoughts, without the need for language or other mediums. This form of communication is more efficient and direct.",
+      "pic": "https://pic.imgdb.cn/item/6561e3d5c458853aef231306.png"
+    },
+    {
+      "value": "70K",
+      "title": "Wisdom Sharing",
+      "subtitle": "Minimum IQ",
+      "desc": "Individuals with extremely high intelligence can share their knowledge and thoughts with others through thoughts, promoting the collective enhancement of wisdom.",
+      "pic": "https://pic.imgdb.cn/item/6561e8f8c458853aef37e1b3.png"
+    },
+    {
+      "value": "80K",
+      "title": "Molecular Control",
+      "subtitle": "Minimum IQ",
+      "desc": "Consciousness, through quantum entanglement, can traverse to the molecular level, allowing micro-level control of matter, making the target object change according to one's will.",
+      "pic": "https://pic.imgdb.cn/item/6561e868c458853aef358558.png"
+    },
+    {
+      "value": "88K",
+      "title": "Mind Control",
+      "subtitle": "Minimum IQ",
+      "desc": "Similar to Yuri, using thoughts to link with others' minds, implanting ideas, altering memories, turning them into puppets who obey commands, completely under control.",
+      "pic": "https://pic.imgdb.cn/item/6562297cc458853aef617602.png"
+    },
+    {
+      "value": "99K",
+      "title": "Consciousness Time Travel",
+      "subtitle": "Minimum IQ",
+      "desc": "During the process of consciousness time travel, memories synchronize with past or future selves, advising the past self against foolish actions and seeking advice from the future self.",
+      "pic": "https://pic.imgdb.cn/item/6561e0b3c458853aef172301.png"
+    },
+    {
+      "value": "100K",
+      "title": "Inventor of Time Machine",
+      "subtitle": "Minimum IQ",
+      "desc": "Space-time distortion igniter, quantum crystal, time vortex engine, magnetic field tuner, singularity stabilizer, space-time navigation core, energy conversion matrix.",
+      "pic": "https://pic.imgdb.cn/item/65572eeac458853aeffcb07e.png"
+    },
+    {
+      "value": "120K",
+      "title": "Thanos' Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "With his wisdom, Thanos collected all six Infinity Stones: Mind, Soul, Space, Time, Power, and Reality. Intelligence reached an unprecedented level.",
+      "pic": "https://pic.imgdb.cn/item/6561d949c458853aeffcddaf.png"
+    },
+    {
+      "value": "680K",
+      "title": "Dormammu's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "A powerful magical entity from the dark dimension. Eternal life, transcending time, space, and death. Can manipulate reality.",
+      "pic": "https://pic.imgdb.cn/item/6561d85ac458853aeff9c9c8.png"
+    },
+    {
+      "value": "690K",
+      "title": "Planet Devourer's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "An existence representing cosmic-level natural forces, part of the balance and ecosystem of the universe. Sustains life by devouring planets.",
+      "pic": "https://pic.imgdb.cn/item/6561d035c458853aefe039fe.png"
+    },
+    {
+      "value": "990K",
+      "title": "Buddha's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Buddha encompasses a profound understanding of life and suffering, possessing wisdom that surpasses all worldly beings, understanding all laws.",
+      "pic": "https://pic.imgdb.cn/item/6561ba46c458853aef9db61c.png"
+    },
+    {
+      "value": "1M",
+      "title": "Iron Man's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "Created a time machine, Infinity Gauntlet, Iron Man suits, J.A.R.V.I.S., nanotech core, controllable nuclear fusion, and defeated Thanos.",
+      "pic": "https://pic.imgdb.cn/item/65482dd7c458853aef504d48.jpg"
+    },
+    {
+      "value": "9.99M",
+      "title": "Kaige Cai's Intelligence",
+      "subtitle": "Minimum IQ",
+      "desc": "The creator of universal rules, puppet master of gods, deities, Buddha, Satan, aliens, etc. Tsai Kai-ge's mental calculations surpass all human and divine calculations.",
+      "pic": "https://pic.imgdb.cn/item/654a2b8bc458853aef1a4929.jpg"
+    }
+  ]
+}

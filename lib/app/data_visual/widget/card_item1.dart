@@ -39,7 +39,7 @@ class CardItem1 extends StatelessWidget {
                 dataModel.title,
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: dataModel.title.length < 10 ? 55.0 : 38.0,
+                  fontSize: dataModel.title.length > 10 ? 38.0 : 55.0,
                 ),
               ),
             ),
@@ -66,7 +66,7 @@ class CardItem1 extends StatelessWidget {
                   const SizedBox(height: 40.0),
                   Text(
                     dataModel.desc,
-                    style: const TextStyle(color: Colors.white, fontSize: 46.0, height: 1.0),
+                    style: const TextStyle(color: Colors.white, fontSize: 32.0, height: 1.0),
                   ),
                 ],
               ),
