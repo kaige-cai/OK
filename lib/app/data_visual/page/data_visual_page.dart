@@ -1,13 +1,13 @@
 // ignore_for_file: unused_import
 
 import 'dart:convert';
+import 'dart:math';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ok/app/data_visual/widget/card_item2.dart';
 import 'package:ok/app/data_visual/widget/card_item3.dart';
-import 'package:ok/app/data_visual/widget/card_item4.dart';
+import 'package:ok/app/data_visual/widget/card_item7.dart';
 import 'package:ok/util/global.dart';
 
 import '../model/data_model.dart';
@@ -34,12 +34,12 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
 
     _animController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 0),
+      duration: const Duration(seconds: 40),
     );
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _animController.forward();
-      Future.delayed(const Duration(seconds: 6), () {
+      Future.delayed(const Duration(seconds: 3), () {
         _startScrollAnimation();
       });
     });
@@ -54,7 +54,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
   }
 
   Future<void> loadJsonData() async {
-    final String data = await rootBundle.loadString('asset/json/data4_cn.json');
+    final String data = await rootBundle.loadString('asset/json/data8_en.json');
     final dynamic jsonResult = json.decode(data);
 
     if (jsonResult is Map && jsonResult.containsKey("result")) {
@@ -67,7 +67,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
 
   Future<void> _startScrollAnimation() async {
     final int itemCount = dataModels.length;
-    const int timePerItemInSeconds = 5;
+    const int timePerItemInSeconds = 2;
     final int totalScrollDurationInSeconds = itemCount * timePerItemInSeconds;
 
     scrollController.animateTo(
@@ -104,7 +104,7 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
           return false;
         },
         child: Container(
-          margin: const EdgeInsets.symmetric(vertical: 50.0),
+          margin: const EdgeInsets.symmetric(vertical: 52.0),
           child: SingleChildScrollView(
             controller: scrollController,
             physics: const BouncingScrollPhysics(),
@@ -127,13 +127,13 @@ class _DataVisualPageState extends State<DataVisualPage> with SingleTickerProvid
                       ),
                       child: SizedBox(
                         width: MediaQuery.of(context).size.width / 4,
-                        child: CardItem4(
+                        child: CardItem7(
                           dataModel: dataModels[index],
                         ),
                       ),
                     );
                   },
-                ),
+                ), //..shuffle(Random()),
                 ...List.generate(
                   3,
                   (index) => Container(width: MediaQuery.of(context).size.width / 4),

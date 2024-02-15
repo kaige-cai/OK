@@ -114,7 +114,7 @@ List<Category> gameCategories = [
   ]),
   Category('分类2', [
     Item('敲木鱼', 'asset/icon/app_icon.png'),
-    Item('Item 2', 'asset/icon/app_icon.png'),
+    Item('贪吃蛇', 'asset/icon/snake.png'),
     Item('Item 3', 'asset/icon/app_icon.png'),
     Item('Item 4', 'asset/icon/app_icon.png'),
     Item('Item 5', 'asset/icon/app_icon.png'),

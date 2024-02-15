@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../model/data_model.dart';
+import '../page/full_screen_image_gallery_page.dart';
 
 class CardItem3 extends StatelessWidget {
   const CardItem3({super.key, required this.dataModel});
@@ -41,50 +42,72 @@ class CardItem3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: SizedBox(
-        height: double.infinity,
-        child: Stack(
-          children: [
-            Container(
-              margin: const EdgeInsets.only(bottom: 180.0),
-              child: Center(
-                child: CachedNetworkImage(
-                  imageUrl: dataModel.pic,
+    return GestureDetector(
+      onTap: () {
+        showDialog(
+          context: context,
+          builder: (BuildContext context) {
+            return Dialog(
+              shape: const RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+              ),
+              insetPadding: EdgeInsets.zero,
+              child: FullScreenImageGalleryPage(
+                heroTag: dataModel.pic,
+                images: [dataModel.pic],
+              ),
+            );
+          },
+        );
+      },
+      child: Card(
+        child: Hero(
+          tag: dataModel.pic,
+          child: SizedBox(
+            height: double.infinity,
+            child: Stack(
+              children: [
+                Container(
+                  margin: const EdgeInsets.only(bottom: 180.0),
+                  child: Center(
+                    child: CachedNetworkImage(
+                      imageUrl: dataModel.pic,
+                    ),
+                  ),
                 ),
-              ),
-            ),
-            Positioned(
-              bottom: margin(dataModel.title),
-              left: 12.0,
-              right: 12.0,
-              child: Column(
-                children: [
-                  Text(
-                    dataModel.title,
-                    style: TextStyle(
-                      fontSize: scaleTitleSize(dataModel.title),
-                      color: Colors.green,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'DF',
-                    ),
-                    softWrap: true,
+                Positioned(
+                  bottom: margin(dataModel.title),
+                  left: 12.0,
+                  right: 12.0,
+                  child: Column(
+                    children: [
+                      Text(
+                        dataModel.title,
+                        style: TextStyle(
+                          fontSize: scaleTitleSize(dataModel.title),
+                          color: Colors.green,
+                          fontWeight: FontWeight.bold,
+                          fontFamily: 'DF',
+                        ),
+                        softWrap: true,
+                      ),
+                      Text(
+                        dataModel.subtitle,
+                        style: TextStyle(
+                          fontSize: scaleSubtitleSize(dataModel.subtitle),
+                          color: Colors.blue,
+                          fontWeight: FontWeight.bold,
+                          fontFamily: 'DF',
+                          height: 1.1,
+                        ),
+                        softWrap: true,
+                      ),
+                    ],
                   ),
-                  Text(
-                    dataModel.subtitle,
-                    style: TextStyle(
-                      fontSize: scaleSubtitleSize(dataModel.subtitle),
-                      color: Colors.blue,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'DF',
-                      height: 1.1,
-                    ),
-                    softWrap: true,
-                  ),
-                ],
-              ),
+                ),
+              ],
             ),
-          ],
+          ),
         ),
       ),
     );

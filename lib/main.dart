@@ -39,6 +39,7 @@ class FunApp extends StatelessWidget {
         wheelSurf: (context) => const WheelSurf(),
         cameraPage: (context) => const CameraPage(),
         dataVisualApp: (context) => const DataVisualPage(),
+        snakeGame: (context) => const SnakeGame(),
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),

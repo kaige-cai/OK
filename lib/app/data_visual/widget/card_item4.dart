@@ -19,28 +19,30 @@ class CardItem4 extends StatelessWidget {
           const SizedBox(height: 8.0),
           Container(
             width: double.infinity,
-            height: 80.0,
+            height: 32.0,
             alignment: Alignment.center,
             color: Colors.green,
             child: Text(
               dataModel.title,
               style: const TextStyle(
                 color: Colors.white,
-                fontSize: 68.0,
+                fontSize: 32.0,
                 fontFamily: 'KT',
-                height: 1.3,
+                height: 1.0,
               ),
             ),
           ),
           Container(
             margin: const EdgeInsets.only(left: 4.0),
             width: double.maxFinite,
-            height: 100.0,
-            child: Text(
-              dataModel.desc,
-              style: const TextStyle(
-                fontSize: 18.0,
-                fontFamily: 'KT',
+            height: 192.0,
+            child: Center(
+              child: Text(
+                dataModel.desc,
+                style: const TextStyle(
+                  fontSize: 17.0,
+                  fontFamily: 'KT',
+                ),
               ),
             ),
           ),

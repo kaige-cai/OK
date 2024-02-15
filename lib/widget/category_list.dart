@@ -78,6 +78,9 @@ class CategoryList extends StatelessWidget {
                         case '随机数抽奖':
                           Navigator.of(context).pushNamed(randomLottery);
                           break;
+                        case '贪吃蛇':
+                          Navigator.of(context).pushNamed(snakeGame);
+                          break;
                         default:
                           break;
                       }
